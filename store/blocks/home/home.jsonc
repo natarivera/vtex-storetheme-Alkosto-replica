@@ -1,0 +1,47 @@
+{
+  "store.home": { 
+    "blocks": [ 
+      "rich-text#home__container--texto"     
+      "image#home__container--image" ,
+      "link#home__link--ancla",
+      "link#home__link--boton"
+      //"link#home__link--info"
+      "slider-layout#home__slider--children"
+    ]
+  },
+  "slider-laout#home__slider--children":{
+    "props":{
+      "itemPerPage":{
+      "desktop":1,
+      "tablet":1,
+      "mobile":1
+      },
+      "infinite":true,
+      "blockClass":"home__slider",
+      "autoplay":{
+        "timeout":3000,
+        "stopOnHover":true
+      }
+    },
+    "childre":[
+      "image#home__slider--one",
+      "image#home__slider--two",
+      "imagehome__slider--three"
+    ]
+  },
+  "image#home__slider--one":{
+     "props":{
+        "src": "assets/img/slide1.jpg"
+    }
+  },
+  "image#home__slider--two":{
+    "props":{
+      "src": "assets/img/slide2.jpg"
+    }
+  },
+  "image#home__slider--three":{
+    "props":{
+      "src": "assets/img/slide3.jpg"
+    }
+  },
+}
