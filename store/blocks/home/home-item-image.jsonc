@@ -1,0 +1,12 @@
+{
+    "image#home__item--image":{
+        "title":"imagen de los productos",
+        "props":{
+            "src":"assets/img/celulares.jpg",
+            "maxWidth": 50,
+            "title":"celulares",
+            "blockClass":"home_image"
+        }
+    }
+}
+
