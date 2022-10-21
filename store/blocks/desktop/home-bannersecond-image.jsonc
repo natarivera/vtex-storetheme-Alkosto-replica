@@ -1,0 +1,10 @@
+{
+    "image#home__banner--second":{
+        "title":"image banner second",
+        "props":{
+            "src":"assets/img/banner.jpg",
+            "title":"banner second",
+            "blockClass":"home_bannersecond"
+        }
+    }
+}

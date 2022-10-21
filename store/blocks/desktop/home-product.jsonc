@@ -1,8 +1,8 @@
 {
     "flex-layout.col#home-product-celulares":{
         "children":[
-        "image#home__item--image",
-        "rich-text#test"
+        "rich-text#test",
+        "image#home__item--image"
         ]
     }
 }

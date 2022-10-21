@@ -1,0 +1,11 @@
+{
+    "image#home__bankbenefits--items":{
+        "title":"bankbenefits",
+            "props":{
+                "src":"assets/img/BANCOS-HOME-TCA.png",
+                "maxWidth": 400,
+                "title":"computers home",
+                "blockClass":"home_computers"
+            }
+    }
+}

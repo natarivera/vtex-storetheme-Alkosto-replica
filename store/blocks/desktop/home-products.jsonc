@@ -30,10 +30,8 @@
         "flex-layout.col#home-product-celulares",
         "flex-layout.col#home-product-celulares",
         "flex-layout.col#home-product-celulares"
-        
     ]
 },
-
 "flex-layout.col#section__item-4":{
     "children":[
         "flex-layout.col#home-product-celulares",

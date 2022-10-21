@@ -1,4 +1,7 @@
 .flexColChild--section__one--slider{
-    width: 50%;
+    width: 50% !important;
 }
 
+.imageElement--home_bannerfirst{
+    width: 200%;
+}

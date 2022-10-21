@@ -1,0 +1,11 @@
+{
+    "image#home__appliances--items":{
+        "title":"appliances",
+            "props":{
+                "src":"assets/img/Electrodomesticos.jpg",
+                "maxWidth": 400,
+                "title":"computers home",
+                "blockClass":"home_computers"
+            }
+    }
+}
