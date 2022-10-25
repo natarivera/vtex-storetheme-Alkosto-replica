@@ -1,0 +1,17 @@
+
+{
+    "responsive-layout.phone#home__info--phone": {
+    "title": "Component Phone",
+    "children": [
+        "rich-text#home__info--phone"
+    ]
+  },
+  
+  "rich-text#home__info--phone": {
+    "props": {
+        "text": " ### Compra por categorias",
+        "textAlignment": "CENTER",
+        "textPosition":"CENTER"
+    }
+}
+}
