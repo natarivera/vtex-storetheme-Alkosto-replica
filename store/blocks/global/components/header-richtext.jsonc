@@ -1,0 +1,42 @@
+{
+    "rich-text#sell":{
+        "props":{
+            "text":" Venta:(601) 7468001",
+            "blockClass":"header_richtext"
+        }
+    },
+
+    "rich-text#service":{
+        "props":{
+            "text":" Servicio:(601)4073033",
+            "blockClass":"header_richtext"
+        }
+    },
+
+    "rich-text#trackorder":{
+        "props":{
+            "text":" Sigue tu pedido",
+            "blockClass":"header_richtext"
+        }
+    },
+    "rich-text#ourstores":{
+        "props":{
+            "text":" Nuestras tiendas",
+            "blockClass":"header_richtext"
+        }
+    },
+    
+    "rich-text#catalog":{
+        "props":{
+            "text":" Catálogo",
+            "blockClass":"header_richtext"
+        }
+    },
+
+    "rich-text#help":{
+        "props":{
+            "text":" Ayuda",
+            "blockClass":"header_richtext"
+        }
+    }
+}

@@ -1,0 +1,178 @@
+{
+    "header":{
+        "title": "header",
+        "blocks":[
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    },
+
+    "header.full":{
+        "title": "header",
+        "blocks":[
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    },
+    "header-layout.desktop":{
+        "children":[
+            "header-row#header__top",
+            "header-row#header__middle"
+        ],
+        "props":{
+            "blockClass": "main-header",
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        }
+    },
+    "header-layout.mobile":{
+        "children":[
+            "header-row#header__top"
+        ]
+    },
+
+    "header-row#header__top":{
+        "title": "header superior",
+        "children":[
+            "logo#header__top--logo",
+            "header-spacer",
+            "rich-text#sell",
+            "header-spacer",
+            "rich-text#service",
+            "header-spacer",
+            "rich-text#trackorder",
+            "header-spacer",
+            "rich-text#ourstores",
+            "header-spacer",
+            "rich-text#catalog",
+            "header-spacer",
+            "rich-text#help",
+            "header-spacer",
+            "login",
+            "header-spacer",
+            "minicart.v2"
+        ],
+        "props":{
+            "blockClass": "header__top"
+        }
+    },
+    
+    "logo#header__top--logo":{
+        "title": "logo",
+        "props":{
+            "url":"assets/img/alkosto-logo.svg",
+            "width": 150,
+            "href":"/"
+        }
+    },
+
+    "login":{
+        "props": {
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true,
+            "showIconProfile":true
+          }
+    },
+    "header-row#header__middle":{
+        
+        "title": "header medio",
+        "children":[
+            "drawer#header__mobile--menu"
+        ],
+
+        "props":{
+            "blockClass":"header__middle"
+        }
+    },
+
+   
+
+    "drawer#header__mobile--menu":{
+        "children":[
+            "vtex.menu@2.x:menu#header__menu"
+        ],
+        "blocks":[
+            "drawer-trigger"
+        ]
+    },
+    "vtex.menu@2.x:menu#header__menu":{
+        "children":[
+            
+            "menu-item#department__two"
+        ] 
+
+        
+    },
+    "menu-item#department__one":{
+        "props":{
+            "id": "category-one",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href":"https://www.google.com/",
+                "noFollow":true,
+                "tagTitle": "google title",
+                "text":"Google"
+            }
+        },
+
+    "blocks":["submenu.accordion#department__one"]
+    },
+
+    "submenu.accordion#department__one":{
+        "children":[
+            "menu#department__one"
+        ]
+    },
+    "menu#department__one":{
+        "children":[
+            "menu-item#category__one",
+            "menu-item#category__two"
+        ]
+    },
+    "menu-item#category__one":{
+        "props":{
+            "id": "category-one",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href":"/",
+                "noFollow":true,
+                "tagTitle":"Google Drive",
+                "text":"Google Drive"
+            }
+        }
+        },
+    "menu-item#category__two":{
+            "props":{
+                "id": "category-one",
+                "type": "custom",
+                "itemProps":{
+                    "type": "external",
+                    "href":"/",
+                    "noFollow":true,
+                    "tagTitle":"Google Meet",
+                    "text":"Google Meet"
+                }
+            }
+    },
+    "menu-item#department__two":{
+        "props":{
+            "id": "department-two",
+            "type": "custom",
+            "itemProps":{
+                "type": "external",
+                "href":"https://www.bing.com/?setlang=es",
+                "noFollow":true,
+                "tagTitle": "Bing title",
+                "text":"Bing"
+            }
+        }
+    }
+}
