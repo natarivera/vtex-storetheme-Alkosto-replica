@@ -1,41 +1,75 @@
-    {
-        "header-layout.desktop": {
-          "children": [
-            "header-row#1-desktop",
-            "header-row#2-desktop"
-          ]
-        },
-        "header-row#1-desktop": {
-            "children": [
-                "header-spacer",
-                "rich-text#sell",
-                "header-spacer",
-                "rich-text#service",
-                "header-spacer",
-                "rich-text#trackorder",
-                "header-spacer",
-                "rich-text#ourstores",
-                "header-spacer",
-                "rich-text#catalog",
-                "header-spacer",
-                "rich-text#help"
-            ],
-            "props": {
-              "fullWidth": true
-            }
-          },
-
-          "header-row#2-desktop": {
-            "children": [
-                "search-bar",
-                "login",
-                "minicart.v2"
-            ],
-            "props": {
-              "fullWidth": true
-            }
+{
+    "header-layout.desktop": {
+      "children": [
+        "header-row#desktop"            
+      ],
+      "props": {
+          "fullWidth": true
+        }
+    },
+    "header-row#desktop": {
+        "children": [
+            "flex-layout.row#desktop1"
+        ],
+        "props": {
+            "fullWidth": true
           }
-          
+    },
+    "flex-layout.row#desktop1": {
+        "children": [
+            "flex-layout.col#col-logo",
+            "flex-layout.col#col-menu"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "SuperHEader"
+          }
+    },
+    "flex-layout.col#col-logo": {
+        "children":[
+            "logo#header__top--logo"
+        ]
+    },
+    "flex-layout.col#col-menu": {
+        "children": [
+            "flex-layout.row#row-menu",
+            "flex-layout.row#row-search"
+        ],
+        "props": {
+            "fullWidth": true
+          }
+    },
+    "flex-layout.row#row-menu": {
+        "children": [
+            "header-spacer",
+            "rich-text#sell",
+            "header-spacer",
+            "rich-text#service",
+            "header-spacer",
+            "rich-text#trackorder",
+            "header-spacer",
+            "rich-text#ourstores",
+            "header-spacer",
+            "rich-text#catalog",
+            "header-spacer",
+            "rich-text#help"
+        ],
+        "props": {
+          "fullWidth": true
+        }
+      },
+
+      "flex-layout.row#row-search": {
+        "children": [
+            "search-bar",
+            "login",
+            "minicart.v2"
+        ],
+        "props": {
+          "fullWidth": true
+        }
+      }
+      
 
 
 }
