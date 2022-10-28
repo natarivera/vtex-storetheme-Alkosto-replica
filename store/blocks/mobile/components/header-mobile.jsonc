@@ -4,6 +4,7 @@
         "children":[
             "header-row#header__top",
             "header-row#header__middle"
+            
         ]
     },
 
@@ -11,22 +12,7 @@
         "title": "header superior",
         "children":[
             "logo#header__top--logo",
-            "header-spacer",
-            "rich-text#sell",
-            "header-spacer",
-            "rich-text#service",
-            "header-spacer",
-            "rich-text#trackorder",
-            "header-spacer",
-            "rich-text#ourstores",
-            "header-spacer",
-            "rich-text#catalog",
-            "header-spacer",
-            "rich-text#help",
-            "header-spacer",
-            "login",
-            "header-spacer",
-            "minicart.v2"
+            "search-bar"        
 
         ],
         "props":{
@@ -77,8 +63,7 @@
         
         "title": "header medio",
         "children":[
-            "drawer#header__mobile--menu",
-            "search-bar"
+            "drawer#header__mobile--menu"
         ],
 
         "props":{

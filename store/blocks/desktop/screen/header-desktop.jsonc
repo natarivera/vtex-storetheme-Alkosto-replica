@@ -4,7 +4,8 @@
         "header-row#desktop"            
       ],
       "props": {
-          "fullWidth": true
+          "fullWidth": true,
+          "blockClass": "container_full"
         }
     },
     "header-row#desktop": {
@@ -12,17 +13,18 @@
             "flex-layout.row#desktop1"
         ],
         "props": {
-            "fullWidth": true
+            //"fullWidth": true,
+            "blockClass": "container_full"
           }
     },
     "flex-layout.row#desktop1": {
         "children": [
             "flex-layout.col#col-logo",
-            "flex-layout.col#col-menu"
+            "flex-layout.col#col-navigation"
         ],
         "props": {
             "fullWidth": true,
-            "blockClass": "SuperHEader"
+            "blockClass": "container_navigation"
           }
     },
     "flex-layout.col#col-logo": {
@@ -30,32 +32,27 @@
             "logo#header__top--logo"
         ]
     },
-    "flex-layout.col#col-menu": {
+    "flex-layout.col#col-navigation": {
         "children": [
-            "flex-layout.row#row-menu",
+            "flex-layout.row#row-info",
             "flex-layout.row#row-search"
         ],
         "props": {
-            "fullWidth": true
+           // "fullWidth": true
           }
     },
-    "flex-layout.row#row-menu": {
+    "flex-layout.row#row-info": {
         "children": [
-            "header-spacer",
             "rich-text#sell",
-            "header-spacer",
             "rich-text#service",
-            "header-spacer",
             "rich-text#trackorder",
-            "header-spacer",
             "rich-text#ourstores",
-            "header-spacer",
             "rich-text#catalog",
-            "header-spacer",
             "rich-text#help"
         ],
         "props": {
-          "fullWidth": true
+          //"fullWidth": true,
+          "blockClass":"container_info"
         }
       },
 
@@ -66,7 +63,8 @@
             "minicart.v2"
         ],
         "props": {
-          "fullWidth": true
+          //"fullWidth": true,
+          "blockClass":"container_search"
         }
       }
       
