@@ -1,0 +1,41 @@
+    {
+        "header-layout.desktop": {
+          "children": [
+            "header-row#1-desktop",
+            "header-row#2-desktop"
+          ]
+        },
+        "header-row#1-desktop": {
+            "children": [
+                "header-spacer",
+                "rich-text#sell",
+                "header-spacer",
+                "rich-text#service",
+                "header-spacer",
+                "rich-text#trackorder",
+                "header-spacer",
+                "rich-text#ourstores",
+                "header-spacer",
+                "rich-text#catalog",
+                "header-spacer",
+                "rich-text#help"
+            ],
+            "props": {
+              "fullWidth": true
+            }
+          },
+
+          "header-row#2-desktop": {
+            "children": [
+                "search-bar",
+                "login",
+                "minicart.v2"
+            ],
+            "props": {
+              "fullWidth": true
+            }
+          }
+          
+
+
+}
