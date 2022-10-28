@@ -1,6 +1,7 @@
 {
-  "store.home": { 
+"store.home": { 
     "blocks": [
+      
       "flex-layout.row#home__section--one",
       "flex-layout.row#section__banner--offers",
       "rich-text#home__topoffers",
@@ -20,12 +21,16 @@
       "flex-layout.row#section__banner--second",
       "rich-text#home__bankbenefits",
       "flex-layout.row#section__banks--items"
+      /*"responsive-layout.mobile#home__info--mobile",
+      "responsive-layout.tablet#home__info--tablet",
+      "responsive-layout.desktop#home__info--desktop"*/
     ]
   },
   "flex-layout.row#home__section--one":{
     "title": "Section one",
     "children":[
       "flex-layout.col#section__one--slider",
+      
       "flex-layout.col#section__one--items"
     ],
     "props":{
@@ -39,7 +44,19 @@
   },
   "flex-layout.col#section__one--items":{
     "children":[
-      "flex-layout.row#home__items"
+      "responsive-layout.desktop#home__items-desktop",
+      "responsive-layout.phone#home__items-phone"
+    ]
+  },
+  "responsive-layout.desktop#home__items-desktop":{  
+    "children":[
+      "flex-layout.row#home__items-desktop"
+    ]
+  },
+
+  "responsive-layout.phone#home__items-phone":{  
+    "children":[
+      "flex-layout.row#home__items-phone"
     ]
   },
   "flex-layout.row#section__banner--offers":{
@@ -49,10 +66,9 @@
   },
   "rich-text#home__topoffers":{
     "props":{
-      "text": "Ofertas Destacadas",
+      "text": " ### Ofertas Destacadas",
       "textAlignment": "CENTER",
-      "textPosition":"CENTER",
-      "font":"t-heding-1"
+      "textPosition":"CENTER"
     }
   },
  
@@ -67,7 +83,7 @@
 
   "rich-text#home__phones":{
     "props":{
-      "text": "Celulares",
+      "text": " ### Celulares",
       "textAlignment": "CENTER",
       "textPosition":"CENTER",
       "font":"t-heding-1"
@@ -83,7 +99,7 @@
   },
   "rich-text#home__computers":{
     "props":{
-      "text": "Computadoras",
+      "text": " ### Computadoras",
       "textAlignment": "CENTER",
       "textPosition":"CENTER",
       "font":"t-heding-1"
@@ -98,7 +114,7 @@
   },
   "rich-text#home__tv":{
     "props":{
-      "text": "Televisores",
+      "text": " ### Televisores",
       "textAlignment": "CENTER",
       "textPosition":"CENTER",
       "font":"t-heding-1"
@@ -115,7 +131,7 @@
 
   "rich-text#home__appliances":{
     "props":{
-      "text": "Electrodomesticos",
+      "text": " ### Electrodomesticos",
       "textAlignment": "CENTER",
       "textPosition":"CENTER",
       "font":"t-heding-1"
@@ -132,7 +148,7 @@
 
   "rich-text#home__videogames":{
     "props":{
-      "text": "Video juegos y más",
+      "text": " ### Video juegos y más",
       "textAlignment": "CENTER",
       "textPosition":"CENTER",
       "font":"t-heding-1"
@@ -149,7 +165,7 @@
 
   "rich-text#home__moreabout":{
     "props":{
-      "text": "Conoce mas",
+      "text": " ### Conoce mas",
       "textAlignment": "CENTER",
       "textPosition":"CENTER",
       "font":"t-heding-1"
@@ -172,7 +188,7 @@
 
   "rich-text#home__bankbenefits":{
     "props":{
-      "text": "Beneficios con bancos",
+      "text": " ### Beneficios con bancos",
       "textAlignment": "CENTER",
       "textPosition":"CENTER",
       "font":"t-heding-1"
