@@ -2,6 +2,7 @@
     "header":{
         "title": "header",
         "blocks":[
+            "header-layout.desktop",
             "header-layout.mobile"
         ]
     },
@@ -12,6 +13,5 @@
             "header-layout.desktop",
             "header-layout.mobile"
         ]
-    }
-    
+    }    
 }

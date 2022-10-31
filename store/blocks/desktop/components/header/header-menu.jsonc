@@ -1,84 +1,32 @@
-
 {
-    "drawer#header__mobile--menu":{
-        "children":["menu#header__menu"]
+    "header-row#header__menu":{
+        "children":["menu#header__startmenu"],
+        "props":{
+            "blockClass": "menu_name"
+        }
     },
-    
-    "menu#header__menu":{
+
+    "menu#header__startmenu":{
         "children":[
-            "menu-item#department__one",
-            "menu-item#department__two"
+            "menu-item#department__cellphones--one",
+            "menu-item#department__computers--two",
+            "menu-item#department__appliances--three",
+            "menu-item#department__tv--four",
+            "menu-item#department__accesories--five",
+            "menu-item#department__videogames--six",
+            "menu-item#department__cameres--eigth",
+            "menu-item#department__smarthhouse--nine",
+            "menu-item#department__home--ten",
+            "menu-item#department__tiresmotor--twelve",
+            "menu-item#department__toys--thirteen",
+            "menu-item#department__pins--fourteen",
+            "menu-item#department__other--fiveteen"
         ],
-
+    
         "props":{
-            "orientacion":"vertical"
-        }
-        
-    },
-    "menu-item#department__one":{
-        "props":{
-            "id": "category-one",
-            "type": "custom",
-            "itemProps":{
-                "type": "external",
-                "href":"https://www.google.com/",
-                "noFollow":true,
-                "tagTitle": "google title",
-                "text":"Google"
-            }
-        },
-
-    "blocks":["submenu.accordion#department__one"]
-    },
-
-    "submenu.accordion#department__one":{
-        "children":[
-            "menu#department__one"
-        ]
-    },
-    "menu#department__one":{
-        "children":[
-            "menu-item#category__one",
-            "menu-item#category__two"
-        ]
-    },
-    "menu-item#category__one":{
-        "props":{
-            "id": "category-one",
-            "type": "custom",
-            "itemProps":{
-                "type": "external",
-                "href":"/",
-                "noFollow":true,
-                "tagTitle":"Google Drive",
-                "text":"Google Drive"
-            }
-        }
-        },
-    "menu-item#category__two":{
-            "props":{
-                "id": "category-one",
-                "type": "custom",
-                "itemProps":{
-                    "type": "external",
-                    "href":"/",
-                    "noFollow":true,
-                    "tagTitle":"Google Meet",
-                    "text":"Google Meet"
-                }
-            }
-    },
-    "menu-item#department__two":{
-        "props":{
-            "id": "department-two",
-            "type": "custom",
-            "itemProps":{
-                "type": "external",
-                "href":"https://www.bing.com/?setlang=es",
-                "noFollow":true,
-                "tagTitle": "Bing title",
-                "text":"Bing"
-            }
+            "orientacion":"horizontal",
+            "blockClass": "name_departament"
         }
     }
+        
 }

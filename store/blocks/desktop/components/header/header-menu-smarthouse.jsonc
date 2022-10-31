@@ -1,0 +1,29 @@
+{
+    "menu-item#department__smarthhouse--nine":{
+        "props":{
+            "id": "dpto__smarthouse",
+            "type": "custom",
+            "blockClass": "name_departament",
+            "itemProps":{
+                "href":"/",
+                "noFollow":true,
+                "tagTitle": "Casa Inteligente",
+                "text":"Casa Inteligente"
+            }
+        },
+        "blocks":["vtex.menu@2.x:submenu#smarthhouse--nine"]
+    },
+    "vtex.menu@2.x:submenu#smarthhouse--nine":{
+        "children":[
+            "flex-layout.row#smarthhouse--nine"
+        ],
+        "props":{
+            //"onMountBehavios":"open"
+        }
+    },
+    "flex-layout.row#smarthhouse--nine":{
+        "children": [
+            "rich-text#test"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "menu-item#department__toys--thirteen":{
+        "props":{
+            "id": "dpto__toys",
+            "type": "custom",
+            "blockClass": "name_departament",
+            "itemProps":{
+                "href":"/",
+                "noFollow":true,
+                "tagTitle": "Juguetes",
+                "text":"Juguetes"
+            }
+        },
+        "blocks":["vtex.menu@2.x:submenu#toys--thirteen"]
+    },
+    "vtex.menu@2.x:submenu#toys--thirteen":{
+        "children":[
+            "flex-layout.row#toys--thirteen"
+        ],
+        "props":{
+            //"onMountBehavios":"open"
+        }
+    },
+    "flex-layout.row#toys--thirteen":{
+        "children": [
+            "rich-text#test"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+.flexRow--home__section--one{
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.flexRow--container_navigation_1{
+    width: 100%;
+}
+
+.flexRowContent--container_info{
+    justify-content: center;
+}
+
+.flexRowContent--container_search{
+    margin-right: 0;
+    justify-content: end;
+}
+
+.flexColChild--header-col-login{
+    float:right;
+}
+
+.flexColChild--login_full{
+    
+}
+
