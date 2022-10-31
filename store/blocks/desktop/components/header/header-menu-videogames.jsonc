@@ -1,0 +1,29 @@
+{
+    "menu-item#department__videogames--six":{
+        "props":{
+            "id": "dpto__accesories",
+            "type": "custom",
+            "blockClass": "name_departament",
+            "itemProps":{
+                "href":"/",
+                "noFollow":true,
+                "tagTitle": "Videojuegos",
+                "text":"Videojuegos"
+            }
+        },
+        "blocks":["vtex.menu@2.x:submenu#videogames--six"]
+    },
+    "vtex.menu@2.x:submenu#videogames--six":{
+        "children":[
+            "flex-layout.row#videogames--six"
+        ],
+        "props":{
+            //"onMountBehavios":"open"
+        }
+    },
+    "flex-layout.row#videogames--six":{
+        "children": [
+            "rich-text#test"
+        ]
+    }
+}

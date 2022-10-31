@@ -1,7 +1,8 @@
 {
     "header-layout.desktop": {
       "children": [
-        "header-row#desktop"            
+        "header-row#desktop",
+        "header-row#header__menu"            
       ],
       "props": {
           "fullWidth": true,
@@ -10,10 +11,9 @@
     },
     "header-row#desktop": {
         "children": [
-            "flex-layout.row#desktop1"
+            "flex-layout.row#desktop1"            
         ],
         "props": {
-            //"fullWidth": true,
             "blockClass": "container_full"
           }
     },
@@ -23,14 +23,17 @@
             "flex-layout.col#col-navigation"
         ],
         "props": {
-            "fullWidth": true,
-            "blockClass": "container_navigation"
+            "blockClass": "container_navigation_1",
+            "colSizing": "auto"
           }
     },
     "flex-layout.col#col-logo": {
         "children":[
             "logo#header__top--logo"
-        ]
+        ],        
+        "props": {          
+          
+        }
     },
     "flex-layout.col#col-navigation": {
         "children": [
@@ -38,11 +41,12 @@
             "flex-layout.row#row-search"
         ],
         "props": {
-           // "fullWidth": true
+          "width": "grow"
           }
     },
     "flex-layout.row#row-info": {
         "children": [
+            "rich-text#hiperoffers",
             "rich-text#sell",
             "rich-text#service",
             "rich-text#trackorder",
@@ -51,23 +55,70 @@
             "rich-text#help"
         ],
         "props": {
-          //"fullWidth": true,
-          "blockClass":"container_info"
+          "blockClass":"container_info",
+          "colSizing":"auto"
         }
       },
 
       "flex-layout.row#row-search": {
         "children": [
-            "search-bar",
-            "login",
-            "minicart.v2"
+            "flex-layout.col#col-search-bar",
+            "flex-layout.col#col-logincart"            
         ],
         "props": {
-          //"fullWidth": true,
-          "blockClass":"container_search"
+          "blockClass":"container_search"         
         }
-      }
-      
-
-
+      },
+      "flex-layout.col#col-search-bar":{
+        "children": [
+          "search-bar"
+        ],
+        "props": {
+          "width": "40%"    
+          }
+      },
+      "flex-layout.col#col-logincart": {
+        "children": [
+          "flex-layout.row#col-logincart"
+        ],
+        "props": {
+          "width": "50%"    
+          }
+      },
+      "flex-layout.row#col-logincart": {
+        "children": [
+          "flex-layout.col#col-login",
+          "flex-layout.col#col-cart"
+        ]
+      },
+      "flex-layout.col#col-login":{
+        "children": [
+          "login",
+          "rich-text#login--myaccount"
+        ],
+        "props": {
+          "width": "15%",
+          "blockClass": "login_full",
+          "horizontalAlign":"center",
+          "verticalAlign": "middle"
+          }
+      },            
+      "flex-layout.col#col-cart":{
+        "children": [
+            "minicart.v2",
+            "rich-text#mycart"
+        ],
+        "props": {
+          "width": "15%",
+          "horizontalAlign":"center" ,
+          "verticalAlign": "middle"
+          }
+      },   
+      "search-bar":{
+          "props":{
+            "blockClass": "search_today",
+            "placeholder":"¿Qué buscas hoy?",
+            "width": 530
+          }
+      }      
 }

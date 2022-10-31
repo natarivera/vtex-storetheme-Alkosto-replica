@@ -1,4 +1,12 @@
 {
+
+    "rich-text#hiperoffers":{
+        "props":{
+            "text":" Hiperofertas",
+            "blockClass":"header_richtextoffers"
+        }
+    },
+
     "rich-text#sell":{
         "props":{
             "text":" Venta:(601) 7468001",
@@ -37,6 +45,247 @@
         "props":{
             "text":" Ayuda",
             "blockClass":"header_richtext"
+        }
+    },
+
+    "rich-text#cell":{
+        "props":{
+            "text":"Celulares",
+            "blockClass":"subcategory_title"
+        }
+    },
+
+    "rich-text#brand":{
+        "props":{
+            "text":"Marca",
+            "blockClass":"subcategory_subtitle"
+        }
+    },
+    "rich-text#brand--item":{
+        "props":{
+    "text":"iPhone | Samsung | Xiomi | Motorola | Vivo |Nokia | Oppo | Realme | Zte |TCL | Alcatel | Kalley | Huawei | honor | Tecno" ,
+            "blockClass":"subcategory_item"
+        }
+    },
+
+    "rich-text#storage":{
+        "props":{
+            "text":"Capacidad de almacenamiento",
+            "blockClass":"subcategory_subtitle"
+        }
+    },
+
+    "rich-text#storage--item":{
+        "props":{
+    "text":"32GB | 64GB | 128GB | 256GB " ,
+            "blockClass":"subcategory_item"
+        }
+    },
+
+    "rich-text#sizescreen":{
+        "props":{
+            "text":"Tamaño de Pantalla",
+            "blockClass":"subcategory_subtitle"
+        }
+    },
+
+    "rich-text#sizescreen--item":{
+        "props":{
+        "text":"De 3.1' a 4 | De 4.1' a 5 | De 5.1' a 6' | De 6.1' a 8'" ,
+            "blockClass":"subcategory_item"
+        }
+    },
+    "rich-text#cameratype":{
+        "props":{
+            "text":"Tipo de cámara posterior",
+            "blockClass":"subcategory_subtitle"
+        }
+    },
+
+    "rich-text#cameratype--item":{
+        "props":{
+        "text":"Sencilla | Dual | Triple | Cuádruple " ,
+            "blockClass":"subcategory_item"
+        }
+    },
+
+    "rich-text#frontcamara":{
+        "props":{
+        "text":"Tipo de cámara frontal" ,
+            "blockClass":"subcategory_subtitle"
+        }
+    },
+
+    "rich-text#frontcamara--item":{
+        "props":{
+        "text":"Sencilla | Dual " ,
+            "blockClass":"subcategory_item"
+        }
+    },
+
+    "rich-text#accesories":{
+        "props":{
+            "text":"Accesorios Celulares y Tabletas",
+            "blockClass":"subcategory_title"
+        }
+    },
+    "rich-text#accesories--item1":{
+        "props":{
+        "text":"Cables, Cargadores, Adaptadores",
+            "blockClass":"subcategory_item"
+        }
+    },
+
+    "rich-text#accesories--item2":{
+        "props":{
+            "text":"Carcasas y estuches",
+            "blockClass":"subcategory_item"
+        }
+    },
+
+    "rich-text#accesories--item3":{
+        "props":{
+        "text":"Audifonos y manos libres " ,
+            "blockClass":"subcategory_item"
+        }
+    },
+
+    "rich-text#accesories--item4":{
+        "props":{
+            "text":"Memorias Micro SD",
+            "blockClass":"subcategory_item"
+        }
+    },
+
+    "rich-text#accesories--item5":{
+        "props":{
+        "text":"Baterias Externas Power Bank" ,
+            "blockClass":"subcategory_item"
+        }
+    },
+    "rich-text#accesories--item6":{
+        "props":{
+            "text":"Bases y soportes",
+            "blockClass":"subcategory_item"
+        }
+    },
+
+    "rich-text#accesories--item7":{
+        "props":{
+        "text":"Selfie Stick " ,
+            "blockClass":"subcategory_item"
+        }
+    },
+
+    "rich-text#accesories--item8":{
+        "props":{
+        "text":"Otros accesorios" ,
+            "blockClass":"subcategory_item"
+        }
+    },
+
+    "rich-text#accesoriescellphone":{
+        "props":{
+        "text":"Accesorios para IPhone" ,
+            "blockClass":"subcategory_subtitle"
+        }
+    },
+
+    "rich-text#accesoriescellphone--item8":{
+        "props":{
+        "text":"Carcasas para iPhone |" ,
+            "blockClass":"subcategory_item"
+        }
+    },
+    "rich-text#accesoriescellphone--item9":{
+        "props":{
+        "text":"Cables, Cargadores, Adaptadores",
+            "blockClass":"subcategory_item"
+        }
+    },
+
+    "rich-text#smartwatch":{
+        "props":{
+            "text":"Smartwatch",
+            "blockClass":"subcategory_title"
+        }
+    },
+    "rich-text#smartwatch--item1":{
+        "props":{
+        "text":"Relojes",
+            "blockClass":"subcategory_item"
+        }
+    },
+    "rich-text#smartwatch--item2":{
+        "props":{
+        "text":"Bandas de actividad",
+            "blockClass":"subcategory_item"
+        }
+    },
+
+    "rich-text#smartwatch--item3":{
+        "props":{
+        "text":"Apple Watch | Huawei | Samsung | Garmin | Xiaomi | Kalley | Multitech" ,
+            "blockClass":"subcategory_item"
+        }
+    },
+    "rich-text#smartwatch--item4":{
+        "props":{
+            "text":"Accesorios para Smartwatch",
+            "blockClass":"subcategory_subtitle"
+        }
+    },
+
+    "rich-text#smartwatch--item5":{
+        "props":{
+        "text":"Correas",
+            "blockClass":"subcategory_item"
+        }
+    },
+
+    "rich-text#tablets":{
+        "props":{
+            "text":"Tabletas",
+            "blockClass":"subcategory_title"
+        }
+    },
+    "rich-text#tablets--item1":{
+        "props":{
+        "text":"iPad",
+            "blockClass":"subcategory_item"
+        }
+    },
+    "rich-text#tablets--item2":{
+        "props":{
+        "text":"Android",
+            "blockClass":"subcategory_item"
+        }
+    },
+
+    "rich-text#tablets--item3":{
+        "props":{
+        "text":"Accesorios" ,
+            "blockClass":"subcategory_item"
+        }
+    },
+    "rich-text#tablets--item4":{
+        "props":{
+            "text":"Apple | Samsung | Lenovo | Huawei | Alcatel | Multitech",
+            "blockClass":"subcategory_item"
+        }
+    },
+
+    "rich-text#login--myaccount":{
+        "props":{
+            "text":"Mi cuenta",
+            "blockClass":"login_myaccount"
+        }
+    },
+
+    "rich-text#mycart":{
+        "props":{
+            "text":"Mi carrito",
+            "blockClass":"login_mycart"
         }
     }
 }

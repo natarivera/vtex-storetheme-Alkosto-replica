@@ -1,0 +1,29 @@
+{
+    "menu-item#department__accesories--five":{
+        "props":{
+            "id": "dpto__accesories",
+            "type": "custom",
+            "blockClass": "name_departament",
+            "itemProps":{
+                "href":"/",
+                "noFollow":true,
+                "tagTitle": "Accesorios",
+                "text":"Accesorios"
+            }
+        },
+        "blocks":["vtex.menu@2.x:submenu#accesories--five"]
+    },
+    "vtex.menu@2.x:submenu#accesories--five":{
+        "children":[
+            "flex-layout.row#accesories--five"
+        ],
+        "props":{
+            //"onMountBehavios":"open"
+        }
+    },
+    "flex-layout.row#accesories--five":{
+        "children": [
+            "rich-text#test"
+        ]
+    }
+}

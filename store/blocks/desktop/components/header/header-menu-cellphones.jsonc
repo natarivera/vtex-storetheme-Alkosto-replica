@@ -1,0 +1,89 @@
+{
+    "menu-item#department__cellphones--one":{
+        "props":{
+            "id": "dpto__cell",
+            "type": "custom",
+            "blockClass": "name_departament",
+            "itemProps":{
+                "href":"/",
+                "noFollow":true,
+                "tagTitle": "Celulares",
+                "text":"Celulares"
+            }
+        },
+        "blocks":["vtex.menu@2.x:submenu#department__cellphones--one"]
+    },
+    "vtex.menu@2.x:submenu#department__cellphones--one":{
+        "children":[
+            "flex-layout.row#department__cellphones--one"
+        ],
+        "props":{
+            "blockClass": ""
+        }
+    },
+    "flex-layout.row#department__cellphones--one":{
+        "children": [
+            "flex-layout.row#department__subcategorycell--one"
+        ]
+    },
+    "flex-layout.row#department__subcategorycell--one":{
+        "children":[
+            "flex-layout.col#item__cell--brand",
+            "flex-layout.col#item__cell--accesories",
+            "flex-layout.col#item__cell--smartwatch",
+            "flex-layout.col#item__cell--tablets"
+
+        ]
+    },
+    "flex-layout.col#item__cell--brand":{
+        "children":[
+            "rich-text#cell",
+            "rich-text#brand",
+            "rich-text#brand--item",
+            "rich-text#storage",
+            "rich-text#storage--item",
+            "rich-text#sizescreen",
+            "rich-text#sizescreen--item",
+            "rich-text#cameratype",
+            "rich-text#cameratype--item",
+            "rich-text#frontcamara"
+        ]
+    },
+    "flex-layout.col#item__cell--accesories":{
+        "children":[
+            "rich-text#accesories",
+            "rich-text#accesories--item1",
+            "rich-text#accesories--item2",
+            "rich-text#accesories--item3",
+            "rich-text#accesories--item4",
+            "rich-text#accesories--item5",
+            "rich-text#accesories--item6",
+            "rich-text#accesories--item7",
+            "rich-text#accesories--item8",
+            "rich-text#accesoriescellphone",
+            "rich-text#accesoriescellphone--item8",
+            "rich-text#accesoriescellphone--item9"
+        ]
+    },
+    "flex-layout.col#item__cell--smartwatch":{
+        "children":[
+            "rich-text#smartwatch",
+            "rich-text#smartwatch--item1",
+            "rich-text#smartwatch--item2",
+            "rich-text#brand",
+            "rich-text#smartwatch--item3",
+            "rich-text#smartwatch--item4",
+            "rich-text#smartwatch--item5"
+        ]
+    },
+    "flex-layout.col#item__cell--tablets":{
+        "children":[
+            "rich-text#tablets",
+            "rich-text#tablets--item1",
+            "rich-text#tablets--item2",
+            "rich-text#tablets--item3",
+            "rich-text#brand",
+            "rich-text#tablets--item4"
+        ]
+    }
+}

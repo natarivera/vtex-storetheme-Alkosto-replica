@@ -1,0 +1,29 @@
+{
+    "menu-item#department__tiresmotor--twelve":{
+        "props":{
+            "id": "dpto__tiresmotor",
+            "type": "custom",
+            "blockClass": "name_departament",
+            "itemProps":{
+                "href":"/",
+                "noFollow":true,
+                "tagTitle": "Llantas y motos",
+                "text":"Llantas y motos"
+            }
+        },
+        "blocks":["vtex.menu@2.x:submenu#tiresmotor--twelve"]
+    },
+    "vtex.menu@2.x:submenu#tiresmotor--twelve":{
+        "children":[
+            "flex-layout.row#tiresmotor--twelve"
+        ],
+        "props":{
+            //"onMountBehavios":"open"
+        }
+    },
+    "flex-layout.row#tiresmotor--twelve":{
+        "children": [
+            "rich-text#test"
+        ]
+    }
+}
