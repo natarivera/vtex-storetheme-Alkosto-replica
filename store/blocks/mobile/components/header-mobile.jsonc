@@ -26,11 +26,14 @@
         "title": "logo",
         "props":{
             "url":"assets/img/alkosto-logo.svg",
-            "width": 150,
+            "width": 221,
             "href":"/",
-            "zIndex": 20
+            "zIndex": 20,
+            "height": 96,
+            "maxHeight": 96,
+            "maxWidth": 221            
         }
-    },
+        },
     "modal-trigger#header__top--login":{
         "children":[
             "rich-text#header__top--login",
@@ -39,7 +42,8 @@
     },
     "rich-text#header__top--login":{
         "props":{
-            "text":"login"
+            "text":"login",
+            "blockClass":"content_login"
         }
     },
 
@@ -63,7 +67,7 @@
         
         "title": "header medio",
         "children":[
-            "drawer#header__mobile--menu"
+            //"drawer#header__mobile--menu"
         ],
 
         "props":{
