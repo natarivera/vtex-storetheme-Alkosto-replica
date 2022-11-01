@@ -16,7 +16,8 @@
 
         ],
         "props":{
-            "blockClass": "header__top"
+            "blockClass": "header__top",
+            "width": 50
         }
 
 
@@ -31,7 +32,8 @@
             "zIndex": 20,
             "height": 96,
             "maxHeight": 96,
-            "maxWidth": 221            
+            "maxWidth": 221,
+            "blockClass":"content_logo"
         }
         },
     "modal-trigger#header__top--login":{

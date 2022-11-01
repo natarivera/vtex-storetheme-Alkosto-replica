@@ -16,7 +16,7 @@
 
     "rich-text#service":{
         "props":{
-            "text":" Servicio:(601)4073033",
+            "text":" Servicio:(601) 4073033",
             "blockClass":"header_richtext"
         }
     },
@@ -51,7 +51,7 @@
     "rich-text#cell":{
         "props":{
             "text":"Celulares",
-            "blockClass":"subcategory_title"
+            "blockClass":"subcategory_title1"
         }
     },
 
