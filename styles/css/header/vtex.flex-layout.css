@@ -60,5 +60,9 @@
 .flexCol--login_divider{
     border-left: 1px solid #ccc;
     height: 24px;
-    margin-top: 24px;
+    margin-top: 18px;
+}
+
+/*.flexRowContent--container_logincart--desktop{
+    margin-top: 0px;
 }

@@ -100,7 +100,8 @@
         ],
         "props":{
           "width":"grow",
-          "colJustify":"around"
+          "colJustify":"around",
+          "blockClass": "container_logincart--desktop"
         }
       },
       "flex-layout.col#col-login":{

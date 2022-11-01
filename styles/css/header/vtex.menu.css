@@ -10,6 +10,8 @@
     font-size: 14px;
     border-right: 1px solid #004797;
     height: 8px;
-    transform: translateY(-10px);
-    margin-right: 0px;
+}
+
+.menuItem--name_departament--isOpen{
+    font-size: 14px;
 }
