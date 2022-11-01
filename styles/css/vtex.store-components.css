@@ -29,6 +29,8 @@
   height: 20px;
 }
 
+
+
 .content_login {
   width: 5%;
 }
@@ -47,3 +49,19 @@
   color: #004797;
 }
 
+
+.logoLink--content_logo-mobile{
+  margin-right: 30px;
+  margin-left: 0;
+}
+
+@media only screen and (max-width: 49rem){
+    
+  .searchBarIcon--search_today--search{
+    background-color: #004797;        
+    padding: 5px;
+    margin-left: -0.75rem;
+  }
+ 
+
+}

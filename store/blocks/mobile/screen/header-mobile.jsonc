@@ -1,0 +1,10 @@
+{
+    "header-layout.mobile":{
+        "title":"header mobile",
+        "children":[
+            "header-row#header__top"
+            /*"header-row#header__middle"*/
+            
+        ]
+    }
+}
