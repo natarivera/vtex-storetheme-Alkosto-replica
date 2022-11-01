@@ -32,7 +32,12 @@
             "logo#header__top--logo"
         ],        
         "props": {          
-          
+          "blockClass": "container_logo--desktop",
+          "verticalAlign": "top",
+          "width":"grow",
+          "heigth": "96",
+          "horizontalAlign":"center"
+
         }
     },
     "flex-layout.col#col-navigation": {
@@ -74,7 +79,8 @@
           "search-bar"
         ],
         "props": {
-          "width": "40%"    
+          "width": "60%",    
+          "heigth":"36"
           }
       },
       "flex-layout.col#col-logincart": {
@@ -82,14 +88,21 @@
           "flex-layout.row#col-logincart"
         ],
         "props": {
-          "width": "50%"    
+          "width": "50%" ,
+          "marginLeft": 10 
           }
       },
       "flex-layout.row#col-logincart": {
         "children": [
           "flex-layout.col#col-login",
+          "flex-layout.col#col-divider",
           "flex-layout.col#col-cart"
-        ]
+        ],
+        "props":{
+          "width":"grow",
+          "colJustify":"around",
+          "blockClass": "container_logincart--desktop"
+        }
       },
       "flex-layout.col#col-login":{
         "children": [
@@ -97,21 +110,33 @@
           "rich-text#login--myaccount"
         ],
         "props": {
-          "width": "15%",
+          "width": "25%",
           "blockClass": "login_full",
           "horizontalAlign":"center",
           "verticalAlign": "middle"
           }
       },            
+      "flex-layout.col#col-divider": {
+        "children": [
+        ],
+        "props": {
+          "heigth": 1,
+          "width": "1%",
+          "blockClass": "login_divider",
+          "horizontalAlign":"center",
+          "verticalAlign": "middle"
+          }
+      },
       "flex-layout.col#col-cart":{
         "children": [
             "minicart.v2",
             "rich-text#mycart"
         ],
         "props": {
-          "width": "15%",
+          "width": "25%",
           "horizontalAlign":"center" ,
-          "verticalAlign": "middle"
+          "verticalAlign": "middle",
+          "blockClass": "mycart_desktop"
           }
       },   
       "search-bar":{
