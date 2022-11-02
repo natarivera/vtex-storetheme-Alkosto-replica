@@ -23,3 +23,23 @@
     background-color: #004797;
     border-bottom: 2px solid #eb5b25;
   }
+/*Responsive*/
+  @media only screen and (max-width: 49rem) {
+ 
+    .headerRowContainer--header__mobile {
+      height: 72px;
+    }
+  }
+
+  .headerRowContainer--menu_name{
+    height: 40px;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-left: 65px;
+    margin-right: -65px;
+  }
+
+  .menuItem--name_departament--isOpen{
+    margin-left: -50px;
+  }

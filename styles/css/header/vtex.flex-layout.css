@@ -63,6 +63,9 @@
     margin-top: 18px;
 }
 
+.flexCol--login_divider--menu{
+    border-left: 1px #004797;
+}
 /*.flexRowContent--container_logincart--desktop{
     margin-top: 0px;
 }

@@ -126,152 +126,152 @@
     "rich-text#accesories":{
         "props":{
             "text":"Accesorios Celulares y Tabletas",
-            "blockClass":"subcategory_title"
+            "blockClass":"subcategory_title2"
         }
     },
     "rich-text#accesories--item1":{
         "props":{
         "text":"Cables, Cargadores, Adaptadores",
-            "blockClass":"subcategory_item"
+            "blockClass":"subcategory_item2"
         }
     },
 
     "rich-text#accesories--item2":{
         "props":{
             "text":"Carcasas y estuches",
-            "blockClass":"subcategory_item"
+            "blockClass":"subcategory_item2"
         }
     },
 
     "rich-text#accesories--item3":{
         "props":{
         "text":"Audifonos y manos libres " ,
-            "blockClass":"subcategory_item"
+            "blockClass":"subcategory_item2"
         }
     },
 
     "rich-text#accesories--item4":{
         "props":{
             "text":"Memorias Micro SD",
-            "blockClass":"subcategory_item"
+            "blockClass":"subcategory_item2"
         }
     },
 
     "rich-text#accesories--item5":{
         "props":{
         "text":"Baterias Externas Power Bank" ,
-            "blockClass":"subcategory_item"
+            "blockClass":"subcategory_item2"
         }
     },
     "rich-text#accesories--item6":{
         "props":{
             "text":"Bases y soportes",
-            "blockClass":"subcategory_item"
+            "blockClass":"subcategory_item2"
         }
     },
 
     "rich-text#accesories--item7":{
         "props":{
         "text":"Selfie Stick " ,
-            "blockClass":"subcategory_item"
+            "blockClass":"subcategory_item2"
         }
     },
 
     "rich-text#accesories--item8":{
         "props":{
         "text":"Otros accesorios" ,
-            "blockClass":"subcategory_item"
+            "blockClass":"subcategory_item2"
         }
     },
 
     "rich-text#accesoriescellphone":{
         "props":{
         "text":"Accesorios para IPhone" ,
-            "blockClass":"subcategory_subtitle"
+            "blockClass":"subcategory_subtitle2"
         }
     },
 
     "rich-text#accesoriescellphone--item8":{
         "props":{
         "text":"Carcasas para iPhone |" ,
-            "blockClass":"subcategory_item"
+            "blockClass":"subcategory_item2"
         }
     },
     "rich-text#accesoriescellphone--item9":{
         "props":{
         "text":"Cables, Cargadores, Adaptadores",
-            "blockClass":"subcategory_item"
+            "blockClass":"subcategory_item2"
         }
     },
 
     "rich-text#smartwatch":{
         "props":{
             "text":"Smartwatch",
-            "blockClass":"subcategory_title"
+            "blockClass":"subcategory_title3"
         }
     },
     "rich-text#smartwatch--item1":{
         "props":{
         "text":"Relojes",
-            "blockClass":"subcategory_item"
+            "blockClass":"subcategory_item3"
         }
     },
     "rich-text#smartwatch--item2":{
         "props":{
         "text":"Bandas de actividad",
-            "blockClass":"subcategory_item"
+            "blockClass":"subcategory_item3"
         }
     },
 
     "rich-text#smartwatch--item3":{
         "props":{
         "text":"Apple Watch | Huawei | Samsung | Garmin | Xiaomi | Kalley | Multitech" ,
-            "blockClass":"subcategory_item"
+            "blockClass":"subcategory_item3"
         }
     },
     "rich-text#smartwatch--item4":{
         "props":{
             "text":"Accesorios para Smartwatch",
-            "blockClass":"subcategory_subtitle"
+            "blockClass":"subcategory_subtitle3"
         }
     },
 
     "rich-text#smartwatch--item5":{
         "props":{
         "text":"Correas",
-            "blockClass":"subcategory_item"
+            "blockClass":"subcategory_item3"
         }
     },
 
     "rich-text#tablets":{
         "props":{
             "text":"Tabletas",
-            "blockClass":"subcategory_title"
+            "blockClass":"subcategory_title4"
         }
     },
     "rich-text#tablets--item1":{
         "props":{
         "text":"iPad",
-            "blockClass":"subcategory_item"
+            "blockClass":"subcategory_item4"
         }
     },
     "rich-text#tablets--item2":{
         "props":{
         "text":"Android",
-            "blockClass":"subcategory_item"
+            "blockClass":"subcategory_item4"
         }
     },
 
     "rich-text#tablets--item3":{
         "props":{
         "text":"Accesorios" ,
-            "blockClass":"subcategory_item"
+            "blockClass":"subcategory_item4"
         }
     },
     "rich-text#tablets--item4":{
         "props":{
             "text":"Apple | Samsung | Lenovo | Huawei | Alcatel | Multitech",
-            "blockClass":"subcategory_item"
+            "blockClass":"subcategory_item4"
         }
     },
 
