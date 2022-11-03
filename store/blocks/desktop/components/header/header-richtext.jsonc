@@ -51,7 +51,7 @@
     "rich-text#cell":{
         "props":{
             "text":"Celulares",
-            "blockClass":"subcategory_title1"
+            "blockClass":"subcategory_title"
         }
     },
 
@@ -105,7 +105,7 @@
     "rich-text#cameratype--item":{
         "props":{
         "text":"Sencilla | Dual | Triple | Cuádruple " ,
-            "blockClass":"subcategory_item"
+            "blockClass":"subcategory_item-2"
         }
     },
 
@@ -119,159 +119,193 @@
     "rich-text#frontcamara--item":{
         "props":{
         "text":"Sencilla | Dual " ,
-            "blockClass":"subcategory_item"
+            "blockClass":"subcategory_item-2"
         }
     },
 
     "rich-text#accesories":{
         "props":{
             "text":"Accesorios Celulares y Tabletas",
-            "blockClass":"subcategory_title2"
+            "blockClass":"subcategory_title-2"
         }
     },
     "rich-text#accesories--item1":{
         "props":{
         "text":"Cables, Cargadores, Adaptadores",
-            "blockClass":"subcategory_item2"
+            "blockClass":"subcategory_item-2"
         }
     },
 
     "rich-text#accesories--item2":{
         "props":{
             "text":"Carcasas y estuches",
-            "blockClass":"subcategory_item2"
+            "blockClass":"subcategory_item-2"
         }
     },
 
     "rich-text#accesories--item3":{
         "props":{
         "text":"Audifonos y manos libres " ,
-            "blockClass":"subcategory_item2"
+            "blockClass":"subcategory_item-2"
         }
     },
 
     "rich-text#accesories--item4":{
         "props":{
             "text":"Memorias Micro SD",
-            "blockClass":"subcategory_item2"
+            "blockClass":"subcategory_item-2"
         }
     },
 
     "rich-text#accesories--item5":{
         "props":{
         "text":"Baterias Externas Power Bank" ,
-            "blockClass":"subcategory_item2"
+            "blockClass":"subcategory_item-2"
         }
     },
     "rich-text#accesories--item6":{
         "props":{
             "text":"Bases y soportes",
-            "blockClass":"subcategory_item2"
+            "blockClass":"subcategory_item-2"
         }
     },
 
     "rich-text#accesories--item7":{
         "props":{
         "text":"Selfie Stick " ,
-            "blockClass":"subcategory_item2"
+            "blockClass":"subcategory_item-2"
         }
     },
 
     "rich-text#accesories--item8":{
         "props":{
         "text":"Otros accesorios" ,
-            "blockClass":"subcategory_item2"
+            "blockClass":"subcategory_item-2"
         }
     },
 
     "rich-text#accesoriescellphone":{
         "props":{
         "text":"Accesorios para IPhone" ,
-            "blockClass":"subcategory_subtitle2"
+            "blockClass":"subcategory_subtitle"
         }
     },
 
     "rich-text#accesoriescellphone--item8":{
         "props":{
         "text":"Carcasas para iPhone |" ,
-            "blockClass":"subcategory_item2"
+            "blockClass":"subcategory_item-2"
         }
     },
     "rich-text#accesoriescellphone--item9":{
         "props":{
         "text":"Cables, Cargadores, Adaptadores",
-            "blockClass":"subcategory_item2"
+            "blockClass":"subcategory_item-2"
         }
     },
 
     "rich-text#smartwatch":{
         "props":{
             "text":"Smartwatch",
-            "blockClass":"subcategory_title3"
+            "blockClass":"subcategory_title"
         }
     },
     "rich-text#smartwatch--item1":{
         "props":{
         "text":"Relojes",
-            "blockClass":"subcategory_item3"
+            "blockClass":"subcategory_item"
         }
     },
     "rich-text#smartwatch--item2":{
         "props":{
         "text":"Bandas de actividad",
-            "blockClass":"subcategory_item3"
+            "blockClass":"subcategory_item-2"
         }
     },
 
     "rich-text#smartwatch--item3":{
         "props":{
         "text":"Apple Watch | Huawei | Samsung | Garmin | Xiaomi | Kalley | Multitech" ,
-            "blockClass":"subcategory_item3"
+            "blockClass":"subcategory_item"
         }
     },
     "rich-text#smartwatch--item4":{
         "props":{
             "text":"Accesorios para Smartwatch",
-            "blockClass":"subcategory_subtitle3"
+            "blockClass":"subcategory_subtitle"
         }
     },
 
     "rich-text#smartwatch--item5":{
         "props":{
         "text":"Correas",
-            "blockClass":"subcategory_item3"
+            "blockClass":"subcategory_item"
         }
     },
 
     "rich-text#tablets":{
         "props":{
             "text":"Tabletas",
-            "blockClass":"subcategory_title4"
+            "blockClass":"subcategory_title"
         }
     },
     "rich-text#tablets--item1":{
         "props":{
         "text":"iPad",
-            "blockClass":"subcategory_item4"
+            "blockClass":"subcategory_item"
         }
     },
     "rich-text#tablets--item2":{
         "props":{
         "text":"Android",
-            "blockClass":"subcategory_item4"
+            "blockClass":"subcategory_item"
         }
     },
 
     "rich-text#tablets--item3":{
         "props":{
         "text":"Accesorios" ,
-            "blockClass":"subcategory_item4"
+            "blockClass":"subcategory_item"
         }
     },
     "rich-text#tablets--item4":{
         "props":{
             "text":"Apple | Samsung | Lenovo | Huawei | Alcatel | Multitech",
-            "blockClass":"subcategory_item4"
+            "blockClass":"subcategory_item"
+        }
+    },
+
+    "rich-text#knowmore":{
+        "props":{
+            "text":"Conoce mas",
+            "blockClass":"subcategory_title"
+        }
+    },
+    "rich-text#knowmore--item1":{
+        "props":{
+        "text":"Seguro gratis Celulares",
+            "blockClass":"subcategory_item-2"
+        }
+    },
+
+    "rich-text#knowmore--item2":{
+        "props":{
+        "text":"Guia de compra",
+            "blockClass":"subcategory_item-2"
+        }
+    },
+
+    
+    "rich-text#knowmore--item3":{
+        "props":{
+        "text":"Celulares Baratos",
+            "blockClass":"subcategory_item-2"
+        }
+    },
+    "rich-text#knowmore--item4":{
+        "props":{
+        "text":"Celulares Nuevos",
+            "blockClass":"subcategory_item-2"
         }
     },
 

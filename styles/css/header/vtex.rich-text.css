@@ -35,6 +35,7 @@
 
 .container--subcategory_subtitle{
     color:#eb5b25;
+    height: 25px !important;
 }
 
 .paragraph--subcategory_title,
@@ -46,8 +47,8 @@
     height: 16px; 
     font-size: 14px;
     margin-left: 8px;
+    /*margin-bottom: 0;*/
     padding-bottom: 30px;
-    margin-bottom: 50px;
 }
 
 .paragraph--subcategory_title2{
@@ -59,13 +60,13 @@
     font-size: 14px;
     margin-left: 10px;
     padding-bottom: 40px;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
 }
 
 .paragraph--subcategory_subtitle{
     font-size:  10px;
-    margin: 12px 0 0;
-    padding: 0 12px;
+    /*margin: 12px 0 0;
+    padding: 0 12px;*/
 }
 
 .paragraph--login_myaccount{
@@ -80,6 +81,30 @@
 .paragraph--subcategory_item{
     font-size: 11px;
     width: 50%;
-    margin-top: -15px;
+    margin: 2px;
+    /*margin-top: -15px;*/
 }
 
+.paragraph--subcategory_item-2{
+    font-size: 11px;
+    width: 100%;
+    margin: 2px;
+    /*margin-top: -15px;*/
+}
+
+.wrapper--subcategory_item-2{
+    width: 100%;
+}
+
+.paragraph--subcategory_title-2{
+    align-items: center;
+    border-bottom: 2px solid #eb5b25;
+    color: #434343;
+    width: 80%;
+    height: 16px; 
+    font-size: 14px;
+    margin-top: 2px;
+    margin-left: 10px;
+    padding-bottom: 40px;
+    /*margin-bottom: 20px;*/
+}
