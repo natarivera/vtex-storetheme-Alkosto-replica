@@ -6,12 +6,33 @@
 }
 
 .styledLinkContent--name_departament{
+    display:inline-block;
     color:#004797;
     font-size: 14px;
-    border-right: 1px solid #004797;
-    height: 8px;
+    margin-left:    -10px;
+    height: 10px;
+    margin-left: 1px !important;
+    max-width: max-content;  
 }
 
-.menuItem--name_departament--isOpen{
-    font-size: 14px;
+.styledLinkContent--name_departament::after{
+    content: "";
+    border-right: 1px solid #004797;
+    height: 10px;
+    margin-left: 15px;
+    margin-right: -15px;
+    margin-top: 2px;
+}
+.styledLinkContent {
+    padding: 0;
+}
+.menuItem--name_departament{
+    
+    padding: -15px;
+}
+
+.menuContainer--name_departament{
+    height: 40px;
+    padding: 0;
+    margin: 0;
 }

@@ -1,6 +1,8 @@
 {
     "header-row#header__menu":{
-        "children":["menu#header__startmenu"],
+        "children":[
+            "menu#header__startmenu"
+        ],
         "props":{
             "blockClass": "menu_name"
         }
@@ -9,6 +11,7 @@
     "menu#header__startmenu":{
         "children":[
             "menu-item#department__cellphones--one",
+            "flex-layout.col#col__divider--menu",
             "menu-item#department__computers--two",
             "menu-item#department__appliances--three",
             "menu-item#department__tv--four",
@@ -27,6 +30,15 @@
             "orientacion":"horizontal",
             "blockClass": "name_departament"
         }
+    },
+    "flex-layout.col#col__divider--menu": {
+        "children": [],
+        "props": {
+          "heigth": 1,
+          "width": "1%",
+          "blockClass": "login_divider--menu",
+          "horizontalAlign": "center",
+          "verticalAlign": "middle"
+        }
     }
-        
 }

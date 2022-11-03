@@ -29,43 +29,4 @@
   }
 }
 
-/*"modal-trigger#header__top--login":{
-    "children":[
-        "rich-text#header__top--login",
-        "modal-layout#header__top--login"
-    ]
-},
-"rich-text#header__top--login":{
-    "props":{
-        "text":"login",
-        "blockClass":"content_login"
-    }
-},
 
-"modal-layout#header__top--login":{
-    "children":[
-        "login-content"
-    ]
-},
-
-"login":{
-    "props": {
-        "emailAndPasswordTitle": "LOG-IN",
-        "accessCodeTitle": "Acess Code LOG-IN",
-        "emailPlaceholder": "e-mail",
-        "passwordPlaceholder": "password",
-        "showPasswordVerificationIntoTooltip": true,
-        "showIconProfile":true
-      }
-},
-"header-row#header__middle":{
-    
-    "title": "header medio",
-    "children":[
-        
-    ],
-
-    "props":{
-        "blockClass":"header__middle"
-    }
-}*/

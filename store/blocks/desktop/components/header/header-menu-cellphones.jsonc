@@ -31,7 +31,8 @@
             "flex-layout.col#item__cell--brand",
             "flex-layout.col#item__cell--accesories",
             "flex-layout.col#item__cell--smartwatch",
-            "flex-layout.col#item__cell--tablets"
+            "flex-layout.col#item__cell--tablets",
+            "flex-layout.col#item__cell--knowmore"
 
         ]
     },
@@ -46,8 +47,14 @@
             "rich-text#sizescreen--item",
             "rich-text#cameratype",
             "rich-text#cameratype--item",
-            "rich-text#frontcamara"
-        ]
+            "rich-text#frontcamara",
+            "rich-text#frontcamara--item"
+        ],
+
+        "props":{
+            "blockClass":"container_cell-brand",
+            "preventVerticalStretch": true
+        }
     },
     "flex-layout.col#item__cell--accesories":{
         "children":[
@@ -63,7 +70,11 @@
             "rich-text#accesoriescellphone",
             "rich-text#accesoriescellphone--item8",
             "rich-text#accesoriescellphone--item9"
-        ]
+        ],
+        "props":{
+            "blockClass":"container_cell-accesories",
+            "preventVerticalStretch": true
+        }
     },
     "flex-layout.col#item__cell--smartwatch":{
         "children":[
@@ -74,7 +85,11 @@
             "rich-text#smartwatch--item3",
             "rich-text#smartwatch--item4",
             "rich-text#smartwatch--item5"
-        ]
+        ],
+        "props":{
+            "blockClass":"container_cell-smartwatch",
+            "preventVerticalStretch": true
+        }
     },
     "flex-layout.col#item__cell--tablets":{
         "children":[
@@ -84,6 +99,24 @@
             "rich-text#tablets--item3",
             "rich-text#brand",
             "rich-text#tablets--item4"
-        ]
+        ],
+        "props":{
+            "blockClass":"container_cell-tablets",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.col#item__cell--knowmore":{
+        "children":[
+            "rich-text#knowmore",
+            "rich-text#knowmore--item1",
+            "rich-text#knowmore--item2",
+            "rich-text#knowmore--item3",
+            "rich-text#knowmore--item4"
+
+        ],
+        "props":{
+            "blockClass":"container_cell-knowmore",
+            "preventVerticalStretch": true
+        }
     }
 }

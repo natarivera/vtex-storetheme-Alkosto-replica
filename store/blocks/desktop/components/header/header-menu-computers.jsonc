@@ -7,8 +7,8 @@
             "itemProps":{
                 "href":"/",
                 "noFollow":true,
-                "tagTitle": "Computers",
-                "text":"Computers"
+                "tagTitle": "Computadores",
+                "text":"Computadores"
             }
         },
         "blocks":["vtex.menu@2.x:submenu#department__computers--two"]
