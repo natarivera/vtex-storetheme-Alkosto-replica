@@ -1,5 +1,6 @@
 {
     "header-row#header__menu":{
+        "title":"menu full",
         "children":[
             "menu#header__startmenu"
         ],

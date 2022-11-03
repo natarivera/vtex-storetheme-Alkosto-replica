@@ -1,5 +1,6 @@
 {
     "menu-item#department__tiresmotor--twelve":{
+        "title":"department tiresmotor",
         "props":{
             "id": "dpto__tiresmotor",
             "type": "custom",

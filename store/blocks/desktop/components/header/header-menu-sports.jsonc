@@ -1,5 +1,6 @@
 {
     "menu-item#department__sports--eleven":{
+        "title":"department sports",
         "props":{
             "id": "dpto__sports",
             "type": "custom",

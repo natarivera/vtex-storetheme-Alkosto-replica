@@ -1,5 +1,6 @@
 {
     "menu-item#department__other--fiveteen":{
+        "title":"department other",
         "props":{
             "id": "dpto__other",
             "type": "custom",

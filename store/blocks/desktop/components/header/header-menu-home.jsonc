@@ -1,5 +1,6 @@
 {
     "menu-item#department__home--ten":{
+        "title":"department home",
         "props":{
             "id": "dpto__home",
             "type": "custom",

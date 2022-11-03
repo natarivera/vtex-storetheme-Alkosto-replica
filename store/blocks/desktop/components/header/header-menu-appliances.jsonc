@@ -1,5 +1,6 @@
 {
     "menu-item#department__appliances--three":{
+        "title":"department appliances",
         "props":{
             "id": "dpto__appliances",
             "type": "custom",

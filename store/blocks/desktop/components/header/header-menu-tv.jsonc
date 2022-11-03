@@ -1,5 +1,6 @@
 {
     "menu-item#department__tv--four":{
+        "title":"department tv",
         "props":{
             "id": "dpto__tv",
             "type": "custom",

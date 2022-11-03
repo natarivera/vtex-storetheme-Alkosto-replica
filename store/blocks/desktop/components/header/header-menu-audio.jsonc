@@ -1,5 +1,6 @@
 {
     "menu-item#department__audio--seven":{
+        "title":"department audio",
         "props":{
             "id": "dpto__audio",
             "type": "custom",

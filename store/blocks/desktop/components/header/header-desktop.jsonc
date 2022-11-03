@@ -1,5 +1,6 @@
 {
   "header-layout.desktop": {
+    "title": "header desktop",
     "children": ["header-row#desktop", "header-row#header__menu"],
     "props": {
       "fullWidth": true,
@@ -136,43 +137,38 @@
     }
   },
 
-  "modal-trigger#header__top--login":{
-    "children":[
-        "rich-text#header__top--login",
-        "modal-layout#header__top--login"
+  "modal-trigger#header__top--login": {
+    "children": [
+      "rich-text#header__top--login",
+      "modal-layout#header__top--login"
     ]
-},
-"rich-text#header__top--login":{
-    "props":{
-        "text":"login",
-        "blockClass":"content_login"
+  },
+  "rich-text#header__top--login": {
+    "props": {
+      "text": "login",
+      "blockClass": "content_login"
     }
   },
-  "modal-layout#header__top--login":{
-    "children":[
-        "login-content"
-    ]
-},
+  "modal-layout#header__top--login": {
+    "children": ["login-content"]
+  },
 
-"login":{
+  "login": {
     "props": {
-        "emailAndPasswordTitle": "LOG-IN",
-        "accessCodeTitle": "Acess Code LOG-IN",
-        "emailPlaceholder": "e-mail",
-        "passwordPlaceholder": "password",
-        "showPasswordVerificationIntoTooltip": true,
-        "showIconProfile":true
-      }
-},
-"header-row#header__middle":{
-    
-    "title": "header medio",
-    "children":[
-        
-    ],
-
-    "props":{
-        "blockClass":"header__middle"
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true
     }
-}
+  },
+  "header-row#header__middle": {
+    "title": "header medio",
+    "children": [],
+
+    "props": {
+      "blockClass": "header__middle"
+    }
+  }
 }

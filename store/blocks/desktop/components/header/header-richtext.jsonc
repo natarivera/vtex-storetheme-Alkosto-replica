@@ -1,6 +1,7 @@
 {
 
     "rich-text#hiperoffers":{
+        "title":"rich text hiperoffers",
         "props":{
             "text":" Hiperofertas",
             "blockClass":"header_richtextoffers"
@@ -8,6 +9,7 @@
     },
 
     "rich-text#sell":{
+        "title":"rich text sell",
         "props":{
             "text":" Venta:(601) 7468001",
             "blockClass":"header_richtext"
@@ -15,6 +17,7 @@
     },
 
     "rich-text#service":{
+        "title":"rich text service",
         "props":{
             "text":" Servicio:(601) 4073033",
             "blockClass":"header_richtext"
@@ -22,12 +25,14 @@
     },
 
     "rich-text#trackorder":{
+        "title":"rich text trackorder",
         "props":{
             "text":" Sigue tu pedido",
             "blockClass":"header_richtext"
         }
     },
     "rich-text#ourstores":{
+        "title":"rich text ourstores",
         "props":{
             "text":" Nuestras tiendas",
             "blockClass":"header_richtext"
@@ -35,6 +40,7 @@
     },
     
     "rich-text#catalog":{
+        "title":"rich text catalog",
         "props":{
             "text":" Catálogo",
             "blockClass":"header_richtext"
@@ -42,6 +48,7 @@
     },
 
     "rich-text#help":{
+        "title":"rich text help",
         "props":{
             "text":" Ayuda",
             "blockClass":"header_richtext"
@@ -49,6 +56,7 @@
     },
 
     "rich-text#cell":{
+        "title":"rich text cell",
         "props":{
             "text":"Celulares",
             "blockClass":"subcategory_title"
@@ -56,12 +64,14 @@
     },
 
     "rich-text#brand":{
+        "title":"rich text brand",
         "props":{
             "text":"Marca",
             "blockClass":"subcategory_subtitle"
         }
     },
     "rich-text#brand--item":{
+        "title":"rich text item",
         "props":{
     "text":"iPhone | Samsung | Xiomi | Motorola | Vivo |Nokia | Oppo | Realme | Zte |TCL | Alcatel | Kalley | Huawei | honor | Tecno" ,
             "blockClass":"subcategory_item"
@@ -69,6 +79,7 @@
     },
 
     "rich-text#storage":{
+        "title":"rich text storage",
         "props":{
             "text":"Capacidad de almacenamiento",
             "blockClass":"subcategory_subtitle"
@@ -76,6 +87,7 @@
     },
 
     "rich-text#storage--item":{
+        "title":"rich text storage item",
         "props":{
     "text":"32GB | 64GB | 128GB | 256GB " ,
             "blockClass":"subcategory_item"
@@ -83,6 +95,7 @@
     },
 
     "rich-text#sizescreen":{
+        "title":"rich text size screen",
         "props":{
             "text":"Tamaño de Pantalla",
             "blockClass":"subcategory_subtitle"
@@ -90,12 +103,14 @@
     },
 
     "rich-text#sizescreen--item":{
+        "title":"rich text size screen item",
         "props":{
         "text":"De 3.1' a 4 | De 4.1' a 5 | De 5.1' a 6' | De 6.1' a 8'" ,
             "blockClass":"subcategory_item"
         }
     },
     "rich-text#cameratype":{
+        "title":"rich text camera type",
         "props":{
             "text":"Tipo de cámara posterior",
             "blockClass":"subcategory_subtitle"
@@ -103,6 +118,7 @@
     },
 
     "rich-text#cameratype--item":{
+        "title":"rich text camera type item",
         "props":{
         "text":"Sencilla | Dual | Triple | Cuádruple " ,
             "blockClass":"subcategory_item-2"
@@ -110,6 +126,7 @@
     },
 
     "rich-text#frontcamara":{
+        "title":"rich text front camara",
         "props":{
         "text":"Tipo de cámara frontal" ,
             "blockClass":"subcategory_subtitle"
@@ -117,6 +134,7 @@
     },
 
     "rich-text#frontcamara--item":{
+        "title":"rich text front camara item",
         "props":{
         "text":"Sencilla | Dual " ,
             "blockClass":"subcategory_item-2"
@@ -124,12 +142,14 @@
     },
 
     "rich-text#accesories":{
+        "title":"rich text accesories",
         "props":{
             "text":"Accesorios Celulares y Tabletas",
             "blockClass":"subcategory_title-2"
         }
     },
     "rich-text#accesories--item1":{
+        "title":"rich text accesories item",
         "props":{
         "text":"Cables, Cargadores, Adaptadores",
             "blockClass":"subcategory_item-2"
@@ -137,6 +157,7 @@
     },
 
     "rich-text#accesories--item2":{
+        "title":"rich text accesories carcasas",
         "props":{
             "text":"Carcasas y estuches",
             "blockClass":"subcategory_item-2"
@@ -144,6 +165,7 @@
     },
 
     "rich-text#accesories--item3":{
+        "title":"rich text accesories audifonos",
         "props":{
         "text":"Audifonos y manos libres " ,
             "blockClass":"subcategory_item-2"
@@ -151,6 +173,7 @@
     },
 
     "rich-text#accesories--item4":{
+        "title":"rich text accesories memorys",
         "props":{
             "text":"Memorias Micro SD",
             "blockClass":"subcategory_item-2"
@@ -158,12 +181,14 @@
     },
 
     "rich-text#accesories--item5":{
+        "title":"rich text accesories power bank",
         "props":{
         "text":"Baterias Externas Power Bank" ,
             "blockClass":"subcategory_item-2"
         }
     },
     "rich-text#accesories--item6":{
+        "title":"rich text accesories bases",
         "props":{
             "text":"Bases y soportes",
             "blockClass":"subcategory_item-2"
@@ -171,6 +196,7 @@
     },
 
     "rich-text#accesories--item7":{
+        "title":"rich text accesories stick",
         "props":{
         "text":"Selfie Stick " ,
             "blockClass":"subcategory_item-2"
@@ -178,6 +204,7 @@
     },
 
     "rich-text#accesories--item8":{
+        "title":"rich text accesories others",
         "props":{
         "text":"Otros accesorios" ,
             "blockClass":"subcategory_item-2"
@@ -185,6 +212,7 @@
     },
 
     "rich-text#accesoriescellphone":{
+        "title":"rich text accesories iphone",
         "props":{
         "text":"Accesorios para IPhone" ,
             "blockClass":"subcategory_subtitle"
@@ -192,12 +220,14 @@
     },
 
     "rich-text#accesoriescellphone--item8":{
+        "title":"rich text accesories carcasas iphone",
         "props":{
         "text":"Carcasas para iPhone |" ,
             "blockClass":"subcategory_item-2"
         }
     },
     "rich-text#accesoriescellphone--item9":{
+        "title":"rich text accesories cables cargadores",
         "props":{
         "text":"Cables, Cargadores, Adaptadores",
             "blockClass":"subcategory_item-2"
@@ -205,18 +235,21 @@
     },
 
     "rich-text#smartwatch":{
+        "title":"rich text smartwatch",
         "props":{
             "text":"Smartwatch",
             "blockClass":"subcategory_title"
         }
     },
     "rich-text#smartwatch--item1":{
+        "title":"rich text smartwatch relojes",
         "props":{
         "text":"Relojes",
             "blockClass":"subcategory_item"
         }
     },
     "rich-text#smartwatch--item2":{
+        "title":"rich text smartwatch bandas",
         "props":{
         "text":"Bandas de actividad",
             "blockClass":"subcategory_item-2"
@@ -224,12 +257,14 @@
     },
 
     "rich-text#smartwatch--item3":{
+        "title":"rich text smartwatch brand",
         "props":{
         "text":"Apple Watch | Huawei | Samsung | Garmin | Xiaomi | Kalley | Multitech" ,
             "blockClass":"subcategory_item"
         }
     },
     "rich-text#smartwatch--item4":{
+        "title":"rich text smartwatch accesories",
         "props":{
             "text":"Accesorios para Smartwatch",
             "blockClass":"subcategory_subtitle"
@@ -237,6 +272,7 @@
     },
 
     "rich-text#smartwatch--item5":{
+        "title":"rich text smartwatch correas",
         "props":{
         "text":"Correas",
             "blockClass":"subcategory_item"
@@ -244,18 +280,21 @@
     },
 
     "rich-text#tablets":{
+        "title":"rich text tablets smartwatch tabletas",
         "props":{
             "text":"Tabletas",
             "blockClass":"subcategory_title"
         }
     },
     "rich-text#tablets--item1":{
+        "title":" rich text tablets ipad",
         "props":{
         "text":"iPad",
             "blockClass":"subcategory_item"
         }
     },
     "rich-text#tablets--item2":{
+        "title":"rich text tablets android",
         "props":{
         "text":"Android",
             "blockClass":"subcategory_item"
@@ -263,12 +302,14 @@
     },
 
     "rich-text#tablets--item3":{
+        "title":"rich text tablets accesories",
         "props":{
         "text":"Accesorios" ,
             "blockClass":"subcategory_item"
         }
     },
     "rich-text#tablets--item4":{
+        "title":"rich text tablets brand",
         "props":{
             "text":"Apple | Samsung | Lenovo | Huawei | Alcatel | Multitech",
             "blockClass":"subcategory_item"
@@ -276,12 +317,14 @@
     },
 
     "rich-text#knowmore":{
+        "title":"rich text knowmore",
         "props":{
             "text":"Conoce mas",
             "blockClass":"subcategory_title"
         }
     },
     "rich-text#knowmore--item1":{
+        "title":"rich text Seguro gratis celulares",
         "props":{
         "text":"Seguro gratis Celulares",
             "blockClass":"subcategory_item-2"
@@ -289,6 +332,7 @@
     },
 
     "rich-text#knowmore--item2":{
+        "title":"rich text knowmore guide",
         "props":{
         "text":"Guia de compra",
             "blockClass":"subcategory_item-2"
@@ -297,12 +341,14 @@
 
     
     "rich-text#knowmore--item3":{
+        "title":"rich text knowmore cell cheap",
         "props":{
         "text":"Celulares Baratos",
             "blockClass":"subcategory_item-2"
         }
     },
     "rich-text#knowmore--item4":{
+        "title":"rich text knowmore new cell",
         "props":{
         "text":"Celulares Nuevos",
             "blockClass":"subcategory_item-2"
@@ -310,6 +356,7 @@
     },
 
     "rich-text#login--myaccount":{
+        "title":"rich text my account",
         "props":{
             "text":"Mi cuenta",
             "blockClass":"login_myaccount"
@@ -317,6 +364,7 @@
     },
 
     "rich-text#mycart":{
+        "title":"rich text my cart",
         "props":{
             "text":"Mi carrito",
             "blockClass":"login_mycart"

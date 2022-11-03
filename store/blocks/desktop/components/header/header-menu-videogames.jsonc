@@ -1,5 +1,6 @@
 {
     "menu-item#department__videogames--six":{
+        "title":"department videogames",
         "props":{
             "id": "dpto__accesories",
             "type": "custom",
