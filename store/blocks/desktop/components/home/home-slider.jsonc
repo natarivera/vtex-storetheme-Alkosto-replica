@@ -1,5 +1,6 @@
 {    
     "slider-layout#home__slider--children":{
+      "title": "home sliders",
       "props":{
         "itemsPerPage":{
         "desktop":1,

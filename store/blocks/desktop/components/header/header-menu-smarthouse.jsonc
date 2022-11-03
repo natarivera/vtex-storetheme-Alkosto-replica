@@ -1,5 +1,6 @@
 {
     "menu-item#department__smarthhouse--nine":{
+        "title":"department smarthhouse",
         "props":{
             "id": "dpto__smarthouse",
             "type": "custom",

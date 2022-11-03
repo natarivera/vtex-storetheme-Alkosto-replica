@@ -1,5 +1,6 @@
 {
     "menu-item#department__cameres--eigth":{
+        "title":"department cameres",
         "props":{
             "id": "dpto__audio",
             "type": "custom",

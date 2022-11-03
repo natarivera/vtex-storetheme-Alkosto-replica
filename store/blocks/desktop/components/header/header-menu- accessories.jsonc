@@ -1,5 +1,6 @@
 {
     "menu-item#department__accesories--five":{
+        "title":"department accesories",
         "props":{
             "id": "dpto__accesories",
             "type": "custom",
@@ -18,7 +19,7 @@
             "flex-layout.row#accesories--five"
         ],
         "props":{
-            //"onMountBehavios":"open"
+            
         }
     },
     "flex-layout.row#accesories--five":{

@@ -1,5 +1,6 @@
 {
     "menu-item#department__toys--thirteen":{
+        "title":"department toys",
         "props":{
             "id": "dpto__toys",
             "type": "custom",

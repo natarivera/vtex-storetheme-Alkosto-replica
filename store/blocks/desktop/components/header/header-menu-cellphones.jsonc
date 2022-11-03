@@ -1,5 +1,6 @@
 {
     "menu-item#department__cellphones--one":{
+        "title":"department cellphones",
         "props":{
             "id": "dpto__cell",
             "type": "custom",

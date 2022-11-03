@@ -1,5 +1,6 @@
 {
     "menu-item#department__pins--fourteen":{
+        "title":"department pins",
         "props":{
             "id": "dpto__toys",
             "type": "custom",
