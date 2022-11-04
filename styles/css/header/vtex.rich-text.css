@@ -13,6 +13,7 @@
     color: white;
     width: 100%;
     margin-right: 25px;
+    font-size: 14px;
 }
 
 .container--login_myaccount{
@@ -64,7 +65,7 @@
 }
 
 .paragraph--subcategory_subtitle{
-    font-size:  10px;
+    font-size:  12px;
     /*margin: 12px 0 0;
     padding: 0 12px;*/
 }
@@ -82,6 +83,7 @@
     font-size: 11px;
     width: 50%;
     margin: 2px;
+    color: #434343;
     /*margin-top: -15px;*/
 }
 
@@ -107,4 +109,29 @@
     margin-left: 10px;
     padding-bottom: 40px;
     /*margin-bottom: 20px;*/
+}
+
+.paragraph--subcategory_title::after{
+    content: ">";
+    color: #eb5b25;
+    /*padding-top: 18px;
+    padding-left: 30px;
+    padding-bottom: 14px;
+    height: 16px;*/
+    padding-left: 24px;    
+    
+}
+.paragraph--subcategory_title-2::after{
+    content: ">";
+    color: #eb5b25;
+    /*padding-top: 18px;
+    padding-left: 30px;
+    padding-bottom: 14px;
+    height: 16px;*/
+    padding-left: 24px;    
+}
+
+
+.paragraph--header_richtextoffers{
+    font-size: 14px;
 }

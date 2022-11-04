@@ -13,6 +13,7 @@
     height: 10px;
     margin-left: 1px !important;
     max-width: max-content;  
+    
 }
 
 .styledLinkContent--name_departament::after{
@@ -27,7 +28,6 @@
     padding: 0;
 }
 .menuItem--name_departament{
-    
     padding: -15px;
 }
 
@@ -36,3 +36,10 @@
     padding: 0;
     margin: 0;
 }
+.menuItem--name_departament:hover{
+    background-color: #004797;
+}
+
+.styledLinkContent--name_departament:hover{
+    color: #fff !important;
+} 
