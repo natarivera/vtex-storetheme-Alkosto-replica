@@ -170,5 +170,14 @@
     "props": {
       "blockClass": "header__middle"
     }
+  },
+
+  "icon#logo__empty--icon": {
+    "props": {
+      "id": "sti-celulares",
+      "blockClass": "icon__logo--empty",
+      "viewBox":"0 0 484.013 202",
+      "size": 100
+    }
   }
 }

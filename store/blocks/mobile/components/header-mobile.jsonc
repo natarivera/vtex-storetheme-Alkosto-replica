@@ -22,6 +22,9 @@
 
   "search-bar#mobile": {
     "title": "search bar mobile",
+    "blocks":[
+      "autocomplete-result-list.v2"
+    ],
     "props": {
       "blockClass": "search_today",
       "placeholder": "¿Qué buscas hoy?",
