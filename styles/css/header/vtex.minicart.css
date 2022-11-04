@@ -1,0 +1,12 @@
+.minicartWrapperContainer{
+    width: auto;
+}
+
+.openIconContainer--icon_minicart{
+    float: left !important;
+    border-radius: 10px;
+}
+
+.cartIcon{
+    color: white;
+}

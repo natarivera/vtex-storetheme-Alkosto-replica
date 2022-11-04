@@ -1,73 +1,36 @@
 {
-    "header-layout.mobile":{
-        "title":"header mobile",
-        "children":[
-            "header-row#header__top",
-            "header-row#header__middle"
-            
-        ]
-    },
-
-    "header-row#header__top":{
-        "title": "header superior",
-        "children":[
-            "logo#header__top--logo",
-            "search-bar"        
-
-        ],
-        "props":{
-            "blockClass": "header__top"
-        }
-
-
-    },
-    
-    "logo#header__top--logo":{
-        "title": "logo",
-        "props":{
-            "url":"assets/img/alkosto-logo.svg",
-            "width": 150,
-            "href":"/",
-            "zIndex": 20
-        }
-    },
-    "modal-trigger#header__top--login":{
-        "children":[
-            "rich-text#header__top--login",
-            "modal-layout#header__top--login"
-        ]
-    },
-    "rich-text#header__top--login":{
-        "props":{
-            "text":"login"
-        }
-    },
-
-    "modal-layout#header__top--login":{
-        "children":[
-            "login-content"
-        ]
-    },
-
-    "login":{
-        "props": {
-            "emailAndPasswordTitle": "LOG-IN",
-            "accessCodeTitle": "Acess Code LOG-IN",
-            "emailPlaceholder": "e-mail",
-            "passwordPlaceholder": "password",
-            "showPasswordVerificationIntoTooltip": true,
-            "showIconProfile":true
-          }
-    },
-    "header-row#header__middle":{
-        
-        "title": "header medio",
-        "children":[
-            "drawer#header__mobile--menu"
-        ],
-
-        "props":{
-            "blockClass":"header__middle"
-        }
+  "header-row#header__top": {
+    "title": "header mobile",
+    "children": ["logo#header__top--logo--mobile", "search-bar#mobile"],
+    "props": {
+      "blockClass": "header__mobile"
+      
     }
+  },
+
+  "logo#header__top--logo--mobile": {
+    "title": "logo",
+    "props": {
+      "url": "assets/img/alkosto-logo.svg",
+      "width": 100,
+      "href": "/",
+      "height": 96,
+      "maxWidth": 110,      
+      "blockClass": "content_logo-mobile"
+    }
+  },
+
+  "search-bar#mobile": {
+    "title": "search bar mobile",
+    "blocks":[
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "blockClass": "search_today",
+      "placeholder": "¿Qué buscas hoy?",
+      "width": "50%"
+    }
+  }
 }
+
+

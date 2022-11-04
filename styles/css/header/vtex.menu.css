@@ -1,0 +1,45 @@
+.submenuWrapper--isOpen{
+    width: 100vw;  
+    height: 492px; 
+    margin-top: 1px;
+    border-bottom: 2px solid white;
+}
+
+.styledLinkContent--name_departament{
+    display:inline-block;
+    color:#004797;
+    font-size: 14px;
+    margin-left:    -10px;
+    height: 10px;
+    margin-left: 1px !important;
+    max-width: max-content;  
+    
+}
+
+.styledLinkContent--name_departament::after{
+    content: "";
+    border-right: 1px solid #004797;
+    height: 10px;
+    margin-left: 15px;
+    margin-right: -15px;
+    margin-top: 2px;
+}
+.styledLinkContent {
+    padding: 0;
+}
+.menuItem--name_departament{
+    padding: -15px;
+}
+
+.menuContainer--name_departament{
+    height: 40px;
+    padding: 0;
+    margin: 0;
+}
+.menuItem--name_departament:hover{
+    background-color: #004797;
+}
+
+.styledLinkContent--name_departament:hover{
+    color: #fff !important;
+} 

@@ -1,0 +1,30 @@
+{
+    "menu-item#department__computers--two":{
+        "title":"department computers",
+        "props":{
+            "id": "dpto__computers",
+            "type": "custom",
+            "blockClass": "name_departament",
+            "itemProps":{
+                "href":"/",
+                "noFollow":true,
+                "tagTitle": "Computadores",
+                "text":"Computadores"
+            }
+        },
+        "blocks":["vtex.menu@2.x:submenu#department__computers--two"]
+    },
+    "vtex.menu@2.x:submenu#department__computers--two":{
+        "children":[
+            "flex-layout.row#department__computers--two"
+        ],
+        "props":{
+            //"onMountBehavios":"open"
+        }
+    },
+    "flex-layout.row#department__computers--two":{
+        "children": [
+            "rich-text#test"
+        ]
+    }
+}

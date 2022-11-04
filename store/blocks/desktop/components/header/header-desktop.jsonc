@@ -1,0 +1,183 @@
+{
+  "header-layout.desktop": {
+    "title": "header desktop",
+    "children": ["header-row#desktop", "header-row#header__menu"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "container_full"
+    }
+  },
+  "header-row#desktop": {
+    "children": ["flex-layout.row#desktop1"],
+    "props": {
+      "blockClass": "container_full"
+    }
+  },
+  "flex-layout.row#desktop1": {
+    "children": ["flex-layout.col#col-logo", "flex-layout.col#col-navigation"],
+    "props": {
+      "blockClass": "container_navigation_1",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#col-logo": {
+    "children": ["logo#header__top--logo"],
+    "props": {
+      "blockClass": "container_logo--desktop",
+      "verticalAlign": "top",
+      "width": "grow",
+      "heigth": "96",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#col-navigation": {
+    "children": ["flex-layout.row#row-info", "flex-layout.row#row-search"],
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.row#row-info": {
+    "children": [
+      "rich-text#hiperoffers",
+      "rich-text#sell",
+      "rich-text#service",
+      "rich-text#trackorder",
+      "rich-text#ourstores",
+      "rich-text#catalog",
+      "rich-text#help"
+    ],
+    "props": {
+      "blockClass": "container_info",
+      "colSizing": "auto"
+    }
+  },
+
+  "flex-layout.row#row-search": {
+    "children": [
+      "flex-layout.col#col-search-bar",
+      "flex-layout.col#col-logincart"
+    ],
+    "props": {
+      "blockClass": "container_search"
+    }
+  },
+  "flex-layout.col#col-search-bar": {
+    "children": ["search-bar"],
+    "props": {
+      "width": "60%",
+      "heigth": "36"
+    }
+  },
+  "flex-layout.col#col-logincart": {
+    "children": ["flex-layout.row#col-logincart"],
+    "props": {
+      "width": "50%",
+      "marginLeft": 10
+    }
+  },
+  "flex-layout.row#col-logincart": {
+    "children": [
+      "flex-layout.col#col-login",
+      "flex-layout.col#col-divider",
+      "flex-layout.col#col-cart"
+    ],
+    "props": {
+      "width": "grow",
+      "colJustify": "around",
+      "blockClass": "container_logincart--desktop"
+    }
+  },
+  "flex-layout.col#col-login": {
+    "children": ["login", "rich-text#login--myaccount"],
+    "props": {
+      "width": "25%",
+      "blockClass": "login_full",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#col-divider": {
+    "children": [],
+    "props": {
+      "heigth": 1,
+      "width": "1%",
+      "blockClass": "login_divider",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#col-cart": {
+    "children": ["minicart.v2", "rich-text#mycart"],
+    "props": {
+      "width": "25%",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "mycart_desktop"
+    }
+  },
+  "search-bar": {
+    "props": {
+      "blockClass": "search_today",
+      "placeholder": "¿Qué buscas hoy?",
+      "width": 530
+    }
+  },
+
+  "logo#header__top--logo": {
+    "title": "logo",
+    "props": {
+      "url": "assets/img/alkosto-logo.svg",
+      "width": 221,
+      "href": "/",
+      "zIndex": 20,
+      "height": 96,
+      "maxHeight": 96,
+      "maxWidth": 221,
+      "blockClass": "content_logo"
+    }
+  },
+
+  "modal-trigger#header__top--login": {
+    "children": [
+      "rich-text#header__top--login",
+      "modal-layout#header__top--login"
+    ]
+  },
+  "rich-text#header__top--login": {
+    "props": {
+      "text": "login",
+      "blockClass": "content_login"
+    }
+  },
+  "modal-layout#header__top--login": {
+    "children": ["login-content"]
+  },
+
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true
+    }
+  },
+  "header-row#header__middle": {
+    "title": "header medio",
+    "children": [],
+
+    "props": {
+      "blockClass": "header__middle"
+    }
+  },
+
+  "icon#logo__empty--icon": {
+    "props": {
+      "id": "sti-celulares",
+      "blockClass": "icon__logo--empty",
+      "viewBox":"0 0 484.013 202",
+      "size": 100
+    }
+  }
+}

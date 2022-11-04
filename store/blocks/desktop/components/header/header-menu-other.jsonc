@@ -1,0 +1,30 @@
+{
+    "menu-item#department__other--fiveteen":{
+        "title":"department other",
+        "props":{
+            "id": "dpto__other",
+            "type": "custom",
+            "blockClass": "name_departament",
+            "itemProps":{
+                "href":"/",
+                "noFollow":true,
+                "tagTitle": "Otros",
+                "text":"Otros"
+            }
+        },
+        "blocks":["vtex.menu@2.x:submenu#other--fiveteen"]
+    },
+    "vtex.menu@2.x:submenu#other--fiveteen":{
+        "children":[
+            "flex-layout.row#other--fiveteen"
+        ],
+        "props":{
+            //"onMountBehavios":"open"
+        }
+    },
+    "flex-layout.row#other--fiveteen":{
+        "children": [
+            "rich-text#test"
+        ]
+    }
+}

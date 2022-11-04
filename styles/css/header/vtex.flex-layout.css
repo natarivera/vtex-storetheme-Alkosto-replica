@@ -1,0 +1,71 @@
+.flexRow--home__section--one{
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.flexRow--container_navigation_1{
+    width: 100%;
+}
+
+.flexRowContent--container_info{
+    justify-content: center;
+}
+
+.flexRowContent--container_search{
+    margin-right: 0;
+    justify-content: end;
+}
+
+.flexColChild--header-col-login{
+    float:right;
+}
+
+
+.flexColChild--container_logo{
+    height: 96px;
+    max-width: 221px;
+    transition: .3s ease-in-out;
+    width: 221px;
+}
+
+.flexCol--container_logo--desktop{
+    margin-bottom: 8px;
+    margin-top: 17px;
+    margin-left: 70px;
+}
+
+.flexCol--login_full{
+    margin-top: 0px;
+}
+
+.flexCol--mycart_desktop{
+   
+}
+
+.flexCol--mycart_desktop::before{
+    /*
+    content: "";
+    height: 24px;
+    width: 0px;
+    margin-left: 0px;
+    
+    
+    background: white;
+    margin-right: 11px;
+    */
+    z-index: 10;
+    border-left: 1px solid aqua;
+}
+
+.flexCol--login_divider{
+    border-left: 1px solid #ccc;
+    height: 24px;
+    margin-top: 18px;
+}
+
+.flexCol--login_divider--menu{
+    border-left: 1px #004797;
+}
+/*.flexRowContent--container_logincart--desktop{
+    margin-top: 0px;
+}

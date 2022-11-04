@@ -1,0 +1,30 @@
+{
+    "menu-item#department__sports--eleven":{
+        "title":"department sports",
+        "props":{
+            "id": "dpto__sports",
+            "type": "custom",
+            "blockClass": "name_departament",
+            "itemProps":{
+                "href":"/",
+                "noFollow":true,
+                "tagTitle": "Deportes",
+                "text":"Deportes"
+            }
+        },
+        "blocks":["vtex.menu@2.x:submenu#sports--eleven"]
+    },
+    "vtex.menu@2.x:submenu#sports--eleven":{
+        "children":[
+            "flex-layout.row#sports--eleven"
+        ],
+        "props":{
+            //"onMountBehavios":"open"
+        }
+    },
+    "flex-layout.row#sports--eleven":{
+        "children": [
+            "rich-text#test"
+        ]
+    }
+}

@@ -3,11 +3,43 @@
 } 
 .headerRowContainer--container_full  {
     background-color:  #004797;
-    border-bottom: 20px solid #eb5b25;
     width: 100%;
-    height: 200px;
+    height: 112px;
 }
 
+.headerStickyRow--container_full{
+    width: 100%;
+}
+.headerRowBackground--container_full{
+    background-color: #004797;
+    border-bottom: 4px solid #eb5b25;
+}
 
+.headerRowBackground--menu_name{
+    box-shadow: 0 3px 6px rgb(0 0 0 / 15%)
+}
 
+.headerRowBackground--header__mobile{
+    background-color: #004797;
+    border-bottom: 2px solid #eb5b25;
+  }
+/*Responsive*/
+  @media only screen and (max-width: 49rem) {
+ 
+    .headerRowContainer--header__mobile {
+      height: 72px;
+    }
+  }
 
+  .headerRowContainer--menu_name{
+    height: 40px;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-left: 65px;
+    margin-right: -65px;
+  }
+
+  .menuItem--name_departament--isOpen{
+    margin-left: -50px;
+  }

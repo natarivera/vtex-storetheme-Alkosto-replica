@@ -1,0 +1,30 @@
+{
+    "menu-item#department__audio--seven":{
+        "title":"department audio",
+        "props":{
+            "id": "dpto__audio",
+            "type": "custom",
+            "blockClass": "name_departament",
+            "itemProps":{
+                "href":"/",
+                "noFollow":true,
+                "tagTitle": "Audio",
+                "text":"Audio"
+            }
+        },
+        "blocks":["vtex.menu@2.x:submenu#audio--seven"]
+    },
+    "vtex.menu@2.x:submenu#audio--seven":{
+        "children":[
+            "flex-layout.row#audio--seven"
+        ],
+        "props":{
+            //"onMountBehavios":"open"
+        }
+    },
+    "flex-layout.row#audio--seven":{
+        "children": [
+            "rich-text#test"
+        ]
+    }
+}

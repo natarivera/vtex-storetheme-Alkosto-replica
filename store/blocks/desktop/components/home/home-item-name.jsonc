@@ -1,7 +1,9 @@
 {
     "rich-text#test":{
+        "title":"category cellphones",
         "props":{
-            "text":"celulares"
+            "text":"celulares",
+            "blockClass":"name_category"
         }
     }
 }

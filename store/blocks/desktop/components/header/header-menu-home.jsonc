@@ -1,0 +1,30 @@
+{
+    "menu-item#department__home--ten":{
+        "title":"department home",
+        "props":{
+            "id": "dpto__home",
+            "type": "custom",
+            "blockClass": "name_departament",
+            "itemProps":{
+                "href":"/",
+                "noFollow":true,
+                "tagTitle": "Hogar",
+                "text":"Hogar"
+            }
+        },
+        "blocks":["vtex.menu@2.x:submenu#home--ten"]
+    },
+    "vtex.menu@2.x:submenu#home--ten":{
+        "children":[
+            "flex-layout.row#home--ten"
+        ],
+        "props":{
+            //"onMountBehavios":"open"
+        }
+    },
+    "flex-layout.row#home--ten":{
+        "children": [
+            "rich-text#test"
+        ]
+    }
+}

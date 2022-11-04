@@ -1,0 +1,30 @@
+{
+    "menu-item#department__pins--fourteen":{
+        "title":"department pins",
+        "props":{
+            "id": "dpto__toys",
+            "type": "custom",
+            "blockClass": "name_departament",
+            "itemProps":{
+                "href":"/",
+                "noFollow":true,
+                "tagTitle": "Pines",
+                "text":"Pines"
+            }
+        },
+        "blocks":["vtex.menu@2.x:submenu#pins--fourteen"]
+    },
+    "vtex.menu@2.x:submenu#pins--fourteen":{
+        "children":[
+            "flex-layout.row#pins--fourteen"
+        ],
+        "props":{
+            //"onMountBehavios":"open"
+        }
+    },
+    "flex-layout.row#pins--fourteen":{
+        "children": [
+            "rich-text#test"
+        ]
+    }
+}

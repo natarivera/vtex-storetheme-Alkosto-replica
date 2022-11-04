@@ -1,0 +1,30 @@
+{
+    "menu-item#department__appliances--three":{
+        "title":"department appliances",
+        "props":{
+            "id": "dpto__appliances",
+            "type": "custom",
+            "blockClass": "name_departament",
+            "itemProps":{
+                "href":"/",
+                "noFollow":true,
+                "tagTitle": "Electrodomésticos",
+                "text":"Electrodomésticos"
+            }
+        },
+        "blocks":["vtex.menu@2.x:submenu#department__appliances--three"]
+    },
+    "vtex.menu@2.x:submenu#department__appliances--three":{
+        "children":[
+            "flex-layout.row#department__appliances--three"
+        ],
+        "props":{
+            //"onMountBehavios":"open"
+        }
+    },
+    "flex-layout.row#department__appliances--three":{
+        "children": [
+            "rich-text#test"
+        ]
+    }
+}
