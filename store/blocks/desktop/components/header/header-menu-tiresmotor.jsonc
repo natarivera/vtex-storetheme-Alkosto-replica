@@ -16,15 +16,10 @@
     },
     "vtex.menu@2.x:submenu#tiresmotor--twelve":{
         "children":[
-            "flex-layout.row#tiresmotor--twelve"
+            "flex-layout.row#department__cellphones--one"
         ],
         "props":{
-            //"onMountBehavios":"open"
+    
         }
-    },
-    "flex-layout.row#tiresmotor--twelve":{
-        "children": [
-            "rich-text#test"
-        ]
     }
 }

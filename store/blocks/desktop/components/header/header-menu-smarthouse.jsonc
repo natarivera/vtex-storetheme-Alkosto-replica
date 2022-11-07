@@ -16,15 +16,10 @@
     },
     "vtex.menu@2.x:submenu#smarthhouse--nine":{
         "children":[
-            "flex-layout.row#smarthhouse--nine"
+            "flex-layout.row#department__cellphones--one"
         ],
         "props":{
-            //"onMountBehavios":"open"
+            
         }
-    },
-    "flex-layout.row#smarthhouse--nine":{
-        "children": [
-            "rich-text#test"
-        ]
     }
 }

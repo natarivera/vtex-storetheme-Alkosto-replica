@@ -369,5 +369,13 @@
             "text":"Mi carrito",
             "blockClass":"login_mycart"
         }
+    },
+
+    "rich-text#gt": {
+        "title":"greater than",
+        "props":{
+            "text":"&#62;",
+            "blockClass":"greater_than"
+        }
     }
 }

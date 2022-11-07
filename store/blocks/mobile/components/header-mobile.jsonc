@@ -1,7 +1,7 @@
 {
   "header-row#header__top": {
     "title": "header mobile",
-    "children": ["logo#header__top--logo--mobile", "search-bar#mobile"],
+    "children": ["mega-menu-trigger-btn","logo#header__top--logo--mobile", "search-bar#mobile"],
     "props": {
       "blockClass": "header__mobile"
       
@@ -23,7 +23,7 @@
   "search-bar#mobile": {
     "title": "search bar mobile",
     "blocks":[
-      "autocomplete-result-list.v2"
+      //"autocomplete-result-list.v2"
     ],
     "props": {
       "blockClass": "search_today",

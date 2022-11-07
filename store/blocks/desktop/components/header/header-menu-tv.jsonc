@@ -16,15 +16,9 @@
     },
     "vtex.menu@2.x:submenu#department__tv--four":{
         "children":[
-            "flex-layout.row#department__tv--four"
+            "flex-layout.row#department__cellphones--one"
         ],
         "props":{
-            //"onMountBehavios":"open"
         }
-    },
-    "flex-layout.row#department__tv--four":{
-        "children": [
-            "rich-text#test"
-        ]
     }
 }

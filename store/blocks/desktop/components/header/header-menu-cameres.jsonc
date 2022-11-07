@@ -16,15 +16,9 @@
     },
     "vtex.menu@2.x:submenu#cameres--eigth":{
         "children":[
-            "flex-layout.row#cameres--eigth"
+            "flex-layout.row#department__cellphones--one"
         ],
         "props":{
-            //"onMountBehavios":"open"
         }
-    },
-    "flex-layout.row#cameres--eigth":{
-        "children": [
-            "rich-text#test"
-        ]
     }
 }
