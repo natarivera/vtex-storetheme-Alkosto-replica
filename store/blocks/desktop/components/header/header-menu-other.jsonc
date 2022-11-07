@@ -16,15 +16,9 @@
     },
     "vtex.menu@2.x:submenu#other--fiveteen":{
         "children":[
-            "flex-layout.row#other--fiveteen"
+            "flex-layout.row#department__cellphones--one"
         ],
         "props":{
-            //"onMountBehavios":"open"
         }
-    },
-    "flex-layout.row#other--fiveteen":{
-        "children": [
-            "rich-text#test"
-        ]
     }
-}
+} 

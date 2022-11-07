@@ -1,123 +1,218 @@
 {
-    "menu-item#department__cellphones--one":{
-        "title":"department cellphones",
-        "props":{
-            "id": "dpto__cell",
-            "type": "custom",
-            "blockClass": "name_departament",
-            "itemProps":{
-                "href":"/",
-                "noFollow":true,
-                "tagTitle": "Celulares",
-                "text":"Celulares"
-            }
-        },
-        "blocks":["vtex.menu@2.x:submenu#department__cellphones--one"]
+  "menu-item#department__cellphones--one": {
+    "title": "department cellphones",
+    "props": {
+      "id": "dpto__cell",
+      "type": "custom",
+      "blockClass": "name_departament",
+      "itemProps": {
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Celulares",
+        "text": "Celulares"
+        
+      }
     },
-    "vtex.menu@2.x:submenu#department__cellphones--one":{
-        "children":[
-            "flex-layout.row#department__cellphones--one"
-        ],
-        "props":{
-            "blockClass": ""
-        }
-    },
-    "flex-layout.row#department__cellphones--one":{
-        "children": [
-            "flex-layout.row#department__subcategorycell--one"
-        ]
-    },
-    "flex-layout.row#department__subcategorycell--one":{
-        "children":[
-            "flex-layout.col#item__cell--brand",
-            "flex-layout.col#item__cell--accesories",
-            "flex-layout.col#item__cell--smartwatch",
-            "flex-layout.col#item__cell--tablets",
-            "flex-layout.col#item__cell--knowmore"
-
-        ]
-    },
-    "flex-layout.col#item__cell--brand":{
-        "children":[
-            "rich-text#cell",
-            "rich-text#brand",
-            "rich-text#brand--item",
-            "rich-text#storage",
-            "rich-text#storage--item",
-            "rich-text#sizescreen",
-            "rich-text#sizescreen--item",
-            "rich-text#cameratype",
-            "rich-text#cameratype--item",
-            "rich-text#frontcamara",
-            "rich-text#frontcamara--item"
-        ],
-
-        "props":{
-            "blockClass":"container_cell-brand",
-            "preventVerticalStretch": true
-        }
-    },
-    "flex-layout.col#item__cell--accesories":{
-        "children":[
-            "rich-text#accesories",
-            "rich-text#accesories--item1",
-            "rich-text#accesories--item2",
-            "rich-text#accesories--item3",
-            "rich-text#accesories--item4",
-            "rich-text#accesories--item5",
-            "rich-text#accesories--item6",
-            "rich-text#accesories--item7",
-            "rich-text#accesories--item8",
-            "rich-text#accesoriescellphone",
-            "rich-text#accesoriescellphone--item8",
-            "rich-text#accesoriescellphone--item9"
-        ],
-        "props":{
-            "blockClass":"container_cell-accesories",
-            "preventVerticalStretch": true
-        }
-    },
-    "flex-layout.col#item__cell--smartwatch":{
-        "children":[
-            "rich-text#smartwatch",
-            "rich-text#smartwatch--item1",
-            "rich-text#smartwatch--item2",
-            "rich-text#brand",
-            "rich-text#smartwatch--item3",
-            "rich-text#smartwatch--item4",
-            "rich-text#smartwatch--item5"
-        ],
-        "props":{
-            "blockClass":"container_cell-smartwatch",
-            "preventVerticalStretch": true
-        }
-    },
-    "flex-layout.col#item__cell--tablets":{
-        "children":[
-            "rich-text#tablets",
-            "rich-text#tablets--item1",
-            "rich-text#tablets--item2",
-            "rich-text#tablets--item3",
-            "rich-text#brand",
-            "rich-text#tablets--item4"
-        ],
-        "props":{
-            "blockClass":"container_cell-tablets",
-            "preventVerticalStretch": true
-        }
-    },
-    "flex-layout.col#item__cell--knowmore":{
-        "children":[
-            "rich-text#knowmore",
-            "rich-text#knowmore--item1",
-            "rich-text#knowmore--item2",
-            "rich-text#knowmore--item3",
-            "rich-text#knowmore--item4"
-
-        ],
-        "props":{
-            "blockClass":"container_cell-knowmore",
-            "preventVerticalStretch": true
-        }
+    "blocks": ["vtex.menu@2.x:submenu#department__cellphones--one"]
+  },
+  "vtex.menu@2.x:submenu#department__cellphones--one": {
+    "children": ["flex-layout.row#department__cellphones--one"],
+    "props": {
+      "horizontalAlign":"center"
     }
+  },
+  "flex-layout.row#department__cellphones--one": {
+    "children": ["flex-layout.row#department__subcategorycell--one"]
+  },
+  "flex-layout.row#department__subcategorycell--one": {
+    "children": [
+      "flex-layout.col#item__cell--brand",
+      "flex-layout.col#item__cell--accesories",
+      "flex-layout.col#item__cell--smartwatch",
+      "flex-layout.col#item__cell--tablets",
+      "flex-layout.col#item__cell--knowmore"
+    ]
+  },
+  "flex-layout.col#item__cell--brand": {
+    "children": [
+      "flex-layout.row#cellrowimage",
+      "rich-text#brand",
+      "rich-text#brand--item",
+      "rich-text#storage",
+      "rich-text#storage--item",
+      "rich-text#sizescreen",
+      "rich-text#sizescreen--item",
+      "rich-text#cameratype",
+      "rich-text#cameratype--item",
+      "rich-text#frontcamara",
+      "rich-text#frontcamara--item"
+    ],
+
+    "props": {
+      "blockClass": "container_cell-brand",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#cellrowimage": {
+    "children": [
+      "flex-layout.col#item__cell--icono",
+      "rich-text#cell",
+      "flex-layout.col#item__cell--gt"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "rowimage"
+    }
+  },
+  "flex-layout.col#item__cell--icono": {
+    "children": ["icon#celular__empty--icon"],
+    "props": {
+      "width": "10%",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#item__cell--gt": {
+    "children": ["rich-text#gt"],
+    "props": {
+      "width": "10%"
+    }
+  },
+
+  "flex-layout.col#item__cell--accesories": {
+    "children": [
+      "flex-layout.row#accesoriesrowimage",
+      "rich-text#accesories--item1",
+      "rich-text#accesories--item2",
+      "rich-text#accesories--item3",
+      "rich-text#accesories--item4",
+      "rich-text#accesories--item5",
+      "rich-text#accesories--item6",
+      "rich-text#accesories--item7",
+      "rich-text#accesories--item8",
+      "rich-text#accesoriescellphone",
+      "rich-text#accesoriescellphone--item8",
+      "rich-text#accesoriescellphone--item9"
+    ],
+    "props": {
+      "blockClass": "container_cell-accesories",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#accesoriesrowimage": {
+    "children": [
+      "flex-layout.col#item__accesories--icono",
+      "rich-text#accesories",
+      "flex-layout.col#item__cell--gt"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "rowimage"
+    }
+  },
+  "flex-layout.col#item__accesories--icono": {
+    "children": ["icon#accesorios--icon"],
+    "props": {
+      "width": "10%",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#item__cell--smartwatch": {
+    "children": [
+    "flex-layout.row#smartwatchrowimage",
+      "rich-text#smartwatch--item1",
+      "rich-text#smartwatch--item2",
+      "rich-text#brand",
+      "rich-text#smartwatch--item3",
+      "rich-text#smartwatch--item4",
+      "rich-text#smartwatch--item5"
+    ],
+    "props": {
+      "blockClass": "container_cell-smartwatch",
+      "preventVerticalStretch": true
+    }
+  },
+"flex-layout.row#smartwatchrowimage": {
+        "children": [
+          "flex-layout.col#item__smartwatchrow--icono",
+          "rich-text#smartwatch",
+          "flex-layout.col#item__cell--gt"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "blockClass": "rowimage"
+        }
+      },
+      "flex-layout.col#item__smartwatchrow--icono": {
+        "children": ["icon#smartwatch--icon"],
+        "props": {
+          "width": "10%",
+          "verticalAlign": "middle"
+  }
+},
+
+  "flex-layout.col#item__cell--tablets": {
+    "children": [
+      "flex-layout.row#tabletsrowimage",
+      "rich-text#tablets--item1",
+      "rich-text#tablets--item2",
+      "rich-text#tablets--item3",
+      "rich-text#brand",
+      "rich-text#tablets--item4"
+    ],
+    "props": {
+      "blockClass": "container_cell-tablets",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#tabletsrowimage": {
+    "children": [
+      "flex-layout.col#item__tablets--icono",
+      "rich-text#tablets",
+      "flex-layout.col#item__cell--gt"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "rowimage"
+    }
+  },
+  "flex-layout.col#item__tablets--icono": {
+    "children": ["icon#tablet--icon"],
+    "props": {
+      "width": "10%",
+      "verticalAlign": "middle"
+    }
+  },
+
+  "flex-layout.col#item__cell--knowmore": {
+    "children": [
+      "flex-layout.row#knowmorerowimage",
+      "rich-text#knowmore--item1",
+      "rich-text#knowmore--item2",
+      "rich-text#knowmore--item3",
+      "rich-text#knowmore--item4"
+    ],
+    "props": {
+      "blockClass": "container_cell-knowmore",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.row#knowmorerowimage": {
+    "children": [
+      "flex-layout.col#item__knowmore--icono",
+      "rich-text#knowmore",
+      "flex-layout.col#item__cell--gt"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "rowimage"
+    }
+  },
+  "flex-layout.col#item__knowmore--icono": {
+    "children": ["icon#conoce--icon"],
+    "props": {
+      "width": "10%",
+      "verticalAlign": "middle"
+    }
+  }
 }

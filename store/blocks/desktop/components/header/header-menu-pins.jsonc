@@ -16,15 +16,10 @@
     },
     "vtex.menu@2.x:submenu#pins--fourteen":{
         "children":[
-            "flex-layout.row#pins--fourteen"
+            "flex-layout.row#department__cellphones--one"
         ],
         "props":{
-            //"onMountBehavios":"open"
+
         }
-    },
-    "flex-layout.row#pins--fourteen":{
-        "children": [
-            "rich-text#test"
-        ]
     }
 }
