@@ -1,0 +1,8 @@
+.goBackContainer{
+    position: absolute;
+    width: 100%;
+}
+
+.submenuContainerTitle--drawer-mobile{
+    margin-top: 20px;
+}

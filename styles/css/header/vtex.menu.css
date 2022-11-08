@@ -36,10 +36,17 @@
     padding: 0;
     margin: 0;
 }
-.menuItem--name_departament:hover{
+
+.menuItem--name_departament:hover {
     background-color: #004797;
 }
 
-.styledLinkContent--name_departament:hover{
-    color: #fff !important;
+.menuItem--name_departament:hover .styledLinkContent--name_departament{
+    color: #fff !important;        
 } 
+
+.submenuWrapper--isOpen{
+    position: fixed;
+    left: 10px;    
+}
+
