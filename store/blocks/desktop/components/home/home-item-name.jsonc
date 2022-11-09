@@ -1,9 +1,205 @@
 {
-    "rich-text#test":{
+    "rich-text#category_cellphones":{
         "title":"category cellphones",
         "props":{
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
             "text":"celulares",
             "blockClass":"name_category"
         }
+    },
+    "rich-text#category_computers":{
+        "title":"category computers",
+        "props":{
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Computadores",
+            "blockClass":"name_category"
+        }
+    },
+    "rich-text#category_tv":{
+        "title":"category tv",
+        "props":{
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Televisores",
+            "blockClass":"name_category"
+        }
+    },
+    "rich-text#category_appliances":{
+        "title":"category appliances",
+        "props":{
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Electrodomésticos",
+            "blockClass":"name_category"
+        }
+    },
+    "rich-text#category_eletrominor":{
+        "title":"category eletrominor",
+        "props":{
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Electromenor",
+            "blockClass":"name_category"
+        }
+    },
+    "rich-text#category_audio":{
+        "title":"category audio",
+        "props":{
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Audio",
+            "blockClass":"name_category"
+        }
+    },
+    "rich-text#category_videogames":{
+        "title":"category videogames",
+        "props":{
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Videojuegos",
+            "blockClass":"name_category"
+        }
+    },
+    
+    "rich-text#category_accesories":{
+        "title":"category accesories",
+        "props":{
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Accesorios",
+            "blockClass":"name_category"
+        }
+    },
+
+    "rich-text#category_smartwatch":{
+        "title":"category smartwatch",
+        "props":{
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Smartwatch",
+            "blockClass":"name_category"
+        }
+    },
+
+    "rich-text#category_tablets":{
+        "title":"category tablets",
+        "props":{
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Tabletas",
+            "blockClass":"name_category"
+        }
+    },
+
+    "rich-text#category_pins":{
+        "title":"category pins",
+        "props":{
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Pines",
+            "blockClass":"name_category"
+        }
+    },
+      
+    "rich-text#category_prints":{
+        "title":"category prints",
+        "props":{
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Impresoras",
+            "blockClass":"name_category"
+        }
+    },
+    
+    "rich-text#category_home":{
+        "title":"category home",
+        "props":{
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Hogar",
+            "blockClass":"name_category"
+        }
+    },
+
+    
+    "rich-text#category_toys":{
+        "title":"category toys",
+        "props":{
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Jueguetes",
+            "blockClass":"name_category"
+        }
+    },
+
+    
+    "rich-text#category_christmas":{
+        "title":"category christmas",
+        "props":{
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Navidad",
+            "blockClass":"name_category"
+        }
+    },
+
+    "rich-text#category_cushions":{
+        "title":"category cushions",
+        "props":{
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Colchones",
+            "blockClass":"name_category"
+        }
+    },
+    "rich-text#category_furniture":{
+        "title":"category furniture",
+        "props":{
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Muebles",
+            "blockClass":"name_category"
+        }
+    },
+
+    "rich-text#category_sports":{
+        "title":"category sports",
+        "props":{
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Deportes",
+            "blockClass":"name_category"
+        }
+    },
+    "rich-text#category_tires":{
+        "title":"category tires",
+        "props":{
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Llantas",
+            "blockClass":"name_category"
+        }
+    },
+
+    "rich-text#category_offers":{
+        "title":"category offers",
+        "props":{
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Ofertas",
+            "blockClass":"name_offers"
+        }
+    },
+    "rich-text#category_pets":{
+        "title":"category offers",
+        "props":{
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Mascotas",
+            "blockClass":"name_category"
+        }
     }
+
 }

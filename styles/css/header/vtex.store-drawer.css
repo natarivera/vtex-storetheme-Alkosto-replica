@@ -16,4 +16,10 @@
 }
 
 
-
+@media only screen and (max-width: 49rem){
+    .menuIcon{
+        color:#004797;
+        margin-top: 12px;
+        margin-bottom: -14px;
+    }
+}

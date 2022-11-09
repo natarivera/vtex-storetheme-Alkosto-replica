@@ -70,3 +70,12 @@
 .flexRowContent--drawer-header{
     color: white;
 }
+
+.flexRow--bottom_navigation{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    box-shadow: 0 -1px 4px rgb(0 0 0 / 33%)
+}
+

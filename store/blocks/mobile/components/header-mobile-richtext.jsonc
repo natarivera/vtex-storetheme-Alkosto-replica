@@ -1,0 +1,9 @@
+{
+    "rich-text#menu-trigger-btn":{
+        "title":"text menu-trigger-btn",
+        "props":{
+        "text":"Categorias",
+        "blockClass":"megamenu_categorias-trigger"
+    }
+  }
+}

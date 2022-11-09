@@ -6,3 +6,32 @@
     width: 200%;
 }
 
+.flexRow--home__section--one{
+    margin-bottom: 40px;    
+}
+
+.flexRow--contain_moreabout{
+    margin-bottom: 40px;    
+    overflow-x: auto;
+    overflow-y: hidden ;
+}
+
+
+.flexRowContent--row-overflow{
+    overflow-x: auto;
+    overflow-y: hidden ;
+}
+
+@media only screen and (max-width: 49rem) {
+    .flexRowContent--row-overflow .stretchChildrenWidth{
+        width: auto !important;
+    }
+    .flexRow--contain_moreabout .stretchChildrenWidth{
+        width: auto !important;
+    }
+    
+}
+
+.flexRow--bottom_navigation{
+    color: #004797;
+}
