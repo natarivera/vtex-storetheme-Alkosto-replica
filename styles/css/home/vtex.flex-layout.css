@@ -29,5 +29,9 @@
     .flexRow--contain_moreabout .stretchChildrenWidth{
         width: auto !important;
     }
+    
 }
 
+.flexRow--bottom_navigation{
+    color: #004797;
+}

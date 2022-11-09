@@ -188,5 +188,14 @@
     ],
     "props": {
     }
+  },
+  "flex-layout.col#home-product-pets": {
+    "title": "flex category pets",
+    "children": [
+      "image#home__item--image_mascotas",
+      "rich-text#category_pets"
+    ],
+    "props": {
+    }
   }
 }

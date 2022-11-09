@@ -1,0 +1,31 @@
+{
+    "flex-layout.row#mobile_home--navigation":{
+        "title": "home mobile",
+        "children":[
+            "flex-layout.col#col-login",
+            "flex-layout.col#col-menu-trigger-btn",
+            "flex-layout.col#col-cart"
+        ],
+        "props":{
+            "width": "grow",
+            "preserveLayoutOnMobile": true,
+            "fullWidth": true,
+            "blockClass":"bottom_navigation",
+            "horizontalAlign": "center"
+        }
+    },
+
+    "flex-layout.col#col-menu-trigger-btn":{
+        "children":[
+            "mega-menu-trigger-btn",
+            "rich-text#menu-trigger-btn"
+        ],
+        "props": {
+            "width": "25%",
+            "blockClass": "mobile-menu-trigger",
+            "horizontalAlign": "center",
+            "verticalAlign": "middle"
+          }
+    }
+
+}

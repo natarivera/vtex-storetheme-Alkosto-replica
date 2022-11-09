@@ -1,0 +1,8 @@
+{
+    "responsive-layout.phone#home__info--phone": {
+        "title": "component phone",
+        "children": [
+            "rich-text#home__info--phone"
+        ]
+      }
+}

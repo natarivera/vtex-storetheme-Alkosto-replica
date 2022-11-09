@@ -5,3 +5,15 @@
 .profileIcon{
     color: white;
 }
+
+@media only screen and (max-width: 49rem){
+     
+    .profileIcon{
+        color: #004797;
+        font-size: 30px;
+    }
+
+    .cartIcon{
+        color: #004797;
+    }
+}

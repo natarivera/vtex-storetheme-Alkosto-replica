@@ -179,11 +179,22 @@
    "image#home__item--image_offers":{
         "title":"products image offers",
         "props":{
-            "src":"assets/img/llanta.jpg",
+            "src":"assets/img/ofertas.jpg",
+            "maxWidth": 50,
+            "title":"offers",
+            "blockClass":"home_imageitem_phoneoffers"
+        }
+    },
+
+    "image#home__item--image_mascotas":{
+        "title":"products image offers",
+        "props":{
+            "src":"assets/img/mascotas.jpg",
             "maxWidth": 50,
             "title":"offers",
             "blockClass":"home_imageitem_phone"
         }
     }
+
 }
 

@@ -191,6 +191,15 @@
             "text":"Ofertas",
             "blockClass":"name_offers"
         }
+    },
+    "rich-text#category_pets":{
+        "title":"category offers",
+        "props":{
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Mascotas",
+            "blockClass":"name_category"
+        }
     }
 
 }

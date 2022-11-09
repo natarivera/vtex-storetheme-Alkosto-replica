@@ -45,6 +45,19 @@
     cursor: pointer;
 }
 
+.imageElement--home_imageitem_phoneoffers{
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  margin-left: 40px;
+  margin-top: 20px;
+  padding: 20px;
+  border:solid 1px #eb5b25;
+  background: rgba(235, 91, 37, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 .autoCompleteOuterContainer--search_today {
   font-size: 14px;
   color: #004797;
@@ -68,8 +81,9 @@
     margin-left: 15px;
     padding: 20px;
   }
-  .imageElement--home__slider--two{
-    /*width: 500px;*/
+  .imageElement--home_imageitem_phoneoffers{
+    margin-left: 15px;
+    padding: 20px;
   }
 }
 .imageElement--home__slider--five,

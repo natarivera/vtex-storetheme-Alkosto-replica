@@ -102,3 +102,16 @@
 .paragraph--greater_than{
     color: #eb5b25;
 }
+
+@media only screen and (max-width: 49rem){
+    .paragraph--login_myaccount{
+        color: #004797;
+    }
+    .paragraph--login_mycart{
+        color: #004797;
+    }
+    .paragraph--megamenu_categorias-trigger{
+        color: #004797;
+        font-size: 14px;
+    }
+}
