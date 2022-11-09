@@ -64,6 +64,13 @@
   .headerRowContainer--header__mobile {
     padding: 0;
   }
+  .imageElement--home_imageitem_phone{
+    margin-left: 15px;
+    padding: 20px;
+  }
+  .imageElement--home__slider--two{
+    /*width: 500px;*/
+  }
 }
 .imageElement--home__slider--five,
 .imageElement--home__slider--four,

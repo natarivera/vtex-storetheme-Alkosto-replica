@@ -51,7 +51,7 @@
     "title": "flex category audio",
     "children": [
       "image#home__item--image_audio",
-      "rich-text#category_audio"
+      "rich-text#category_audio" 
     ],
     "props": {
     }
