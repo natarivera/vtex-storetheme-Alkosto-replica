@@ -12,3 +12,11 @@
     padding: 10px;
     height: 15px;
 }
+
+.paginationDotsContainer--home__slider{
+    margin-bottom: 10px;   
+}
+
+.paginationDot--home__slider{
+    color:  #eb5b25;
+}

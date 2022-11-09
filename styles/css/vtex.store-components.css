@@ -33,13 +33,16 @@
   width: 5%;
 }
 
-.imageElement--home_imageitem {
-  width: 95px;
-  height: 95px;
-  border-radius: 50%;
-  line-height: 95px;
-  height: auto;
-  box-shadow: 0px 0px 4px 0px rgb(0 0 0 / 16%);
+.imageElement--home_imageitem_phone {
+    padding: 10px;
+    width: 84px;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px 0px rgb(0 0 0 / 16%);
+    cursor: pointer;
 }
 
 .autoCompleteOuterContainer--search_today {
@@ -62,3 +65,36 @@
     padding: 0;
   }
 }
+.imageElement--home__slider--five,
+.imageElement--home__slider--four,
+.imageElement--home__slider--three,
+.imageElement--home__slider--two,
+.imageElement--home__slider--one{
+    width: 100%;
+}
+
+.imageElement--home_bannerfirst{
+  width: 100%;
+}
+
+.imageElement--home_topimage{
+  min-width: 300px;
+}
+
+.imageElement--home_phones{
+  min-width: 300px;
+}
+
+.imageElement--home_computers{
+  min-width: 300px;
+}
+
+.imageElement--home_tv{
+  min-width: 300px;
+}
+
+.imageElement--home_videogames{
+  min-width: 300px;
+}
+
+

@@ -16,15 +16,10 @@
     },
     "vtex.menu@2.x:submenu#sports--eleven":{
         "children":[
-            "flex-layout.row#sports--eleven"
+            "flex-layout.row#department__cellphones--one"
         ],
         "props":{
-            //"onMountBehavios":"open"
+            
         }
-    },
-    "flex-layout.row#sports--eleven":{
-        "children": [
-            "rich-text#test"
-        ]
     }
 }

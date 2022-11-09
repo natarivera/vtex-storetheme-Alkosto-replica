@@ -3,7 +3,7 @@
   "flex-layout.row#home__section--one": {
     "title": "Section one",
     "children": [
-      "flex-layout.col#section__one--slider",
+      "flex-layout.col#section__one--slider",      
       "flex-layout.col#section__one--items"
     ],
     "props": {
@@ -16,8 +16,12 @@
   "flex-layout.col#section__one--items": {
     "children": [
       "responsive-layout.desktop#home__items-desktop",
+      "responsive-layout.phone#home__info--phone",
       "responsive-layout.phone#home__items-phone"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__sectionone--items"
+    }
   },
   "responsive-layout.desktop#home__items-desktop": {
     "children": ["flex-layout.row#home__items-desktop"]
@@ -43,7 +47,12 @@
       "image#home__topitem--image",
       "image#home__topitem--image",
       "image#home__topitem--image"
-    ]
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "row-overflow",
+      "colGap": 4
+    }
   },
 
   "rich-text#home__phones": {
@@ -60,7 +69,13 @@
       "image#home__phones--items",
       "image#home__phones--items",
       "image#home__phones--items"
-    ]
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "row-overflow",
+      "colGap": 4
+    }
+    
   },
   "rich-text#home__computers": {
     "props": {
@@ -75,7 +90,12 @@
       "image#home__computers--items",
       "image#home__computers--items",
       "image#home__computers--items"
-    ]
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "row-overflow",
+      "colGap": 4
+    }
   },
   "rich-text#home__tv": {
     "props": {
@@ -91,7 +111,12 @@
       "image#home__tv--items",
       "image#home__tv--items",
       "image#home__tv--items"
-    ]
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "row-overflow",
+      "colGap": 4
+    }
   },
 
   "rich-text#home__appliances": {
@@ -108,7 +133,12 @@
       "image#home__appliances--items",
       "image#home__appliances--items",
       "image#home__appliances--items"
-    ]
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "row-overflow",
+      "colGap": 4
+    }
   },
 
   "rich-text#home__videogames": {
@@ -125,7 +155,12 @@
       "image#home__videogames--items",
       "image#home__videogames--items",
       "image#home__videogames--items"
-    ]
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "row-overflow",
+      "colGap": 4
+    }
   },
 
   "rich-text#home__moreabout": {
@@ -142,7 +177,12 @@
       "image#home__moreabout--items",
       "image#home__moreabout--items",
       "image#home__moreabout--items"
-    ]
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "contain_moreabout",
+      "colGap": 4
+    }
   },
 
   "flex-layout.row#section__banner--second": {
@@ -163,6 +203,11 @@
       "image#home__bankbenefits--items",
       "image#home__bankbenefits--items",
       "image#home__bankbenefits--items"
-    ]
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "row-overflow",
+      "colGap": 4
+    }
   }
 }
