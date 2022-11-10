@@ -2,7 +2,8 @@
   "store.home": {
     "title": "home desktop",
     "blocks": [
-      "flex-layout.row#home__section--one",
+      "responsive-layout.desktop#home__section--one--desktop",
+      "responsive-layout.mobile#home__section--one--mobile",
       "flex-layout.row#section__banner--offers",
       "rich-text#home__topoffers",
       "flex-layout.row#section__items--topoffers",
