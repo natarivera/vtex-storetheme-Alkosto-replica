@@ -1,9 +1,0 @@
-{
-    "header-layout.mobile":{
-        "title":"header mobile",
-        "children":[
-            "header-row#header__top",
-            "flex-layout.row#mobile_home--navigation"
-        ]
-    }
-}

@@ -1,12 +1,4 @@
-{
-   "rich-text#home__info--phone": {
-    "title": "text component phone",
-    "props": {
-      "text": " ### Compra por categorias",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
-    }
-  },
+{  
 
   "flex-layout.row#home__items-phone":{
     "title": "mobile category",

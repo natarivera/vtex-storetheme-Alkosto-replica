@@ -1,0 +1,13 @@
+{
+    "responsive-layout.mobile#home__section--one--mobile":{
+        "children": [
+          "slider-layout#home__slider--children",          
+          "responsive-layout.mobile#home__info--phone",
+          "responsive-layout.tablet#home__items-tablet",
+          "responsive-layout.phone#home__items-phone"
+        ],
+        "props": {
+          "blockClass": "home__section--one"
+        }
+      }
+}

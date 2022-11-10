@@ -1,4 +1,12 @@
 {
+
+  "header-layout.mobile":{
+    "title":"header mobile",
+    "children":[
+        "header-row#header__top",
+        "flex-layout.row#mobile_home--navigation"
+    ]
+},
   "header-row#header__top": {
     "title": "header mobile",
     "children": ["mega-menu-trigger-btn","logo#header__top--logo--mobile", "search-bar#mobile"],
