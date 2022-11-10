@@ -4,7 +4,7 @@
     "blocks": [
       "responsive-layout.desktop#home__section--one--desktop",
       "responsive-layout.mobile#home__section--one--mobile",
-      "flex-layout.row#section__banner--offers",
+      "flex-layout.row#section__banner--offers-global",
       "rich-text#home__topoffers",
       "flex-layout.row#section__items--topoffers",
       "rich-text#home__phones",

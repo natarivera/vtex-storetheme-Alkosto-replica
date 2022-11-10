@@ -28,7 +28,7 @@
     }
   },
   "responsive-layout.desktop#home__items-desktop": {
-    "children": ["flex-layout.row#home__items-desktop"]
+    "children": ["flex-layout.row#home__items-global"]
   }
 
   

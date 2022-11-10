@@ -2,7 +2,7 @@
     "responsive-layout.mobile#home__section--one--mobile":{
         "children": [
           "slider-layout#home__slider--children",          
-          "responsive-layout.mobile#home__info--phone",
+          "responsive-layout.mobile#home__info--mobile",
           "responsive-layout.tablet#home__items-tablet",
           "responsive-layout.phone#home__items-phone"
         ],
