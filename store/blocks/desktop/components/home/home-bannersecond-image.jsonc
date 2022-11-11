@@ -2,7 +2,7 @@
     "image#home__banner--second":{
         "title":"image banner second",
         "props":{
-            "src":"assets/img/banner.jpg",
+            "src":"assets/img/home__banner.jpg",
             "title":"banner second",
             "blockClass":"home_bannersecond"
         }

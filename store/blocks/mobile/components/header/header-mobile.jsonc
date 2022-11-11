@@ -19,7 +19,7 @@
   "logo#header__top--logo--mobile": {
     "title": "logo",
     "props": {
-      "url": "assets/img/alkosto-logo.svg",
+      "url": "assets/img/header__alkosto-logo.svg",
       "width": 100,
       "href": "/",
       "height": 96,

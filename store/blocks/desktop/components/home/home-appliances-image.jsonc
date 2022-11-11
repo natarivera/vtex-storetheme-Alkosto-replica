@@ -2,7 +2,7 @@
     "image#home__appliances--items":{
         "title":"appliances",
             "props":{
-                "src":"assets/img/Electrodomesticos.jpg",
+                "src":"assets/img/home__Electrodomesticos.jpg",
                 "maxWidth": 400,
                 "title":"computers home",
                 "blockClass":"home_computers"
