@@ -2,7 +2,7 @@
     "image#home__banner--first":{
         "title":"image banner offers",
         "props":{
-            "src":"assets/img/banner.jpg",
+            "src":"assets/img/home__banner.jpg",
             "title":"banner offers",
             "blockClass":"home_bannerfirst"
         }

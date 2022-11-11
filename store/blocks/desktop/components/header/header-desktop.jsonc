@@ -126,7 +126,7 @@
   "logo#header__top--logo": {
     "title": "logo",
     "props": {
-      "url": "assets/img/alkosto-logo.svg",
+      "url": "assets/img/header__alkosto-logo.svg",
       "width": 221,
       "href": "/",
       "zIndex": 20,

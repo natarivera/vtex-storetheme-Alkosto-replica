@@ -1,4 +1,12 @@
 {
+
+  "header-layout.mobile":{
+    "title":"header mobile",
+    "children":[
+        "header-row#header__top",
+        "flex-layout.row#mobile_home--navigation"
+    ]
+},
   "header-row#header__top": {
     "title": "header mobile",
     "children": ["mega-menu-trigger-btn","logo#header__top--logo--mobile", "search-bar#mobile"],
@@ -11,7 +19,7 @@
   "logo#header__top--logo--mobile": {
     "title": "logo",
     "props": {
-      "url": "assets/img/alkosto-logo.svg",
+      "url": "assets/img/header__alkosto-logo.svg",
       "width": 100,
       "href": "/",
       "height": 96,

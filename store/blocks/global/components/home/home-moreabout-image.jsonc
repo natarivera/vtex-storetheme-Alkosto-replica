@@ -1,9 +1,8 @@
-
 {
-    "image#home__videogames--items":{
-        "title":"videogames",
+    "image#home__moreabout--items":{
+        "title":"moreabout",
             "props":{
-                "src":"assets/img/videojuegosy mas.jpg",
+                "src":"assets/img/home__conocemas.jpg",
                 "maxWidth": 400,
                 "title":"videogames home",
                 "blockClass":"home_videogames"

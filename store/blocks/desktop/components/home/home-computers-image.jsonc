@@ -2,7 +2,7 @@
 "image#home__computers--items":{
     "title":"computers",
         "props":{
-            "src":"assets/img/computadores.jpg",
+            "src":"assets/img/home__computadores.jpg",
             "maxWidth": 400,
             "title":"computers home",
             "blockClass":"home_computers"
