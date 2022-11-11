@@ -189,7 +189,7 @@
     "image#home__item--image_mascotas":{
         "title":"products image offers",
         "props":{
-            "src":"assets/img/home__mascotas.jpg",
+            "src":"assets/img/home_mascotas.jpg",
             "maxWidth": 50,
             "title":"offers",
             "blockClass":"home_imageitem_phone"
