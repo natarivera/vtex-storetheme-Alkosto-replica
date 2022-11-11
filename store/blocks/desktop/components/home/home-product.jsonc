@@ -1,9 +1,0 @@
-{
-  "flex-layout.col#home-product-celulares": {
-    "title": "category",
-    "children": ["image#home__item--image", "rich-text#test"],
-    "props": {
-      
-    }
-  }
-}

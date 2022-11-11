@@ -1,0 +1,182 @@
+{
+    "flex-layout.row#section__banner--offers-global": {
+        "children": ["image#home__banner--first"]
+      },
+      "rich-text#home__topoffers": {
+        "props": {
+          "text": " ### Ofertas Destacadas",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        }
+      },
+    
+      "flex-layout.row#section__items--topoffers": {
+        "children": [
+          "image#home__topitem--image",
+          "image#home__topitem--image",
+          "image#home__topitem--image",
+          "image#home__topitem--image"
+        ],
+        "props": {
+          "preserveLayoutOnMobile": true,
+          "blockClass": "row-overflow",
+          "colGap": 4
+        }
+      },
+    
+      "rich-text#home__phones": {
+        "props": {
+          "text": " ### Celulares",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heding-1"
+        }
+      },
+    
+      "flex-layout.row#section__phones--items": {
+        "children": [
+          "image#home__phones--items",
+          "image#home__phones--items",
+          "image#home__phones--items"
+        ],
+        "props": {
+          "preserveLayoutOnMobile": true,
+          "blockClass": "row-overflow",
+          "colGap": 4
+        }
+        
+      },
+      "rich-text#home__computers": {
+        "props": {
+          "text": " ### Computadoras",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heding-1"
+        }
+      },
+      "flex-layout.row#section__computers--items": {
+        "children": [
+          "image#home__computers--items",
+          "image#home__computers--items",
+          "image#home__computers--items"
+        ],
+        "props": {
+          "preserveLayoutOnMobile": true,
+          "blockClass": "row-overflow",
+          "colGap": 4
+        }
+      },
+      "rich-text#home__tv": {
+        "props": {
+          "text": " ### Televisores",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heding-1"
+        }
+      },
+    
+      "flex-layout.row#section__tv--items": {
+        "children": [
+          "image#home__tv--items",
+          "image#home__tv--items",
+          "image#home__tv--items"
+        ],
+        "props": {
+          "preserveLayoutOnMobile": true,
+          "blockClass": "row-overflow",
+          "colGap": 4
+        }
+      },
+    
+      "rich-text#home__appliances": {
+        "props": {
+          "text": " ### Electrodomesticos",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heding-1"
+        }
+      },
+    
+      "flex-layout.row#section__appliances--items": {
+        "children": [
+          "image#home__appliances--items",
+          "image#home__appliances--items",
+          "image#home__appliances--items"
+        ],
+        "props": {
+          "preserveLayoutOnMobile": true,
+          "blockClass": "row-overflow",
+          "colGap": 4
+        }
+      },
+    
+      "rich-text#home__videogames": {
+        "props": {
+          "text": " ### Video juegos y más",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heding-1"
+        }
+      },
+    
+      "flex-layout.row#section__videogames--items": {
+        "children": [
+          "image#home__videogames--items",
+          "image#home__videogames--items",
+          "image#home__videogames--items"
+        ],
+        "props": {
+          "preserveLayoutOnMobile": true,
+          "blockClass": "row-overflow",
+          "colGap": 4
+        }
+      },
+    
+      "rich-text#home__moreabout": {
+        "props": {
+          "text": " ### Conoce mas",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heding-1"
+        }
+      },
+    
+      "flex-layout.row#section__moreabout--items": {
+        "children": [
+          "image#home__moreabout--items",
+          "image#home__moreabout--items",
+          "image#home__moreabout--items"
+        ],
+        "props": {
+          "preserveLayoutOnMobile": true,
+          "blockClass": "contain_moreabout",
+          "colGap": 4
+        }
+      },
+    
+      "flex-layout.row#section__banner--second": {
+        "children": ["image#home__banner--second"]
+      },
+    
+      "rich-text#home__bankbenefits": {
+        "props": {
+          "text": " ### Beneficios con bancos",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heding-1"
+        }
+      },
+      "flex-layout.row#section__banks--items": {
+        "children": [
+          "image#home__bankbenefits--items",
+          "image#home__bankbenefits--items",
+          "image#home__bankbenefits--items",
+          "image#home__bankbenefits--items"
+        ],
+        "props": {
+          "preserveLayoutOnMobile": true,
+          "blockClass": "row-overflow",
+          "colGap": 4
+        }
+      }
+}

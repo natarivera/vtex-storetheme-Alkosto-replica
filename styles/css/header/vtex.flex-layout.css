@@ -38,21 +38,8 @@
     margin-top: 0px;
 }
 
-.flexCol--mycart_desktop{
-   
-}
 
 .flexCol--mycart_desktop::before{
-    /*
-    content: "";
-    height: 24px;
-    width: 0px;
-    margin-left: 0px;
-    
-    
-    background: white;
-    margin-right: 11px;
-    */
     z-index: 10;
     border-left: 1px solid aqua;
 }
@@ -66,6 +53,29 @@
 .flexCol--login_divider--menu{
     border-left: 1px #004797;
 }
-/*.flexRowContent--container_logincart--desktop{
-    margin-top: 0px;
+
+.flexRowContent--rowimage{
+    border-bottom: 2px solid #eb5b25;
+    width: 80%;
 }
+
+.submenuWrapper--isOpen{
+    width: 80;
+}
+
+.submenuWrapper--category-container--computers--isOpen{
+    margin-left: -195px;
+}
+
+.flexRowContent--drawer-header{
+    color: white;
+}
+
+.flexRow--bottom_navigation{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    box-shadow: 0 -1px 4px rgb(0 0 0 / 33%)
+}
+

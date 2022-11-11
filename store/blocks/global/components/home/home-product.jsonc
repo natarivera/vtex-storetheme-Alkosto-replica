@@ -1,0 +1,201 @@
+{
+  "flex-layout.col#home-product-celulares": {
+    "title": "flex category celulares",
+    "children": [
+      "image#home__item--image", 
+      "rich-text#category_cellphones"
+    ],
+    "props": {
+    }
+  },
+  "flex-layout.col#home-product-computers": {
+    "title": "flex category computers",
+    "children": [
+      "image#home__item--image_computers",
+      "rich-text#category_computers"
+    ],
+    "props": {
+    }
+  },
+
+  "flex-layout.col#home-product-tv": {
+    "title": "flex category tv",
+    "children": [
+      "image#home__item--image_tv",
+      "rich-text#category_tv"
+    ],
+    "props": {
+    }
+  },
+
+  "flex-layout.col#home-product-appliances": {
+    "title": "flex category appliances",
+    "children": [
+      "image#home__item--image_appliances",
+      "rich-text#category_appliances"
+    ],
+    "props": {
+    }
+  },
+  "flex-layout.col#home-product-electrominor": {
+    "title": "flex category electrominor",
+    "children": [
+      "image#home__item--image_electrominor",
+      "rich-text#category_eletrominor"
+    ],
+    "props": {
+    }
+  },
+
+  "flex-layout.col#home-product-audio": {
+    "title": "flex category audio",
+    "children": [
+      "image#home__item--image_audio",
+      "rich-text#category_audio" 
+    ],
+    "props": {
+    }
+  },
+  "flex-layout.col#home-product-videogames": {
+    "title": "flex category videogames",
+    "children": [
+      "image#home__item--image_videogames",
+      "rich-text#category_videogames"
+    ],
+    "props": {
+    }
+  },
+  "flex-layout.col#home-product-accesories": {
+    "title": "flex category accesories ",
+    "children": [
+      "image#home__item--image_accesories",
+      "rich-text#category_accesories"
+    ],
+    "props": {
+    }
+  },
+  "flex-layout.col#home-product-smartwatch": {
+    "title": "flex category smartwatch",
+    "children": [
+      "image#home__item--image_smartwatch",
+      "rich-text#category_smartwatch"
+    ],
+    "props": {
+    }
+  },
+  "flex-layout.col#home-product-tablets": {
+    "title": "flex category tablets",
+    "children": [
+      "image#home__item--image_tablets",
+      "rich-text#category_tablets"
+    ],
+    "props": {
+    }
+  },
+  
+  "flex-layout.col#home-product-pins": {
+    "title": "flex category pins",
+    "children": [
+      "image#home__item--image_pins",
+      "rich-text#category_pins"
+    ],
+    "props": {
+    }
+  },
+  
+  "flex-layout.col#home-product-printer": {
+    "title": "flex category printer",
+    "children": [
+      "image#home__item--image_printer",
+      "rich-text#category_prints"
+    ],
+    "props": {
+    }
+  },
+  
+  "flex-layout.col#home-product-hogar": {
+    "title": "flex category hogar",
+    "children": [
+      "image#home__item--image_home",
+      "rich-text#category_home"
+    ],
+    "props": {
+    }
+  },
+  
+  "flex-layout.col#home-product-toys": {
+    "title": "flex category toys",
+    "children": [
+      "image#home__item--image_toys",
+      "rich-text#category_toys"
+    ],
+    "props": {
+    }
+  },
+  
+  "flex-layout.col#home-product-christmas": {
+    "title": "flex category christmas",
+    "children": [
+      "image#home__item--image_christmas",
+      "rich-text#category_christmas"
+    ],
+    "props": {
+    }
+  },
+  
+  "flex-layout.col#home-product-cushion": {
+    "title": "flex category cushion",
+    "children": [
+      "image#home__item--image_cushion",
+      "rich-text#category_cushions"
+    ],
+    "props": {
+    }
+  },
+  
+  "flex-layout.col#home-product-furniture": {
+    "title": "flex category furniture",
+    "children": [
+      "image#home__item--image_furniture",
+      "rich-text#category_furniture"
+    ],
+    "props": {
+    }
+  },
+  "flex-layout.col#home-product-sports": {
+    "title": "flex category sports",
+    "children": [
+      "image#home__item--image_sport",
+      "rich-text#category_sports"
+    ],
+    "props": {
+    }
+  },
+  "flex-layout.col#home-product-tires": {
+    "title": "flex category tires",
+    "children": [
+      "image#home__item--image_tires",
+      "rich-text#category_tires"
+    ],
+    "props": {
+    }
+  },
+  "flex-layout.col#home-product-offers": {
+    "title": "flex category offers",
+    "children": [
+      "image#home__item--image_offers",
+      "rich-text#category_offers"
+    ],
+    "props": {
+    }
+  },
+  "flex-layout.col#home-product-pets": {
+    "title": "flex category pets",
+    "children": [
+      "image#home__item--image_mascotas",
+      "rich-text#category_pets"
+    ],
+    "props": {
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+    "image#home__item--image":{
+        "title":"products image",
+        "props":{
+            "src":"assets/img/home__celulares.jpg",
+            "maxWidth": 50,
+            "title":"phones",
+            "blockClass":"home_imageitem_phone"
+        }
+    },
+    "image#home__item--image_computers":{
+        "title":"products image computers",
+        "props":{
+            "src":"assets/img/home__computador.png",
+            "maxWidth": 50,
+            "title":"computers",
+            "blockClass":"home_imageitem_phone"
+        }
+    }
+    ,
+    "image#home__item--image_tv":{
+        "title":"products image tv",
+        "props":{
+            "src":"assets/img/home__televisor.png",
+            "maxWidth": 50,
+            "title":"tv",
+            "blockClass":"home_imageitem_phone"
+        }
+    },
+    "image#home__item--image_appliances":{
+        "title":"products image appliances",
+        "props":{
+            "src":"assets/img/home__electro.jpg",
+            "maxWidth": 50,
+            "title":"appliances",
+            "blockClass":"home_imageitem_phone"
+        }
+    },
+    "image#home__item--image_electrominor":{
+        "title":"products image electrominor",
+        "props":{
+            "src":"assets/img/home__electro-menores.jpg",
+            "maxWidth": 50,
+            "title":"electrominor",
+            "blockClass":"home_imageitem_phone"
+        }
+    },
+    "image#home__item--image_audio":{
+        "title":"products image audio",
+        "props":{
+            "src":"assets/img/home__audio.jpg",
+            "maxWidth": 50,
+            "title":"Audio",
+            "blockClass":"home_imageitem_phone"
+        }
+    },
+    "image#home__item--image_videogames":{
+        "title":"products image videogames",
+        "props":{
+            "src":"assets/img/home__videojuegos.jpg",
+            "maxWidth": 50,
+            "title":"videogames",
+            "blockClass":"home_imageitem_phone"
+        }
+    },
+    "image#home__item--image_accesories":{
+        "title":"products image accesories",
+        "props":{
+            "src":"assets/img/home__accesorios.jpg",
+            "maxWidth": 50,
+            "title":"accesories",
+            "blockClass":"home_imageitem_phone"
+        }
+    },
+    "image#home__item--image_smartwatch":{
+        "title":"products image smartwatch",
+        "props":{
+            "src":"assets/img/home__reloj-izq.jpg",
+            "maxWidth": 50,
+            "title":"accesories",
+            "blockClass":"home_imageitem_phone"
+        }
+    },
+
+    "image#home__item--image_tablets":{
+        "title":"products image tablets",
+        "props":{
+            "src":"assets/img/home__tablet.jpg",
+            "maxWidth": 50,
+            "title":"tablets",
+            "blockClass":"home_imageitem_phone"
+        }
+    },
+
+    "image#home__item--image_pins":{
+        "title":"products image pins",
+        "props":{
+            "src":"assets/img/home__MicrosoftTeams-image-2-.png",
+            "maxWidth": 50,
+            "title":"pins",
+            "blockClass":"home_imageitem_phone"
+        }
+    },
+
+    "image#home__item--image_printer":{
+        "title":"products image printer",
+        "props":{
+            "src":"assets/img/home__MicrosoftTeams-image-3-.png",
+            "maxWidth": 50,
+            "title":"printer",
+            "blockClass":"home_imageitem_phone"
+        }
+    },
+    "image#home__item--image_home":{
+        "title":"products image home",
+        "props":{
+            "src":"assets/img/home__hogar.jpg",
+            "maxWidth": 50,
+            "title":"home",
+            "blockClass":"home_imageitem_phone"
+        }
+    },
+    "image#home__item--image_toys":{
+        "title":"products image toys",
+        "props":{
+            "src":"assets/img/home__icono-juguetes.jpg",
+            "maxWidth": 50,
+            "title":"toys",
+            "blockClass":"home_imageitem_phone"
+        }
+    },
+    "image#home__item--image_christmas":{
+        "title":"products image christmas",
+        "props":{
+            "src":"assets/img/home__icono-navidad-22.png",
+            "maxWidth": 50,
+            "title":"christmas",
+            "blockClass":"home_imageitem_phone"
+        }
+    },
+    "image#home__item--image_cushion":{
+        "title":"products image cushion",
+        "props":{
+            "src":"assets/img/home__colchones-boton.jpg",
+            "maxWidth": 50,
+            "title":"cushion",
+            "blockClass":"home_imageitem_phone"
+        }
+    },
+    "image#home__item--image_furniture":{
+        "title":"products image furniture",
+        "props":{
+            "src":"assets/img/home__boton-mueble.jpg",
+            "maxWidth": 50,
+            "title":"furniture",
+            "blockClass":"home_imageitem_phone"
+        }
+    },
+
+    "image#home__item--image_sport":{
+        "title":"products image sport",
+        "props":{
+            "src":"assets/img/home__deportes.jpg",
+            "maxWidth": 50,
+            "title":"sport",
+            "blockClass":"home_imageitem_phone"
+        }
+    },
+    "image#home__item--image_tires":{
+        "title":"products image tires",
+        "props":{
+            "src":"assets/img/home__llanta.jpg",
+            "maxWidth": 50,
+            "title":"tires",
+            "blockClass":"home_imageitem_phone"
+        }
+    },
+
+   "image#home__item--image_offers":{
+        "title":"products image offers",
+        "props":{
+            "src":"assets/img/home__ofertas.jpg",
+            "maxWidth": 50,
+            "title":"offers",
+            "blockClass":"home_imageitem_phoneoffers"
+        }
+    },
+
+    "image#home__item--image_mascotas":{
+        "title":"products image offers",
+        "props":{
+            "src":"assets/img/home__mascotas.jpg",
+            "maxWidth": 50,
+            "title":"offers",
+            "blockClass":"home_imageitem_phone"
+        }
+    }
+
+}
+

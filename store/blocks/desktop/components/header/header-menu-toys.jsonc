@@ -16,15 +16,10 @@
     },
     "vtex.menu@2.x:submenu#toys--thirteen":{
         "children":[
-            "flex-layout.row#toys--thirteen"
+            "flex-layout.row#department__cellphones--one"
         ],
         "props":{
-            //"onMountBehavios":"open"
+        
         }
-    },
-    "flex-layout.row#toys--thirteen":{
-        "children": [
-            "rich-text#test"
-        ]
     }
 }

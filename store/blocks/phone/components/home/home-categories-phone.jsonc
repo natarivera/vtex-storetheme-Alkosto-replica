@@ -1,0 +1,43 @@
+{
+
+"flex-layout.col#section__items-phone-1":{
+    "children":[
+        "flex-layout.col#home-product-celulares",
+        "flex-layout.col#home-product-appliances",
+        "flex-layout.col#home-product-videogames",
+        "flex-layout.col#home-product-tablets",
+        "flex-layout.col#home-product-hogar",
+        "flex-layout.col#home-product-cushion",
+        "flex-layout.col#home-product-tires"
+
+    ],
+
+    "props":{
+        "blockClass":"home_responsive-item"
+    }
+    
+},
+"flex-layout.col#section__items-phone-2":{
+    "children":[
+        "flex-layout.col#home-product-computers",
+        "flex-layout.col#home-product-electrominor",
+        "flex-layout.col#home-product-accesories",
+        "flex-layout.col#home-product-pins",
+        "flex-layout.col#home-product-toys",
+        "flex-layout.col#home-product-furniture",
+        "flex-layout.col#home-product-pets"
+    ]
+},
+"flex-layout.col#section__items-phone-3":{
+    "children":[
+        "flex-layout.col#home-product-tv",
+        "flex-layout.col#home-product-audio",
+        "flex-layout.col#home-product-smartwatch",
+        "flex-layout.col#home-product-printer",
+        "flex-layout.col#home-product-christmas",
+        "flex-layout.col#home-product-sports",
+        "flex-layout.col#home-product-offers"
+    ]
+    
+    }
+}

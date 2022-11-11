@@ -16,15 +16,10 @@
     },
     "vtex.menu@2.x:submenu#accesories--five":{
         "children":[
-            "flex-layout.row#accesories--five"
+            "flex-layout.row#department__cellphones--one"
         ],
         "props":{
             
         }
-    },
-    "flex-layout.row#accesories--five":{
-        "children": [
-            "rich-text#test"
-        ]
     }
 }

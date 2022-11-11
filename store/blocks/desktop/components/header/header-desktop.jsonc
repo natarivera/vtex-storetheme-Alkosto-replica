@@ -126,7 +126,7 @@
   "logo#header__top--logo": {
     "title": "logo",
     "props": {
-      "url": "assets/img/alkosto-logo.svg",
+      "url": "assets/img/header__alkosto-logo.svg",
       "width": 221,
       "href": "/",
       "zIndex": 20,
@@ -169,15 +169,6 @@
 
     "props": {
       "blockClass": "header__middle"
-    }
-  },
-
-  "icon#logo__empty--icon": {
-    "props": {
-      "id": "sti-celulares",
-      "blockClass": "icon__logo--empty",
-      "viewBox":"0 0 484.013 202",
-      "size": 100
     }
   }
 }

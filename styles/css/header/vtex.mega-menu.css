@@ -1,0 +1,28 @@
+.goBackContainer{
+    position: absolute;
+    width: 100%;
+}
+
+.submenuContainerTitle--drawer-mobile{
+    margin-top: 20px;
+}
+
+.goBackButtonText{
+  display: none;
+}
+
+
+.goBackButton{
+    margin: 30px;
+    font-size: 20px;
+}
+
+.submenuContainerTitle--drawer-mobile {
+    margin-top: 70px;
+    border-top: 1px solid hsla(0,0%,60%,.32);
+}
+
+.goBackButtonIcon:hover{
+    background-color: #eee;
+    border-radius: 50%;
+}

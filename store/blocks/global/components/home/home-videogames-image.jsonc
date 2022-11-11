@@ -1,0 +1,12 @@
+
+{
+    "image#home__videogames--items":{
+        "title":"videogames",
+            "props":{
+                "src":"assets/img/home__videojuegosy mas.jpg",
+                "maxWidth": 400,
+                "title":"videogames home",
+                "blockClass":"home_videogames"
+            }
+    }
+}

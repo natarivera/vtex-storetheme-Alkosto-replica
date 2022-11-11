@@ -1,169 +1,36 @@
 {
+  "responsive-layout.desktop#home__section--one--desktop":{
+    "children":["flex-layout.row#home__section--one"]
+  },
+      
     
   "flex-layout.row#home__section--one": {
     "title": "Section one",
     "children": [
-      "flex-layout.col#section__one--slider",
-      "flex-layout.col#section__one--items",
-      "icon#logo__empty--icon"
+      "flex-layout.col#section__one--slider",      
+      "flex-layout.col#section__one--items"
     ],
     "props": {
       "blockClass": "home__section--one"
     }
   },
+
+
   "flex-layout.col#section__one--slider": {
     "children": ["slider-layout#home__slider--children"]
   },
   "flex-layout.col#section__one--items": {
     "children": [
-      "responsive-layout.desktop#home__items-desktop",
-      "responsive-layout.phone#home__items-phone"
-    ]
+      "responsive-layout.desktop#home__items-desktop"
+    ],
+    "props": {
+      "blockClass": "home__sectionone--items"
+    }
   },
   "responsive-layout.desktop#home__items-desktop": {
-    "children": ["flex-layout.row#home__items-desktop"]
-  },
-
-  "responsive-layout.phone#home__items-phone": {
-    "children": ["flex-layout.row#home__items-phone"]
-  },
-  "flex-layout.row#section__banner--offers": {
-    "children": ["image#home__banner--first"]
-  },
-  "rich-text#home__topoffers": {
-    "props": {
-      "text": " ### Ofertas Destacadas",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
-    }
-  },
-
-  "flex-layout.row#section__items--topoffers": {
-    "children": [
-      "image#home__topitem--image",
-      "image#home__topitem--image",
-      "image#home__topitem--image",
-      "image#home__topitem--image"
-    ]
-  },
-
-  "rich-text#home__phones": {
-    "props": {
-      "text": " ### Celulares",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heding-1"
-    }
-  },
-
-  "flex-layout.row#section__phones--items": {
-    "children": [
-      "image#home__phones--items",
-      "image#home__phones--items",
-      "image#home__phones--items"
-    ]
-  },
-  "rich-text#home__computers": {
-    "props": {
-      "text": " ### Computadoras",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heding-1"
-    }
-  },
-  "flex-layout.row#section__computers--items": {
-    "children": [
-      "image#home__computers--items",
-      "image#home__computers--items",
-      "image#home__computers--items"
-    ]
-  },
-  "rich-text#home__tv": {
-    "props": {
-      "text": " ### Televisores",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heding-1"
-    }
-  },
-
-  "flex-layout.row#section__tv--items": {
-    "children": [
-      "image#home__tv--items",
-      "image#home__tv--items",
-      "image#home__tv--items"
-    ]
-  },
-
-  "rich-text#home__appliances": {
-    "props": {
-      "text": " ### Electrodomesticos",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heding-1"
-    }
-  },
-
-  "flex-layout.row#section__appliances--items": {
-    "children": [
-      "image#home__appliances--items",
-      "image#home__appliances--items",
-      "image#home__appliances--items"
-    ]
-  },
-
-  "rich-text#home__videogames": {
-    "props": {
-      "text": " ### Video juegos y más",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heding-1"
-    }
-  },
-
-  "flex-layout.row#section__videogames--items": {
-    "children": [
-      "image#home__videogames--items",
-      "image#home__videogames--items",
-      "image#home__videogames--items"
-    ]
-  },
-
-  "rich-text#home__moreabout": {
-    "props": {
-      "text": " ### Conoce mas",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heding-1"
-    }
-  },
-
-  "flex-layout.row#section__moreabout--items": {
-    "children": [
-      "image#home__moreabout--items",
-      "image#home__moreabout--items",
-      "image#home__moreabout--items"
-    ]
-  },
-
-  "flex-layout.row#section__banner--second": {
-    "children": ["image#home__banner--second"]
-  },
-
-  "rich-text#home__bankbenefits": {
-    "props": {
-      "text": " ### Beneficios con bancos",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heding-1"
-    }
-  },
-  "flex-layout.row#section__banks--items": {
-    "children": [
-      "image#home__bankbenefits--items",
-      "image#home__bankbenefits--items",
-      "image#home__bankbenefits--items",
-      "image#home__bankbenefits--items"
-    ]
+    "children": ["flex-layout.row#home__items-global"]
   }
+
+  
+  
 }

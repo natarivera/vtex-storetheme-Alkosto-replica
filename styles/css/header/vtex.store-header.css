@@ -16,7 +16,9 @@
 }
 
 .headerRowBackground--menu_name{
-    box-shadow: 0 3px 6px rgb(0 0 0 / 15%)
+    box-shadow: 0 3px 6px rgb(0 0 0 / 15%);
+    margin-bottom: 20px;
+    
 }
 
 .headerRowBackground--header__mobile{

@@ -2,3 +2,21 @@
     transform:translateY(30px);
 }
 
+.caretIcon--home__slider{
+    color:  #eb5b25;
+    filter: drop-shadow(rgba(128, 128, 128, 0.39) 2px 2px 2px);
+    background: white;
+    box-shadow: 10px 5px 4px transparent;
+    border-radius: 50%;
+    width: 15px;
+    padding: 10px;
+    height: 15px;
+}
+
+.paginationDotsContainer--home__slider{
+    margin-bottom: 10px;   
+}
+
+.paginationDot--home__slider{
+    color:  #eb5b25;
+}
