@@ -2,7 +2,7 @@
     "image#home__topitem--image":{
         "title":"image of featured products",
         "props":{
-            "src":"assets/img/topoffers.jpg",
+            "src":"assets/img/home__topoffers.jpg",
             "title":"topimage",
             "blockClass":"home_topimage"
         }

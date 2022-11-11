@@ -2,7 +2,7 @@
     "image#home__tv--items":{
         "title":"tv",
             "props":{
-                "src":"assets/img/televisores.jpg",
+                "src":"assets/img/home__televisores.jpg",
                 "maxWidth": 400,
                 "title":"tv home",
                 "blockClass":"home_tv"
