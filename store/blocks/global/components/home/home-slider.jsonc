@@ -24,7 +24,7 @@
     },
     "image#home__slider--one":{
        "props":{
-          "src": "assets/img/silder1.jpg",
+          "src": "assets/img/home__silder1.jpg",
           "blockClass": "home__slider--one"
       }
     },

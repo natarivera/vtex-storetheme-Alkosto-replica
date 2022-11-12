@@ -1,12 +1,4 @@
 {
-  "header-layout.desktop": {
-    "title": "header desktop",
-    "children": ["header-row#desktop", "header-row#header__menu"],
-    "props": {
-      "fullWidth": true,
-      "blockClass": "container_full"
-    }
-  },
   "header-row#desktop": {
     "children": ["flex-layout.row#desktop1"],
     "props": {
