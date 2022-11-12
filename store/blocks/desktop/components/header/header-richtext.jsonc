@@ -377,5 +377,13 @@
             "text":"&#62;",
             "blockClass":"greater_than"
         }
+    },
+
+    "rich-text#test": {
+        "title":"soy una prueba",
+        "props":{
+            "text":"soy una prueba",
+            "blockClass":"soy-una-prueba"
+        }
     }
 }

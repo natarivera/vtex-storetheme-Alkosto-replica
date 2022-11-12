@@ -21,7 +21,8 @@
       "flex-layout.row#section__moreabout--items",
       "flex-layout.row#section__banner--second",
       "rich-text#home__bankbenefits",
-      "flex-layout.row#section__banks--items"
+      "flex-layout.row#section__banks--items",
+      "search-result-layout.customQuery#global_home__search"
     ]
   }
 }
