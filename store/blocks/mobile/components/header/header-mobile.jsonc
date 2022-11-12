@@ -2,7 +2,7 @@
 
   "header-row#header__top": {
     "title": "header mobile",
-    "children": ["mega-menu-trigger-btn","logo#header__top--logo--mobile", "search-bar#mobile"],
+    "children": ["logo#header__top--logo--mobile", "search-bar#mobile"],
     "props": {
       "blockClass": "header__mobile"
       
