@@ -85,7 +85,17 @@
     margin-left: 15px;
     padding: 20px;
   }
+
+.imageElement--home__slider--five,
+.imageElement--home__slider--four,
+.imageElement--home__slider--three,
+.imageElement--home__slider--two,
+.imageElement--home__slider--one{
+    width: 100%;
+    margin-top: 30px;
 }
+}
+
 .imageElement--home__slider--five,
 .imageElement--home__slider--four,
 .imageElement--home__slider--three,
@@ -117,5 +127,4 @@
 .imageElement--home_videogames{
   min-width: 300px;
 }
-
 
