@@ -1,0 +1,131 @@
+{
+    "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#footer__container--contact",
+      "flex-layout.row#footer__container--payment-text",
+      "flex-layout.row#footer__container--payment",
+      "disclosure-layout#footer__policies"
+    ],
+    "props":{
+      "blockClass": "footer__container"
+    }
+  },
+  "flex-layout.row#footer__container--contact":{
+    "title": "Section one contact-footer",
+    "children":[
+      "flex-layout.col#footer__container--contact-col-one",
+      "flex-layout.col#footer__container--contact-col-two",
+      "flex-layout.col#footer__container--contact-col-three"
+    ],
+    "props":{
+      "blockClass": "footer__container--contact"
+    }
+  },
+  "flex-layout.col#footer__container--contact-col-one":{
+    "children":[
+        "image#footer__container--contact-col-one",
+        "rich-text#footer__container--contact-col-one",
+        "rich-text#footer__container--business-name-col-one",
+        "rich-text#footer__container--nit-col-one"
+    ],
+    "props":{
+        "colSizing": "auto"
+      }        
+  },
+
+  "flex-layout.col#footer__container--contact-col-two":{
+    "children":[
+        "image#footer__container--contact-col-two",
+        "rich-text#footer__container--contact-col-two",
+        "rich-text#footer__container--email-col-two"
+    ],
+    "props":{
+        "colSizing": "auto"
+      }        
+  },
+
+  "flex-layout.col#footer__container--contact-col-three":{
+    "children":[
+        "image#footer__container--contact-col-three",
+        "rich-text#footer__container--customer-service-col-three",
+        "rich-text#footer__container--telephone-sale-col-three"
+    ],
+    "props":{
+        "colSizing": "auto"
+      }        
+  },
+
+  "flex-layout.row#footer__container--payment":{
+    "children":[
+      "image#footer__container--payment-one",
+      "image#footer__container--payment-two",
+      "image#footer__container--payment-three",
+      "image#footer__container--payment-four",
+      "image#footer__container--payment-five",
+      "image#footer__container--payment-six",
+      "image#footer__container--payment-seven",
+      "image#footer__container--payment-eigth",
+      "image#footer__container--payment-nine",
+      "image#footer__container--payment-ten",
+      "image#footer__container--payment-eleven",
+      "image#footer__container--payment-twelve",
+      "image#footer__container--payment-thirteen"
+    ]
+  },
+  "disclosure-layout#footer__policies":{
+    "title": "Disclosure policies",
+    "children":[
+      "disclosure-trigger#policies",
+      "disclosure-content#policies"
+    ]
+  },  
+  "disclosure-trigger#policies":{
+    "children":[
+      "rich-text#terms--title"
+    ]
+  },
+  "disclosure-content#policies":{
+    "children":[
+      "rich-text#terms__content--policies",
+      "flex-layout.row#policies_content--policies-one",
+      "rich-text#policies__content--policies-two",
+      "rich-text#policies__content--policies-three"
+    ]
+  },
+
+  "flex-layout.row#policies_content--policies-one":{
+    "children":[
+      "flex-layout.col#policies__content-one--image",
+      "flex-layout.col#policies__content-one--text"
+    ],
+    "props":{
+      "colSizing":"auto",
+      "blockClass":"policies__content-one"
+    }
+  },
+  "flex-layout.col#policies__content-one--image":{
+    "children":[
+      "image#footer__container--policies"
+    ],
+    "props":{
+      "blockClass":"policies__content--image-tuya"
+    }
+  },
+  "flex-layout.col#policies__content-one--text":{
+    "children":[
+      "rich-text#policies__content--policies-one"
+    ],
+    "props":{
+      "blockClass":"policies__content--text-one "
+    }
+  },
+  "flex-layout.row#footer__container--payment-text":{
+    "title": "Section 2 medios de pago-footer-text",
+    "children":[
+      "rich-text#footer__container--payment"
+    ],
+    "props":{
+      "blockClass": "footer__container--mediosdepago"
+    }
+  }
+}

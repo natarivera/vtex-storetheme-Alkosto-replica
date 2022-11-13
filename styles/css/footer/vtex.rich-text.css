@@ -1,0 +1,13 @@
+.paragraph--rich-text__footer__container--about-us-title,
+.strong--rich-text__footer__container--contacto-business-name,
+.paragraph--rich-text__footer__container--nit,
+.paragraph--rich-text__footer__container--email-title,
+.container--rich-text__footer__container--contact--customer-service,
+.paragraph--rich-text__footer__container--contact-sale,
+.paragraph--footer__container--payment{
+    color: white;
+}
+
+.container--rich-text__footer__container--contact-email{
+    color: #929292;
+}

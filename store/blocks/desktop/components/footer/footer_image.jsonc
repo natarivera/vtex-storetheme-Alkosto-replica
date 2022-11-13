@@ -1,0 +1,142 @@
+{
+    "image#footer__container--contact-col-one":{
+        "title": "Image about us",
+        "props": {
+            "src": "assets/img/footer/footer__about-icon.png",
+            "title:": "Nosotros",
+            "blockClass": "footer__main--contact__phone--info",
+            "link":{
+                "url": "#",
+                "newTab": false,
+                "attributeNoFollow": false
+            }
+        }
+    },
+    "image#footer__container--contact-col-two":{
+        "title": "Imagen  Email",
+        "props": {
+            "src": "assets/img/footer/footer__email-icon.png",
+            "title:": "Email",
+            "blockClass": "footer__main--contact__email--info",
+            "link":{
+                "url": "#",
+                "newTab": false,
+                "attributeNoFollow": false
+            }
+        }
+    },
+    "image#footer__container--contact-col-three":{
+        "title": "Imagen contact phone",
+        "props": {
+            "src": "assets/img/footer/footer__contact-icon.png",
+            "title:": "Venta Telefónica",
+            "blockClass": "footer__image--contact-icon",
+            "link":{
+                "url": "#",
+                "newTab": false,
+                "attributeNoFollow": false
+            }
+        }
+    },
+            /*Medios de pago*/
+    "image#footer__container--payment-one":{
+        "title": "Imagen payment",
+        "props": {
+            "src": "assets/img/footer/footer__VISA.png",
+            "blockClass": "footer__image--payment"
+        }
+    },
+
+    "image#footer__container--payment-two":{
+        "title": "Imagen payment",
+        "props": {
+            "src": "assets/img/footer/footer__DINNERS-CLUB-18-min.svg",
+            "blockClass": "footer__image--payment"
+        }
+    },
+    "image#footer__container--payment-three":{
+        "title": "Imagen payment",
+        "props": {
+            "src": "assets/img/footer/footer__mastercard-icon.png",
+            "blockClass": "footer__image--payment"
+        }
+    },
+
+    "image#footer__container--payment-four":{
+        "title": "Imagen payment",//
+        "props": {
+            "src": "assets/img/footer/footer__amex-card-icon.png",
+            "blockClass": "footer__image--payment"
+        }
+    },
+    "image#footer__container--payment-five":{
+        "title": "Imagen payment",//
+        "props": {
+            "src": "assets/img/footer/footer__bancolombia-boton-icon.png",
+            "blockClass": "footer__image--payment"
+        }
+    },
+    "image#footer__container--payment-six":{
+        "title": "Imagen payment",//
+        "props": {
+            "src": "assets/img/footer/footer__pse-icon.png",
+            "blockClass": "footer__image--payment"
+        }
+    },
+    "image#footer__container--payment-seven":{
+        "title": "Imagen payment",//
+        "props": {
+            "src": "assets/img/footer/footer__TARJETA-ALKOSTO.png",
+            "blockClass": "footer__image--payment"
+        }
+    },
+    "image#footer__container--payment-eigth":{
+        "title": "Imagen payment",//
+        "props": {
+            "src": "assets/img/footer/footer__EFECTY.png",
+            "blockClass": "footer__image--payment"
+        }
+    },
+    "image#footer__container--payment-nine":{
+        "title": "Imagen payment",//
+        "props": {
+            "src": "assets/img/footer/footer__CODENSA.png",
+            "blockClass": "footer__image--payment"
+        }
+    },
+    "image#footer__container--payment-ten":{
+        "title": "Imagen payment",//
+        "props": {
+            "src": "assets/img/footer/footer__credito20min-icon.png",
+            "blockClass": "footer__image--payment"
+        }
+    },
+    "image#footer__container--payment-eleven":{
+        "title": "Imagen payment ",//
+        "props": {
+            "src": "assets/img/footer/footer__DAVIVIENDA.png",
+            "blockClass": "footer__image--payment"
+        }
+    },
+    "image#footer__container--payment-twelve":{
+        "title": "Imagen payment",
+        "props": {
+            "src": "assets/img/footer/footer__BANCOLOMBIA.png",
+            "blockClass": "footer__image--payment"
+        }
+    },
+    "image#footer__container--payment-thirteen":{
+        "title": "Imagen payment",
+        "props": {
+            "src": "assets/img/footer/footer__BANCO-BOGOTA.png",
+            "blockClass": "footer__image--payment"
+        }
+    },
+    "image#footer__container--policies":{
+        "title": "Imagen terms and conditions",
+        "props": {
+            "src": "assets/img/footer/Logo-tuya.png",
+            "blockClass": "footer__image--tuya"
+        }
+    }
+}

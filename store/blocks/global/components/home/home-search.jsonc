@@ -14,7 +14,7 @@
   },
   "search-result-layout.desktop#home__search--desktop": {
       "children": [
-          "rich-text#test"
+          /*"rich-text#test"*/
       ]
   },
   "search-result-layout.mobile#home__search--mobile": {
