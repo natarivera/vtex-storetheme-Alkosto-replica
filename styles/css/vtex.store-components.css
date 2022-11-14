@@ -127,3 +127,8 @@
 .imageElement--home_videogames{
   min-width: 300px;
 }
+.imageElement--footer__image--contact-icon,
+.imageElement--footer__main--contact__email--info,
+.imageElement--footer__main--contact__phone--info{
+  width: 25px;
+}

@@ -1,0 +1,188 @@
+{
+"disclosure-layout#policy":{
+    "title": "Disclosure policy",
+    "children":[
+        "disclosure-trigger#policy",
+        "disclosure-content#policy"
+    ]
+  },
+
+  "disclosure-trigger#policy":{
+    "children":[
+      "rich-text#policies__content--policy"
+    ]
+  },
+
+  "disclosure-content#policy":{
+    "children":[
+        "menu#policy"
+    ]
+  },
+
+  "menu#policy":{
+    "children":[
+      "menu-item#policy-tyc-digital",
+      "menu-item#policy-tyc-world",
+      "menu-item#policy-contract",
+      "menu-item#policy-link-dic",
+      "menu-item#policy-privacy",
+      "menu-item#personal-data",
+      "menu-item#personal-cookies",
+      "menu-item#exchanges and returns",
+      "menu-item#code-ethics",
+      "menu-item#code-sst",
+      "menu-item#tdt",
+      "menu-item#ethics-line"
+  ],
+  
+  "props":{
+    "orientation":"vertical"
+  }
+},
+
+"menu-item#policy-tyc-digital":{
+  "props":{
+    "id": "menu-policy-tyc-digital",
+    "type":"custom",
+    "itemProps":{
+      "type": "internal",
+      "href":"/",
+      "tagTitle":"policy-tyc-digital",
+      "text": "Términos y condiciones del canal digital"
+    }
+  }
+},
+  "menu-item#policy-tyc-world":{
+    "props":{
+      "id": "menu-policy-tyc-world",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"policy-tyc-world",
+        "text": "Términos y condiciones 'Somos Hichas del Mundo'"
+      }
+    }
+  },
+  "menu-item#policy-contract":{
+    "props":{
+      "id": "menu-policy-contract",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"policy-contract",
+        "text": "Contrato de compraventa en línea"
+      }
+    }
+  },
+  "menu-item#policy-link-dic":{
+    "props":{
+      "id": "menu-policy-link-dic",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"policy-link-dic",
+        "text": "https://www.sic.gov.co"
+      }
+    }
+  },
+  "menu-item#policy-privacy":{
+    "props":{
+      "id": "menu-policy-privacy",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"work-us",
+        "text": "Politíca de privacidad"
+      }
+    }
+  },
+  "menu-item#personal-data":{
+    "props":{
+      "id": "menu-personal-data",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"personal-data",
+        "text": "Solicitud tratamiento de datos personales"
+      }
+    }
+  },
+  "menu-item#personal-cookies":{
+    "props":{
+      "id": "menu-personal-cookies",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"personal-cookies",
+        "text": "Política de cookies"
+      }
+    }
+  },
+  "menu-item#exchanges and returns":{
+    "props":{
+      "id": "menu-exchanges and returns",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"exchanges and returns",
+        "text": "Poltica de cambios y devoluciones"
+      }
+    }
+  },
+  "menu-item#code-ethics":{
+    "props":{
+      "id": "menu-code-ethics",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"code-ethics",
+        "text": "Código de ética"
+      }
+    }
+  },
+  "menu-item#code-sst":{
+    "props":{
+      "id": "menu-code-ethics",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"code-ethics",
+        "text": "Manual de normas SST para Terceros"
+      }
+    }
+  },
+
+  "menu-item#tdt":{
+    "props":{
+      "id": "menu-tdt",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"tdt",
+        "text": "Todo lo que debes saber sobre TDT"
+      }
+    }
+  },
+  "menu-item#ethics-line":{
+    "props":{
+      "id": "ethics-line",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"ethics-line",
+        "text": "Línea ética"
+      }
+    }
+  }
+}

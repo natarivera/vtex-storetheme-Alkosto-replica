@@ -114,5 +114,227 @@
       "text":"✧Davivienda 0% de intereses y Plan 0es3 (bine 459321) en productos Apple consulte en: www.ktronix.com/medios-pago/davivienda/plan-0es3-0interes/c/plan-0es3-0interes\r\n✧Davivienda iPhone for Life en productos Apple consulte en: www.ktronix.com/marcas/apple/iphone-for-life/c/iphoneforlife\r\n✧Tarjeta de crédito Alkosto consulte en: www.alkosto.com – www.tarjetaalkosto.com.co\r\n✧Davivienda 0% de interés, celular VIVO referencia X80 pro. Vigencia entre el 6 julio de 2022 hasta el día 31 diciembre de 2022 consulte en:www.ktronix.com/marcas/vivo/nuevo-celular-vivo-x80/c/nuevo-celular-vivo-x80",
       "blockClass":"policies__content-three"
     }
+  },
+
+  /*Nuestra compañia*/
+
+  "rich-text#policies__content--ourcompany":{
+    "props":{
+      "text":"Nuestra compañia",
+      "blockClass":"policies__content--title"
+    }
+  },
+  
+  "rich-text#policies__content--ourcompany--about-us":{
+    "props":{
+      "text":"Quiénes somos",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--ourcompany--our-stores":{
+    "props":{
+      "text":"Nuestras tiendas",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+
+  "rich-text#policies__content--ourcompany--contact-us":{
+    "props":{
+      "text":"Contáctenos",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--ourcompany--card-alkosto":{
+    "props":{
+      "text":"Tarjeta de crédito Alkosto",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--ourcompany--work-us":{
+    "props":{
+      "text":"Trabaje con nosotros",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--ourcompany--certificates":{
+    "props":{
+      "text":"Certificados tributarios",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+
+  "rich-text#policies__content--ourcompany--raffles":{
+    "props":{
+      "text":"Rifas",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--ourcompany--employees-fund":{
+    "props":{
+      "text":"Fondo de empleados y cooperativas",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+
+  /*Compras en linea*/
+
+  "rich-text#policies__content--on-line-shopping":{
+    "props":{
+      "text":"Compras en línea",
+      "blockClass":"policies__content--title"
+    }
+  },
+  "rich-text#policies__content--online--frequently":{
+    "props":{
+      "text":"Preguntas frecuentes",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+
+  "rich-text#policies__content--online--secure-payment":{
+    "props":{
+      "text":"Pago seguro",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--online--methods-delivery":{
+    "props":{
+      "text":"Métodos de envío",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--online--payment-methods":{
+    "props":{
+      "text":"Medios de pago",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+
+  "rich-text#policies__content--online--insurance":{
+    "props":{
+      "text":"Seguros",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+
+  /*Servicios*/
+
+  "rich-text#policies__content--service":{
+    "props":{
+      "text":"Servicios",
+      "blockClass":"policies__content--title"
+    }
+  },
+  "rich-text#policies__content--service-installations":{
+    "props":{
+      "text":"Instalaciones",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--service-warranty":{
+    "props":{
+      "text":"Garantía extendida",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+
+  "rich-text#policies__content--service-centers":{
+    "props":{
+      "text":"Garantías y centros de servicios técnico",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--service-tire":{
+    "props":{
+      "text":"Instalación de Llantas",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+
+  /*politicas*/
+  "rich-text#policies__content--policy":{
+    "props":{
+      "text":"Políticas",
+      "blockClass":"policies__content--title"
+    }
+  },
+
+  "rich-text#policies__content--policy-tyc-digital":{
+    "props":{
+      "text":"Términos y condiciones del canal digital",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--policy-tyc-world":{
+    "props":{
+      "text":"Términos y condiciones 'Somos Hichas del Mundo'",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--policy-contract":{
+    "props":{
+      "text":"Contrato de compraventa en línea",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--policy-link-dic":{
+    "props":{
+      "text":"https://www.sic.gov.co",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--policy-privacy":{
+    "props":{
+      "text":"Politíca de privacidad",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--personal-data":{
+    "props":{
+      "text":"Solicitud tratamiento de datos personales",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--personal-cookies":{
+    "props":{
+      "text":"Política de cookies",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--exchanges and returns":{
+    "props":{
+      "text":"Poltica de cambios y devoluciones",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--code-ethics":{
+    "props":{
+      "text":"Código de ética",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--code-sst":{
+    "props":{
+      "text":"Manual de normas SST para Terceros",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--tdt":{
+    "props":{
+      "text":"Todo lo que debes saber sobre TDT",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--ethics-line":{
+    "props":{
+      "text":"Línea ética",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--social-networks":{
+    "props":{
+      "text":"Siguenos en:",
+      "blockClass":"content--social-networks"
+    }
   }
 }

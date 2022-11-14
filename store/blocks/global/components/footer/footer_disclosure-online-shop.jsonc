@@ -1,0 +1,97 @@
+{
+
+"disclosure-layout#on-line-shopping":{
+    "title": "Disclosure on-line-shopping",
+    "children":[
+        "disclosure-trigger#on-line-shopping",
+        "disclosure-content#on-line-shopping"
+    ]
+  },
+
+  "disclosure-trigger#on-line-shopping":{
+    "children":[
+      "rich-text#policies__content--on-line-shopping"
+    ]
+  },
+
+  "disclosure-content#on-line-shopping":{
+    "children":[
+        "menu#on-line-shopping"
+    ]
+  },
+
+  "menu#on-line-shopping":{
+    "children":[
+      "menu-item#frequently",
+      "menu-item#secure-payment",
+      "menu-item#methods-delivery",
+      "menu-item#payment-methods",
+      "menu-item#insurance"
+  ],
+  
+  "props":{
+    "orientation":"vertical"
+  }
+},
+
+"menu-item#frequently":{
+  "props":{
+    "id": "menu-company-frequently",
+    "type":"custom",
+    "itemProps":{
+      "type": "internal",
+      "href":"/",
+      "tagTitle":"frequently",
+      "text": "Preguntas frecuentes"
+    }
+  }
+},
+"menu-item#secure-payment":{
+    "props":{
+      "id": "menu-company-secure-payment",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"secure-payment",
+        "text": "Pago seguro"
+      }
+    }
+  },
+  "menu-item#methods-delivery":{
+    "props":{
+      "id": "menu-company-methods-delivery",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"methods-delivery",
+        "text": "Métodos de envío"
+      }
+    }
+  },
+  "menu-item#payment-methods":{
+    "props":{
+      "id": "menu-company-payment-methods",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"payment-methods",
+        "text": "Medios de pago"
+      }
+    }
+  },
+  "menu-item#insurance":{
+    "props":{
+      "id": "menu-company-insurance",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"insurance",
+        "text": "Seguros"
+      }
+    }
+  }
+}

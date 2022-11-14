@@ -11,3 +11,13 @@
 .container--rich-text__footer__container--contact-email{
     color: #929292;
 }
+
+.paragraph--policies__content--title {
+    color: #fcfcfc;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.paragraph--content--social-networks{
+    color: #fcfcfc;
+}

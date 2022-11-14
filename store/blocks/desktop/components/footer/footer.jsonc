@@ -4,7 +4,12 @@
       "flex-layout.row#footer__container--contact",
       "flex-layout.row#footer__container--payment-text",
       "flex-layout.row#footer__container--payment",
-      "disclosure-layout#footer__policies"
+      "flex-layout.row#footer__container--disclosure",
+      "flex-layout.row#footer__container--social-networks"
+      /*
+      "disclosure-layout#footer__policies",
+      "disclosure-layout-group#footer__menu--group"
+      */
     ],
     "props":{
       "blockClass": "footer__container"
@@ -72,6 +77,58 @@
       "image#footer__container--payment-thirteen"
     ]
   },
+  "flex-layout.row#footer__container--disclosure":{
+    "children": [
+      "flex-layout.col#footer__container--disclosure-1",
+      "flex-layout.col#footer__container--disclosure-2",
+      "flex-layout.col#footer__container--disclosure-3",
+      "flex-layout.col#footer__container--disclosure-4"
+    ]
+  },
+  "flex-layout.col#footer__container--disclosure-1":{
+    "children": [
+      "rich-text#policies__content--ourcompany",
+      "menu#about-us"
+    ],
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "top",
+      "blockClass": "disclosure-col"
+    }
+  },
+  "flex-layout.col#footer__container--disclosure-2":{
+    "children": [
+      "rich-text#policies__content--on-line-shopping",
+      "menu#on-line-shopping"
+    ],
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "top",
+      "blockClass": "disclosure-col"
+    }
+  },
+  "flex-layout.col#footer__container--disclosure-3":{
+    "children": [
+      "rich-text#policies__content--policy",
+      "menu#policy"
+    ],
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "top",
+      "blockClass": "disclosure-col"
+    }
+  },
+  "flex-layout.col#footer__container--disclosure-4":{
+    "children": [
+      "rich-text#policies__content--service",
+      "menu#service"
+    ],
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "top",
+      "blockClass": "disclosure-col"
+    }
+  },
   "disclosure-layout#footer__policies":{
     "title": "Disclosure policies",
     "children":[
@@ -126,6 +183,32 @@
     ],
     "props":{
       "blockClass": "footer__container--mediosdepago"
+    }
+  },
+
+  "flex-layout.row#footer__container--social-networks":{
+    "children":[
+      "rich-text#policies__content--social-networks",
+      "social-networks"
+    ]
+  },
+  "social-networks":{
+    "props":{
+      "socialNetworks":[
+        {
+          "url":"https://facebook.com/alkosto",
+          "name": "Facebook"
+        },
+
+        {
+          "url":"https://twitter.com/alkosto",
+          "name": "twitter"
+        },
+        {
+          "url":"https://youtube.com/alkosto",
+          "name": "youtube"
+        }
+      ]
     }
   }
 }
