@@ -4,10 +4,9 @@
       "flex-layout.row#footer__container--contact",
       "flex-layout.row#footer__container--payment-text",
       "flex-layout.row#footer__container--payment",
-      "flex-layout.row#footer__container--disclosure",
-      "flex-layout.row#footer__container--social-networks"
-      /*
       "disclosure-layout#footer__policies",
+      "flex-layout.row#footer__container--disclosure",
+      "flex-layout.row#footer__container--social-networks"/*,
       "disclosure-layout-group#footer__menu--group"
       */
     ],
@@ -23,7 +22,9 @@
       "flex-layout.col#footer__container--contact-col-three"
     ],
     "props":{
-      "blockClass": "footer__container--contact"
+      "blockClass": "footer__container--contact",
+      "horizontalAlign": "around",
+      "colSizing":"auto"
     }
   },
   "flex-layout.col#footer__container--contact-col-one":{
@@ -34,7 +35,8 @@
         "rich-text#footer__container--nit-col-one"
     ],
     "props":{
-        "colSizing": "auto"
+        "colSizing": "auto",
+        "blockClass": "footer__container__contact-us"
       }        
   },
 
@@ -45,18 +47,21 @@
         "rich-text#footer__container--email-col-two"
     ],
     "props":{
-        "colSizing": "auto"
+        "colSizing": "auto",
+        "blockClass": "footer__container__contact-us"
       }        
   },
 
   "flex-layout.col#footer__container--contact-col-three":{
     "children":[
         "image#footer__container--contact-col-three",
+        "rich-text#footer__container--contact-col-three",
         "rich-text#footer__container--customer-service-col-three",
         "rich-text#footer__container--telephone-sale-col-three"
     ],
     "props":{
-        "colSizing": "auto"
+        "colSizing": "auto",
+        "blockClass": "footer__container__contact-us-sale"
       }        
   },
 
@@ -75,7 +80,10 @@
       "image#footer__container--payment-eleven",
       "image#footer__container--payment-twelve",
       "image#footer__container--payment-thirteen"
-    ]
+    ],
+    "props":{
+      "blockClass":"footer__container-image"
+    }
   },
   "flex-layout.row#footer__container--disclosure":{
     "children": [
@@ -83,7 +91,10 @@
       "flex-layout.col#footer__container--disclosure-2",
       "flex-layout.col#footer__container--disclosure-3",
       "flex-layout.col#footer__container--disclosure-4"
-    ]
+    ],
+    "props": {
+    "blockClass": "footer__disclosure-menuitem"
+    }
   },
   "flex-layout.col#footer__container--disclosure-1":{
     "children": [
@@ -135,6 +146,10 @@
       "disclosure-trigger#policies",
       "disclosure-content#policies"
     ]
+    ,
+    "props":{
+      "blockClass":"footer__container__disclosure"
+    }
   },  
   "disclosure-trigger#policies":{
     "children":[
@@ -190,7 +205,10 @@
     "children":[
       "rich-text#policies__content--social-networks",
       "social-networks"
-    ]
+    ],
+    "props":{
+      "blockClass":"footer__container--social-networks-icons"
+    }
   },
   "social-networks":{
     "props":{

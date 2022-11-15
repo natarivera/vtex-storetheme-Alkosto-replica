@@ -1,3 +1,43 @@
-.flexColChild--disclosure-col{
-    padding: 5px;
+.flexColChild--disclosure-col {
+  padding: 5px;
 }
+.flexRow--footer__container--contact {
+  padding: 40px;
+}
+.flexRow--footer__disclosure-menuitem,
+.flexRow--footer__container--mediosdepago{
+    border-top: 1px solid grey;
+    max-width: 1366px;
+    margin: 25px 65px 20px;
+    padding-top: 10px;
+}
+
+.flexColChild--footer__container__contact-us::before{
+    border-left: 1px solid grey;
+}
+
+.flexRowcontent--footer__container-image{
+    margin-bottom: px;
+}
+.flexRowContent--footer__container--contact{
+    justify-content: center;
+}
+.flexColChild--footer__container__contact-us-sale,
+.flexColChild--footer__container__contact-us{
+    margin-left: 150px;
+}
+
+@media only screen and (max-width: 49rem){
+    .flexCol--footer__container__contact-us{
+        display: flex;
+        min-width: max-content;
+    }
+}
+
+.flexRowContent--footer__container--social-networks-icons{
+    align-items: center;
+    margin-left: 85%;
+    width: 220px;
+} 
+
+

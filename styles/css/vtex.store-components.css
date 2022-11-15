@@ -34,25 +34,25 @@
 }
 
 .imageElement--home_imageitem_phone {
-    padding: 10px;
-    width: 84px;
-    height: auto;
-    margin-left: 40px;
-    margin-top: 20px;
-    padding: 20px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 4px 0px rgb(0 0 0 / 16%);
-    cursor: pointer;
+  padding: 10px;
+  width: 84px;
+  height: auto;
+  margin-left: 40px;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px 0px rgb(0 0 0 / 16%);
+  cursor: pointer;
 }
 
-.imageElement--home_imageitem_phoneoffers{
+.imageElement--home_imageitem_phoneoffers {
   padding: 10px;
   width: 40px;
   height: 40px;
   margin-left: 40px;
   margin-top: 20px;
   padding: 20px;
-  border:solid 1px #eb5b25;
+  border: solid 1px #eb5b25;
   background: rgba(235, 91, 37, 0.1);
   border-radius: 50%;
   cursor: pointer;
@@ -77,58 +77,58 @@
   .headerRowContainer--header__mobile {
     padding: 0;
   }
-  .imageElement--home_imageitem_phone{
+  .imageElement--home_imageitem_phone {
     margin-left: 15px;
     padding: 20px;
   }
-  .imageElement--home_imageitem_phoneoffers{
+  .imageElement--home_imageitem_phoneoffers {
     margin-left: 15px;
     padding: 20px;
   }
 
-.imageElement--home__slider--five,
-.imageElement--home__slider--four,
-.imageElement--home__slider--three,
-.imageElement--home__slider--two,
-.imageElement--home__slider--one{
+  .imageElement--home__slider--five,
+  .imageElement--home__slider--four,
+  .imageElement--home__slider--three,
+  .imageElement--home__slider--two,
+  .imageElement--home__slider--one {
     width: 100%;
     margin-top: 30px;
-}
+  }
 }
 
 .imageElement--home__slider--five,
 .imageElement--home__slider--four,
 .imageElement--home__slider--three,
 .imageElement--home__slider--two,
-.imageElement--home__slider--one{
-    width: 100%;
-}
-
-.imageElement--home_bannerfirst{
+.imageElement--home__slider--one {
   width: 100%;
 }
 
-.imageElement--home_topimage{
+.imageElement--home_bannerfirst {
+  width: 100%;
+}
+
+.imageElement--home_topimage {
   min-width: 300px;
 }
 
-.imageElement--home_phones{
+.imageElement--home_phones {
   min-width: 300px;
 }
 
-.imageElement--home_computers{
+.imageElement--home_computers {
   min-width: 300px;
 }
 
-.imageElement--home_tv{
+.imageElement--home_tv {
   min-width: 300px;
 }
 
-.imageElement--home_videogames{
+.imageElement--home_videogames {
   min-width: 300px;
 }
 .imageElement--footer__image--contact-icon,
 .imageElement--footer__main--contact__email--info,
-.imageElement--footer__main--contact__phone--info{
+.imageElement--footer__main--contact__phone--info {
   width: 25px;
 }
