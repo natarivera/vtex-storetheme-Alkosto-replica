@@ -2,7 +2,7 @@
   padding: 5px;
 }
 .flexRow--footer__container--contact {
-  padding: 40px;
+    padding: 40px;
 }
 
 .flexRow--footer__container--mediosdepago{
@@ -59,19 +59,22 @@
     .flexRow--footer__container--contact::-webkit-scrollbar-thumb{ 
         background-color: rgb(85, 85, 85);
     } 
+    
     .flexRowContent--footer__container--social-networks-icons{
-        margin-left: 0 !important;
-        width: 100% !important;    
+        padding: 0 !important;  
+        margin: auto;
+        width: auto !important;
     } 
 }
 
 .flexRowContent--footer__container--social-networks-icons{
-    align-items: center;
-    margin-left: 85%;
-    width: 220px;
+    
+        padding-right: 10%;
+    border: 1px solid #fff;
+    margin: 0 !important;
+    
 } 
-
-.flexCol--footer__container__contact-us::before{
-    border-left: 1px solid white;
+.flexRow--footer__disclosure-menuitem{
+    justify-content: center;
+    max-width: 1366px;
 }
-

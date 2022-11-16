@@ -1,3 +1,7 @@
 .imageElement--footer__image--payment{   
     height: 40px;
 }
+
+.flexRow--footer__container--social-networks{
+    margin: 0px 60px 0px 60px;
+}

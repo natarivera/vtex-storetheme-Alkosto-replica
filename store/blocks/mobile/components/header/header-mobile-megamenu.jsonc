@@ -9,7 +9,7 @@
     "drawer": {
       "children": ["mega-menu-go-back-btn", "mega-menu#mobile"],
       "blocks": ["drawer-header#my-drawer"]
-    },
+    }, 
     "mega-menu#mobile": {
       "props": {
         "title": "Categorias",
@@ -20,7 +20,7 @@
       }
     },
     "drawer-header#my-drawer": {
-      "children": ["logo#header__top--logo--mobile", "drawer-close-button"/*"flex-layout.row#drawer-header"*/],
+      "children": ["logo#header__top--logo--mobile", "drawer-close-button","flex-layout.row#drawer-header"],
       "props":{
         "blockClass":"drawer-header-logomobile",
         "width": "grow"
