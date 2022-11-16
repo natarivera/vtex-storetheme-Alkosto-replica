@@ -4,7 +4,7 @@
 .flexRow--footer__container--contact {
   padding: 40px;
 }
-.flexRow--footer__disclosure-menuitem,
+
 .flexRow--footer__container--mediosdepago{
     border-top: 1px solid grey;
     max-width: 1366px;
@@ -12,26 +12,57 @@
     padding-top: 10px;
 }
 
-.flexColChild--footer__container__contact-us::before{
-    border-left: 1px solid grey;
+.flexRow--footer__disclosure-menuitem{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    /*max-width: 1366px;
+    margin: 25px 65px 20px;*/
+    padding-top: 10px;
 }
+
 
 .flexRowcontent--footer__container-image{
     margin-bottom: px;
 }
 .flexRowContent--footer__container--contact{
     justify-content: center;
+    overflow-x: auto;
+    overflow-y: hidden ;
 }
-.flexColChild--footer__container__contact-us-sale,
-.flexColChild--footer__container__contact-us{
-    margin-left: 150px;
+.flexCol--footer__container__contact-us,
+.flexCol--footer__container__contact-us-sale{
+    width: 200px;
+    min-width: 200px;
+    padding-top: 10px;
+    /*border: 1px solid white;*/
+
 }
 
 @media only screen and (max-width: 49rem){
-    .flexCol--footer__container__contact-us{
+    .flexRowContent--footer__container--contact{
         display: flex;
-        min-width: max-content;
+        /*
+        min-width: max-content;*/
+    }  
+    .flexRowContent--footer__container-image{
+        overflow-x: auto;
+        overflow-y: hidden;
     }
+    .flexRow--footer__container--contact{
+        margin: 0px;
+        padding: 0;
+        overflow-x:auto;
+    }
+    .flexRow--footer__container--contact::-webkit-scrollbar{
+        height: 3px;
+    }
+    .flexRow--footer__container--contact::-webkit-scrollbar-thumb{ 
+        background-color: rgb(85, 85, 85);
+    } 
+    .flexRowContent--footer__container--social-networks-icons{
+        margin-left: 0 !important;
+        width: 100% !important;    
+    } 
 }
 
 .flexRowContent--footer__container--social-networks-icons{
@@ -40,4 +71,7 @@
     width: 220px;
 } 
 
+.flexCol--footer__container__contact-us::before{
+    border-left: 1px solid white;
+}
 

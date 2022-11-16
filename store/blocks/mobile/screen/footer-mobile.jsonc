@@ -1,9 +1,9 @@
 {
     "footer-layout.mobile": { 
-      "children": [
+      "children": [        
         "flex-layout.row#footer__container--contact",
         "flex-layout.row#footer__container--payment-text",
-        "flex-layout.row#footer__container--payment",
+        "flex-layout.row#footer__container--payment",       
         "disclosure-layout#footer__policies",
         "disclosure-layout-group#footer__menu--group",
         "flex-layout.row#footer__container--social-networks"
