@@ -10,7 +10,10 @@
   "disclosure-trigger#policy":{
     "children":[
       "rich-text#policies__content--policy"
-    ]
+    ],
+    "props":{
+      "blockClass": "disclosure-trigger-mobile"
+    }
   },
 
   "disclosure-content#policy":{

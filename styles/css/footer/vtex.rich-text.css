@@ -10,11 +10,11 @@
 }
 
 .container--rich-text__footer__container--contact-email {
-  border-left: solid 1px white;
-  border-right: solid 1px white;
-  color: #929292;
+  /*border-left: solid 1px white;
+  border-right: solid 1px white;*/
+  color: #929292;/*
   margin-left: -50px;
-  margin-right: -50px;
+  margin-right: -50px;*/
 }
 
 .paragraph--policies__content--title {
@@ -70,3 +70,5 @@
 .wrapper--terms__content--subtitle{
   font-size: 12px;
 }
+
+

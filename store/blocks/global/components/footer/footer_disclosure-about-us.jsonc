@@ -1,6 +1,7 @@
 {
 
 "disclosure-layout-group#footer__menu--group":{
+  
   "children":[
     "disclosure-layout#about-us",
     "disclosure-layout#on-line-shopping",
@@ -20,7 +21,10 @@
   "disclosure-trigger#about-us":{
     "children":[
         "rich-text#policies__content--ourcompany"
-    ]
+    ],
+    "props":{
+      "blockClass": "disclosure-trigger-mobile"
+    }
   },
 
   "disclosure-content#about-us":{

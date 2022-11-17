@@ -11,7 +11,10 @@
   "disclosure-trigger#service":{
     "children":[
       "rich-text#policies__content--service"
-    ]
+    ],
+    "props":{
+      "blockClass": "disclosure-trigger-mobile"
+    }
   },
 
   "disclosure-content#service":{

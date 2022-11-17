@@ -11,7 +11,10 @@
   "disclosure-trigger#on-line-shopping":{
     "children":[
       "rich-text#policies__content--on-line-shopping"
-    ]
+    ],
+    "props":{
+      "blockClass": "disclosure-trigger-mobile"
+    }
   },
 
   "disclosure-content#on-line-shopping":{
