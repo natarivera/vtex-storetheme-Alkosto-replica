@@ -16,9 +16,9 @@
     },
 
     "flex-layout.col#col-menu-trigger-btn":{
-        "children":[
+        "children":[            
             "mega-menu-trigger-btn",
-            "rich-text#menu-trigger-btn"
+            "rich-text#menu-trigger-btn"            
         ],
         "props": {
             "width": "25%",

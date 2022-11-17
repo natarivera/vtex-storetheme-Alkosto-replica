@@ -7,6 +7,8 @@
       "flex-layout.row#section__banner--offers-global",
       "rich-text#home__topoffers",
       "flex-layout.row#section__items--topoffers",
+      "rich-text#home__products--summary",
+      "flex-layout.row#global__product--list",
       "rich-text#home__phones",
       "flex-layout.row#section__phones--items",
       "rich-text#home__computers",

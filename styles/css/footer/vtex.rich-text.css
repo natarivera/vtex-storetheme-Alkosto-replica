@@ -1,0 +1,74 @@
+.paragraph--rich-text__footer__container--about-us-title,
+.strong--rich-text__footer__container--contacto-business-name,
+.paragraph--rich-text__footer__container--nit,
+.paragraph--rich-text__footer__container--email-title,
+.container--rich-text__footer__container--contact--customer-service,
+.paragraph--rich-text__footer__container--contact-sale,
+.paragraph--rich-text__footer__container--contact-title,
+.paragraph--footer__container--payment {
+  color: white;
+}
+
+.container--rich-text__footer__container--contact-email {
+  /*border-left: solid 1px white;
+  border-right: solid 1px white;*/
+  color: #929292;/*
+  margin-left: -50px;
+  margin-right: -50px;*/
+}
+
+.paragraph--policies__content--title {
+  color: #fcfcfc;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.paragraph--disclosure-terms--title,
+.paragraph--content--social-networks {
+  color: #fcfcfc;
+}
+
+.paragraph--rich-text__footer__container--about-us-title,
+.paragraph--rich-text__footer__container--email-title,
+.paragraph--rich-text__footer__container--contact--customer-service{
+  font-size: 16px;
+}
+.link--rich-text__footer__container--contact-email {
+  text-decoration: none;
+  color: #929292;
+  font-size: 12px;
+}
+
+.strong--rich-text__footer__container--contacto-business-name{
+    font-size: 12px;
+}
+.paragraph--rich-text__footer__container--contact-sale,
+.paragraph--rich-text__footer__container--contact--customer-service,
+.paragraph--rich-text__footer__container--nit{
+    color: #929292;
+    font-size: 12px;
+}
+
+.container--rich-text__footer__container--contact-email,
+.container--rich-text__footer__container--nit,
+.container--rich-text__footer__container--contacto-business-name{
+    margin-top: -30px;
+}
+
+.container--rich-text__footer__container--contact-sale{
+    margin-top: -25px;
+}
+.container--rich-text__footer__container--contact-title{
+    margin-bottom: -20px;
+}
+.wrapper--disclosure-terms--title{
+    justify-content:left;
+}
+
+.paragraph--policies__content-three,
+.paragraph--policies__content-two,
+.paragraph--policies__content-one,
+.wrapper--terms__content--subtitle{
+  font-size: 12px;
+}
+
+

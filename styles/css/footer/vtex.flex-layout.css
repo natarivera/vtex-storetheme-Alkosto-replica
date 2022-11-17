@@ -1,0 +1,96 @@
+.flexColChild--disclosure-col {
+  padding: 5px;
+}
+.flexRow--footer__container--contact {
+    /*padding: 40px;*/
+    
+}
+
+.flexRow--footer__container--mediosdepago{
+    border-top: 1px solid grey;
+    max-width: 1366px;
+    margin: 25px auto;
+    padding-top: 10px;
+}
+
+.flexRow--footer__disclosure-menuitem{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    /*max-width: 1366px;
+    margin: 25px 65px 20px;*/
+    padding-top: 10px;
+}
+
+
+.flexRowContent--footer__container-image{
+    /*margin-bottom: px;*/
+    max-width: 1366px;
+    margin: 0 auto;    
+}
+.flexRowContent--footer__container--contact{
+    justify-content: center;
+    overflow-x: auto;
+    overflow-y: hidden ;
+}
+.flexCol--footer__container__contact-us,
+.flexCol--footer__container__contact-us-sale{
+    
+    width: 400px;
+    min-width: 180px;
+    padding-top: 10px;
+    /*margin-left: 10px;*/
+    /*border: 1px solid white;*/
+
+}
+
+@media only screen and (max-width: 49rem){
+    .flexRowContent--footer__container--contact{
+        /*display: flex;*/
+        /*
+        min-width: max-content;*/
+    }  
+    .flexRowContent--footer__container-image{        
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    /*
+    .flexRow--footer__container--contact{
+        margin: 0px;
+        padding: 0;
+        overflow-x:auto;
+    }
+    .flexRow--footer__container--contact::-webkit-scrollbar{
+        height: 3px;
+    }
+    .flexRow--footer__container--contact::-webkit-scrollbar-thumb{ 
+        background-color: rgb(85, 85, 85);
+    } */
+        
+
+    .flexRowContent--footer__container--social-networks-icons{
+        /*padding: 0 !important;  */
+        margin: 0 auto !important;        
+        width: 300px !important;
+    } 
+}
+
+.flexRowContent--footer__container--social-networks-icons{
+    
+        padding-right: 10%;
+    /*border: 1px solid #fff;*/
+    margin: 0 ;
+    
+} 
+.flexRow--footer__disclosure-menuitem{
+    /*
+    justify-content: center;
+    max-width: 1366px;
+    TODO> Revisar
+    */
+}
+
+.flexCol--footer_divider{
+    border-left: 1px solid #ccc;
+    height: 48px;
+    margin-top: 48px;
+}

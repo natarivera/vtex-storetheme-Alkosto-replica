@@ -38,8 +38,9 @@
     justify-content: center;
     margin: 0 auto;
     font-size: 14px;
+    /* TODO: make this in other way
     margin-left: 65px;
-    margin-right: -65px;
+    margin-right: -65px;*/
   }
 
   .menuItem--name_departament--isOpen{
