@@ -53,7 +53,7 @@
         overflow-x: auto;
         overflow-y: hidden;
     }
-    /*
+    
     .flexRow--footer__container--contact{
         margin: 0px;
         padding: 0;
@@ -64,19 +64,17 @@
     }
     .flexRow--footer__container--contact::-webkit-scrollbar-thumb{ 
         background-color: rgb(85, 85, 85);
-    } */
-        
-
+    } 
     .flexRowContent--footer__container--social-networks-icons{
         /*padding: 0 !important;  */
         margin: 0 auto !important;        
         width: 300px !important;
-    } 
+    }
 }
 
 .flexRowContent--footer__container--social-networks-icons{
     
-        padding-right: 10%;
+    padding-right: 10%;
     /*border: 1px solid #fff;*/
     margin: 0 ;
     
