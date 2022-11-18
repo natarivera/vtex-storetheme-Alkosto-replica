@@ -9,6 +9,14 @@
           "textPosition": "CENTER"
         }
       },
+
+      "rich-text#home__products--summary": {
+        "props": {
+          "text": " ### Productos",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        }
+      },
     
       "flex-layout.row#section__items--topoffers": {
         "children": [

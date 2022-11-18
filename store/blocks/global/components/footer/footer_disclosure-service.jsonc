@@ -1,0 +1,89 @@
+{
+
+"disclosure-layout#service":{
+    "title": "Disclosure service",
+    "children":[
+        "disclosure-trigger#service",
+        "disclosure-content#service"
+    ]
+  },
+
+  "disclosure-trigger#service":{
+    "children":[
+      "rich-text#policies__content--service"
+    ],
+    "props":{
+      "blockClass": "disclosure-trigger-mobile"
+    }
+  },
+
+  "disclosure-content#service":{
+    "children":[
+        "menu#service"
+    ]
+  },
+
+  "menu#service":{
+    "children":[
+      "menu-item#service-installations",
+      "menu-item#service-warranty",
+      "menu-item#service-centers",
+      "menu-item#service-tire"
+  ],
+  
+  "props":{
+    "orientation":"vertical"
+  }
+},
+
+"menu-item#service-installations":{
+  "props":{
+    "id": "menu-service-installations",
+    "type":"custom",
+    "highlight": false,
+    "blockClass": "disclosure-menu-item",
+    "itemProps":{
+      "type": "internal",
+      "href":"/",
+      "tagTitle":"service-installations",
+      "text": "Instalaciones"
+    }    
+  }
+},
+  "menu-item#service-warranty":{
+    "props":{
+      "id": "menu-service-warranty",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"service-warranty",
+        "text": "Garantía extendida"
+      }
+    }
+  },
+  "menu-item#service-centers":{
+    "props":{
+      "id": "menu-company-service-centers",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"service-centers",
+        "text": "Garantías y centros de servicios técnico"
+      }
+    }
+  },
+  "menu-item#service-tire":{
+    "props":{
+      "id": "menu-company-service-tire",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"service-tire",
+        "text": "Instalación de Llantas"
+      }
+    }
+  }
+}

@@ -1,0 +1,340 @@
+{
+    "rich-text#footer__container--contact-col-one": {
+    "title": "text-contact-col-one",
+    "props": {
+      "text": "Sobre Nosotros",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__footer__container--about-us-title"
+    }
+  },
+  "rich-text#footer__container--business-name-col-one": {
+    "title": "text-business-name-col-one",
+    "props": {
+      "text": "**Colombiana de Comercio S.A.**",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__footer__container--contacto-business-name"
+    }
+  },
+  
+  "rich-text#footer__container--nit-col-one": {
+    "title": "container--nit-col-one",
+    "props": {
+      "text": "Nit:890.900.943-1",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__footer__container--nit"
+    }
+  },
+
+  "rich-text#footer__container--contact-col-two": {
+    "title": "text-contact-col-two",
+    "props": {
+      "text": "Email",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__footer__container--email-title"
+    }
+  },
+  "rich-text#footer__container--email-col-two": {
+    "title": "text-email-col-two",
+    "props": {
+      "text": "sugerencias@alkosto.com",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__footer__container--contact-email"
+    }
+  },
+
+  "rich-text#footer__container--contact-col-three": {
+    "title": "text-contact-col-three",
+    "props": {
+      "text": "Venta telefónica",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__footer__container--contact-title"
+    }
+  },
+  "rich-text#footer__container--customer-service-col-three": {
+    "title": "text-contact-col-three",
+    "props": {
+      "text": "Servicio al Cliente:(601) 407 3033",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__footer__container--contact--customer-service"
+    }
+  },
+  "rich-text#footer__container--telephone-sale-col-three": {
+    "title": "telephone-sale-col-three",
+    "props": {
+      "text": "Venta Telefónica:(601) 3649734",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__footer__container--contact-sale"
+    }
+  },
+
+  "rich-text#footer__container--payment":{
+    "title":"section payment",
+    "props":{
+      "text": "Medios de pago aceptados",
+      "textPosition": "LEFT",
+      "blockClass":"footer__container--payment"
+    }
+  },
+  /*Terminos y condiciones ofertas de medio de pago*/
+
+  "rich-text#terms--title":{
+    "props":{
+      "text": "Términos y Condiciones Ofertas de Medios de pago",
+      "blockClass": "disclosure-terms--title"
+    }
+  }, 
+
+  "rich-text#terms__content--policies":{
+    "props":{
+      "text":"policies: Máximo 3 unidades por cliente con cualquier medio de pago (Para consolas máximo 1 unidad por referencia)",
+      "blockClass":"terms__content--subtitle"
+    }
+  },
+  "rich-text#policies__content--policies-one":{
+    "props":{
+      "text":"policies Tarjeta Alkosto: Ofertas válidas del 16 al 23 de septiembre de 2022. La vigencia puede variar de acuerdo al producto seleccionado. Descuento válido al pagar el valor total de la compra con Tarjetas de Crédito Alkosto. Para compras online sólo aplica con Tarjeta Alkosto MasterCard. No acumulable con otras ofertas de Tarjetas de Crédito Alkosto. Máximo 3 unidades por cliente. El seguro incluido en las ofertas de celulares es válido por el mes de septiembre de 2022 y es otorgado por SEGUROS GENERALES SURAMERICANA S.A., TUYA no asume ninguna obligación referente al contrato del seguro mencionado. Aplica para celulares libres y referencias seleccionadas marca Samsung, Huawei, Apple, Motorola, Lenovo, L.G., Asus, Alcatel, ZTE, Blu, Kalley, Nokia, Xiaomi, Vivo. Aplican condiciones del contrato de seguro. Oferta válida en almacenes Alkosto, Ktronix, www.alkosto.com, www.ktronix.com, excepto Nariño. Los intereses se liquidarán con la tasa vigente en el momento de la utilización. Tasa vigente del 1 al 30 de septiembre del 2022: 35,12004% E.A. Consulta tarifas en www.tarjetaalkosto.com.co/tarifas. Aprobación sujeta a análisis de Riesgo por Tuya S.A. Tarjeta de Crédito Alkosto y Tarjeta Alkosto Mastercard emitidas por Compañía de Financiamiento TUYA S.A.",
+      "blockClass":"policies__content-one"
+    }
+  },
+  "rich-text#policies__content--policies-two":{
+    "props":{
+      "text":"Dinámica compre ahora, pague después Tarjeta de Crédito Alkosto: Beneficio válido al pagar el total de la compra en una misma transacción realizada únicamente con Tarjeta Alkosto Mastercard y diferirla a un plazo de 13 cuotas. El beneficio no será aplicado a aquellas compras que se difieran a un plazo diferente al antes mencionado. El valor correspondiente a la compra de los televisores de las referencias antes relacionadas se empezará a pagar a partir de los meses de enero o febrero del 2023, dependiendo de la fecha de corte y de pago de la obligación a cargo del tarjetahabiente, las cuales podrán ser consultadas en los Términos y Condiciones de la campaña que deberás visualizar en el siguiente link :www.tarjetaalkosto.com.co/tarifas. En caso de que no desees que se aplique el beneficio antes descrito en tu obligación, podrás comunicarte a las líneas de atención a nivel nacional: Bogotá (601)4824807, Cali (602)3808935, Medellín (6044)443784, Línea de atención Nacional 018000915555 o podrás acercarte a uno de los Centros de Atención de Tarjeta Alkosto los cuales se encuentran ubicados en los principales almacenes Alkosto a nivel Nacional, excepto Nariño, y realizar la solicitud correspondiente. Máximo 2 unidades por cliente. Podrás pagar la totalidad del saldo adeudado en cualquier momento, sin que esto genere algún tipo de penalidad o cobro adicional. En el caso que tengas saldo adeudado por utilizaciones realizadas antes o después de la vigencia de esta campaña, que en dichas fechas realices otras compras en comercios diferentes a los ya mencionados o en referencias que no estén dentro de las indicadas, dichas utilizaciones se aplicarán normalmente en el crédito. Tarjeta Alkosto Mastercard, emitida por Compañía de Financiamiento Tuya S.A. El interés cobrado por Tarjeta Alkosto Mastercard es 38,64019% E.A. vigente del 1 al 30 de noviembre de 2022. Para más información consulta aquí.",
+      "blockClass":"policies__content-two"
+    }
+  },
+  "rich-text#policies__content--policies-three":{
+    "props":{
+      "text":"policies Bancos: Oferta válida entre el 12 al 18 de noviembre 2022 pagando con Tarjetas de Crédito Fácil Codensa, Crédito Fácil Codensa Mastercard y Tarjetas de Crédito Plan 0es3 de Davivienda. Las ofertas con la Tarjeta Crédito Plan 0es3 de Davivienda (bine 459321) del MacBook Air 13, AirPods Pro 2da Gen, Apple Watch S8 y el iPad 10.2 aplican entre el 10 al 30 de noviembre o hasta agotar inventario, lo que suceda primero. 200 unidades disponibles a nivel nacional entre todas las referencias. Aplica en los almacenes Alkosto, Ktronix, Alkomprar a nivel nacional y en www.alkosto.com, www.ktronix.com, www.alkomprar.com (No aplica en los almacenes del Departamento de Nariño). El descuento es directo en el precio y se hace efectivo en los puntos de pago, para las compras realizadas por Internet el descuento se verá reflejado en el momento de seleccionar el medio de pago Tarjetas Crédito según corresponda la oferta. Para productos en oferta máximo tres unidades por referencia, en consolas máximo una unidad por tarjetahabiente. La disponibilidad de los productos depende del inventario que maneje cada almacén. No canjeable por efectivo, no acumulable con otras ofertas. Para aplicar al descuento se debe pagar la totalidad de la compra con las tarjetas de crédito mencionadas, según corresponda la oferta. Para compras por internet no aplican las ofertas de los productos que sean combos o Kasados. La calidad, idoneidad, seguridad y garantía de los productos y servicios ofrecidos son responsabilidad exclusiva del establecimiento de comercio. Consulte puntos de venta, términos y condiciones en www.alkosto.com y www.ktronix.com. Los Productos y Servicios Financieros son ofrecidos por cada banco, quien liquidará las cuotas de acuerdo con la tasa que determine. Crédito Fácil Codensa: es un producto financiado por Multibanca Colpatria del Grupo Scotiabank, La tasa aplicada será la vigente el día de la compra, consúltelas en www.creditofacilcodensa.com/herramientas-globales/tasas-y-tarifas. Aprobación sujeta a políticas de la entidad. Scotiabank Colpatria actúa únicamente como financiador. Financia Scotiabank Colpatria establecimiento bancario vigilado por la Superintendencia financiera de Colombia. Los productos aquí descritos son ofrecidos por Alkosto, Ktronix y Alkomprar, por lo tanto, son ellos los responsables de la oferta, la venta, la entrega, el funcionamiento y la garantía de los mismos. Imágenes de referencia, el tamaño de las fotos no necesariamente representa el tamaño real del producto. La información de precio, unidades, características y detalle del producto se encuentra publicada en cada una de las referencias. Aplica únicamente para tarjetas de crédito emitidas en Colombia. Para ofertas de beneficio de 0% de interés, por favor consultar en los siguientes enlaces de acuerdo con la entidad.",
+      "blockClass":"policies__content-three"
+    }
+  },
+
+  "rich-text#policies__content--policies-four":{
+    "props":{
+      "text":"✧Davivienda 0% de intereses y Plan 0es3 (bine 459321) en productos Apple consulte en: www.ktronix.com/medios-pago/davivienda/plan-0es3-0interes/c/plan-0es3-0interes\r\n✧Davivienda iPhone for Life en productos Apple consulte en: www.ktronix.com/marcas/apple/iphone-for-life/c/iphoneforlife\r\n✧Tarjeta de crédito Alkosto consulte en: www.alkosto.com – www.tarjetaalkosto.com.co\r\n✧Davivienda 0% de interés, celular VIVO referencia X80 pro. Vigencia entre el 6 julio de 2022 hasta el día 31 diciembre de 2022 consulte en:www.ktronix.com/marcas/vivo/nuevo-celular-vivo-x80/c/nuevo-celular-vivo-x80",
+      "blockClass":"policies__content-three"
+    }
+  },
+
+  /*Nuestra compañia*/
+
+  "rich-text#policies__content--ourcompany":{
+    "props":{
+      "text":"Nuestra compañia",
+      "blockClass":"policies__content--title"
+    }
+  },
+  
+  "rich-text#policies__content--ourcompany--about-us":{
+    "props":{
+      "text":"Quiénes somos",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--ourcompany--our-stores":{
+    "props":{
+      "text":"Nuestras tiendas",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+
+  "rich-text#policies__content--ourcompany--contact-us":{
+    "props":{
+      "text":"Contáctenos",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--ourcompany--card-alkosto":{
+    "props":{
+      "text":"Tarjeta de crédito Alkosto",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--ourcompany--work-us":{
+    "props":{
+      "text":"Trabaje con nosotros",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--ourcompany--certificates":{
+    "props":{
+      "text":"Certificados tributarios",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+
+  "rich-text#policies__content--ourcompany--raffles":{
+    "props":{
+      "text":"Rifas",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--ourcompany--employees-fund":{
+    "props":{
+      "text":"Fondo de empleados y cooperativas",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+
+  /*Compras en linea*/
+
+  "rich-text#policies__content--on-line-shopping":{
+    "props":{
+      "text":"Compras en línea",
+      "blockClass":"policies__content--title"
+    }
+  },
+  "rich-text#policies__content--online--frequently":{
+    "props":{
+      "text":"Preguntas frecuentes",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+
+  "rich-text#policies__content--online--secure-payment":{
+    "props":{
+      "text":"Pago seguro",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--online--methods-delivery":{
+    "props":{
+      "text":"Métodos de envío",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--online--payment-methods":{
+    "props":{
+      "text":"Medios de pago",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+
+  "rich-text#policies__content--online--insurance":{
+    "props":{
+      "text":"Seguros",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+
+  /*Servicios*/
+
+  "rich-text#policies__content--service":{
+    "props":{
+      "text":"Servicios",
+      "blockClass":"policies__content--title"
+    }
+  },
+  "rich-text#policies__content--service-installations":{
+    "props":{
+      "text":"Instalaciones",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--service-warranty":{
+    "props":{
+      "text":"Garantía extendida",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+
+  "rich-text#policies__content--service-centers":{
+    "props":{
+      "text":"Garantías y centros de servicios técnico",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--service-tire":{
+    "props":{
+      "text":"Instalación de Llantas",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+
+  /*politicas*/
+  "rich-text#policies__content--policy":{
+    "props":{
+      "text":"Políticas",
+      "blockClass":"policies__content--title"
+    }
+  },
+
+  "rich-text#policies__content--policy-tyc-digital":{
+    "props":{
+      "text":"Términos y condiciones del canal digital",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--policy-tyc-world":{
+    "props":{
+      "text":"Términos y condiciones 'Somos Hichas del Mundo'",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--policy-contract":{
+    "props":{
+      "text":"Contrato de compraventa en línea",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--policy-link-dic":{
+    "props":{
+      "text":"https://www.sic.gov.co",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--policy-privacy":{
+    "props":{
+      "text":"Politíca de privacidad",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--personal-data":{
+    "props":{
+      "text":"Solicitud tratamiento de datos personales",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--personal-cookies":{
+    "props":{
+      "text":"Política de cookies",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--exchanges and returns":{
+    "props":{
+      "text":"Poltica de cambios y devoluciones",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--code-ethics":{
+    "props":{
+      "text":"Código de ética",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--code-sst":{
+    "props":{
+      "text":"Manual de normas SST para Terceros",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--tdt":{
+    "props":{
+      "text":"Todo lo que debes saber sobre TDT",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--ethics-line":{
+    "props":{
+      "text":"Línea ética",
+      "blockClass":"policies__content--about-us"
+    }
+  },
+  "rich-text#policies__content--social-networks":{
+    "props":{
+      "text":"Siguenos en:",
+      "blockClass":"content--social-networks"
+    }
+  }
+}

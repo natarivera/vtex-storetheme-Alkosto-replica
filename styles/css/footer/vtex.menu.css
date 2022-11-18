@@ -1,0 +1,8 @@
+.styledLinkContent {  
+    color: #929292 !important;
+    font-size: 12px;
+}
+
+.menuItem--isClosed{
+    margin-left: -25px ;
+}

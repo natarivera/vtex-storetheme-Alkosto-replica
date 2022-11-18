@@ -1,0 +1,151 @@
+{
+
+"disclosure-layout-group#footer__menu--group":{
+  
+  "children":[
+    "disclosure-layout#about-us",
+    "disclosure-layout#on-line-shopping",
+    "disclosure-layout#policy",
+    "disclosure-layout#service"
+    
+  ]
+},
+
+"disclosure-layout#about-us":{
+    "title": "Disclosure about-us",
+    "children":[
+        "disclosure-trigger#about-us",
+        "disclosure-content#about-us"
+    ]
+  },
+
+  "disclosure-trigger#about-us":{
+    "children":[
+        "rich-text#policies__content--ourcompany"
+    ],
+    "props":{
+      "blockClass": "disclosure-trigger-mobile"
+    }
+  },
+
+  "disclosure-content#about-us":{
+    "children":[
+        "menu#about-us"
+    ]
+  },
+
+  "menu#about-us":{
+    "children":[
+      "menu-item#about-us",
+      "menu-item#our-store",
+      "menu-item#contact-us",
+      "menu-item#card-alkosto",
+      "menu-item#work-us",
+      "menu-item#certificates",
+      "menu-item#raffles",
+      "menu-item#employees-fund"
+  ],
+  
+  "props":{
+    "orientation":"vertical",
+    "blockClass": "footer_container_about-us"
+  }
+},
+
+"menu-item#about-us":{
+  "props":{
+    "id": "menu-company-about-us",
+    "type":"custom",
+    "itemProps":{
+      "type": "internal",
+      "href":"/",
+      "tagTitle":"About us",
+      "text": "Quiénes somos"
+    }
+  }
+},
+  "menu-item#our-store":{
+    "props":{
+      "id": "menu-company-our-store",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"our stores",
+        "text": "Nuestras tiendas"
+      }
+    }
+  },
+  "menu-item#contact-us":{
+    "props":{
+      "id": "menu-company-contact-us",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"contact-us",
+        "text": "Contáctenos"
+      }
+    }
+  },
+  "menu-item#card-alkosto":{
+    "props":{
+      "id": "menu-company-card-alkosto",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"card-alkosto",
+        "text": "Tarjeta de crédito Alkosto"
+      }
+    }
+  },
+  "menu-item#work-us":{
+    "props":{
+      "id": "menu-company-work-us",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"work-us",
+        "text": "Trabaje con nosotros"
+      }
+    }
+  },
+  "menu-item#certificates":{
+    "props":{
+      "id": "menu-company-certificates",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"certificates",
+        "text": "Certificados tributarios"
+      }
+    }
+  },
+  "menu-item#raffles":{
+    "props":{
+      "id": "menu-company-raffles",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"raffles",
+        "text": "Rifas"
+      }
+    }
+  },
+  "menu-item#employees-fund":{
+    "props":{
+      "id": "menu-company-employees-fund",
+      "type":"custom",
+      "itemProps":{
+        "type": "internal",
+        "href":"/",
+        "tagTitle":"employees-fund",
+        "text": "Fondo de empleados y cooperativas"
+      }
+    }
+  }
+}
