@@ -30,8 +30,9 @@
       },
       "flex-layout.col#minicart__empty": {
         "children": [
-          "icon-cart#minicart__empty--icon",
-          "rich-text#minicart__empty--text"
+          "rich-text#minicart__empty--text",
+          "icon-cart#minicart__empty--icon"
+         
         ],
         "props": {
           "blockClass": "minicart__block"
@@ -46,9 +47,20 @@
       },
       "flex-layout.row#minicart__footer": {
         "children": [
+          "flex-layout.col#col_minicart__footer"
+          
+        ],
+        "props":{
+          "blockClass": "footer__minicart-summary-checkout"
+        }
+      },
+
+      "flex-layout.col#col_minicart__footer":{
+        "children":[
           "minicart-summary",
           "minicart-checkout-button"
         ]
+
       },
       "rich-text#minicart__empty--text": {
         "props": {

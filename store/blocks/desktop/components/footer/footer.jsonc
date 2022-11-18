@@ -106,8 +106,8 @@
     "children": [
       "flex-layout.col#footer__container--disclosure-1",
       "flex-layout.col#footer__container--disclosure-2",
-      "flex-layout.col#footer__container--disclosure-3",
-      "flex-layout.col#footer__container--disclosure-4"
+      "flex-layout.col#footer__container--disclosure-4",
+      "flex-layout.col#footer__container--disclosure-3"
     ],
     "props": {
       "blockClass": "footer__disclosure-menuitem",

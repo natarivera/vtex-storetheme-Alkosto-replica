@@ -5,8 +5,9 @@
   "children":[
     "disclosure-layout#about-us",
     "disclosure-layout#on-line-shopping",
-    "disclosure-layout#service",
-    "disclosure-layout#policy"
+    "disclosure-layout#policy",
+    "disclosure-layout#service"
+    
   ]
 },
 
@@ -46,7 +47,8 @@
   ],
   
   "props":{
-    "orientation":"vertical"
+    "orientation":"vertical",
+    "blockClass": "footer_container_about-us"
   }
 },
 
