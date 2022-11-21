@@ -1,7 +1,22 @@
 .flexColChild--filterCol{
     max-width: none !important; 
-    border: solid 1px #bfbfbf;
+    border: solid 1px #ddd;
     margin-right: 40px;
     margin-left:-20px;
     padding: 12px 12px 22px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.flexRowContent--orderByAndSwitcher{
+    margin-top: 50px;    
+} 
+
+
+.flexCol--filterCol{
+    margin-left: 45px;
+}
+
+.flexRow--buyNowButton{
+    display: none;
 }
