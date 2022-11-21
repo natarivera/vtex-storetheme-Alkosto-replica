@@ -1,0 +1,12 @@
+.caretIcon--search__slider{
+    color: #004797;
+    filter: drop-shadow(rgba(128,128,128,0.39) 2px 2px 2px);
+    background: white;
+    box-shadow: 10px 5px 4px transparent;
+    border-radius: 50%;
+    margin-left: 60px;
+    margin-right: 60px;    
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+}

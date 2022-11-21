@@ -1,0 +1,33 @@
+.galleryTitle--layout{
+    font-size: 24px;
+    color: #444;
+}
+
+.gallery--grid{
+    padding-left: 8px;
+}
+
+.totalProducts--layout{
+    text-align: left;
+}
+
+.orderByText{
+    font-size: 10px;
+    text-align: start;
+}
+
+.totalProducts--layout{
+    padding-left: 0;
+    padding-right: 0;
+}
+.galleryLayoutOptionButton--selected:hover{
+    color:white
+}
+
+.galleryTitle--layout{
+    margin-left: 60px;
+}
+
+.gallery--list{
+    padding-left: 0;
+}
