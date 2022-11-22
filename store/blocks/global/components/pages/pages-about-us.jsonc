@@ -2,7 +2,11 @@
    "flex-layout.row#about-us__section--one":{
      "children":[
        "flex-layout.col#about-us__section--one"
-     ]
+     ],
+     "props":{
+      "colSizing": "auto",
+      "horizontalAlign": "center"      
+     }
    },
    "flex-layout.row#about-us__section--two":{
      "children":[
@@ -18,7 +22,10 @@
      "children":[
        "rich-text#about-us__section--one",
        "image#about-us__section--three-image-banner"
-     ]
+     ],
+     "props":{
+      "fullWidth": false
+     }
    },
    "flex-layout.col#about-us__section--two-text--link":{
      "children":[
@@ -55,7 +62,9 @@
        "flex-layout.row#about-us__section--three-six"
      ],
      "props":{
-       "blockClass":"container-about-us__section--three"
+       "blockClass":"container-about-us__section--three",
+       "horizontalAlign": "center"
+       
      }
    },  
    "flex-layout.row#about-us__section--three-one":{
@@ -88,7 +97,7 @@
      ],
      "props":{
        "blockClass":"about-us__section--three-two",
-       "colSizing": "auto"
+       "colSizing": "auto"       
      }
    },
    "flex-layout.col#about-us__section--three-two-img":{
@@ -109,7 +118,8 @@
      ],
      "props":{
        "blockClass":"about-us__section--three-three",
-       "colSizing": "auto"
+       "colSizing": "auto",
+       "fullWidth": true
      }
    },
    "flex-layout.col#about-us__section--three-three-img":{

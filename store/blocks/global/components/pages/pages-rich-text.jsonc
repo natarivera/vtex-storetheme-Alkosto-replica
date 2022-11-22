@@ -9,7 +9,9 @@
     "rich-text#about-us__section--two-text1":{
         "props":{
           "text":"Somos una cadena de almacenes 100% Colombiana, comercializadora de electrodomésticos, llantas, motos, mercado y hogar.Trabajamos por cumplir la promesa de ofrecer HIPER AHORRO SIEMPRE ",
-          "blockClass":"about-us__section--two-text1"
+          "blockClass":"about-us__section--two-text1",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
         }
       },
       "rich-text#about-us__section--three-text-one":{

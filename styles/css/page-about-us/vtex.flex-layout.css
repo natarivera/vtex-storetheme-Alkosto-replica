@@ -1,7 +1,49 @@
 .flexCol--container__about-us__section--blue{
     background-color: #004797;
+    width: 100px !important;
+    height: 100px;
 }
 
 .flexCol--container__about-us__section--orange{
     background-color:#eb5b25;
+    width: 100px !important;
+    height: 100px;
+}
+
+.flexRowContent--about-us__section--three-one{
+    margin-top: 40px;
+}
+
+.flexRowContent--container__about-us__section--two{
+    max-width: 1200px;
+    
+}
+
+.flexRowContent--about-us__section--three-three,
+.flexRowContent--about-us__section--three-five{
+    background-color: #f6f6f6;
+    border-bottom: #cccccc solid 1px;
+    margin-bottom: 10px;
+    place-content: baseline;
+    
+}
+
+.flexRowContent--about-us__section--three-one,
+.flexRowContent--about-us__section--three-two, 
+.flexRowContent--about-us__section--three-four,
+.flexRowContent--about-us__section--three-five,
+.flexRowContent--about-us__section--three-six{    
+    margin-bottom: 10px;
+    width: 100%;
+} 
+
+.flexCol--about-us__section--two{
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.flexCol--container-about-us__section--three,
+.flexCol--container-about-us__section--five{
+    padding: 0px 90px 0px 90px;
+    align-items: flex-start;
 }
