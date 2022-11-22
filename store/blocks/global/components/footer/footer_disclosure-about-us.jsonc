@@ -58,7 +58,7 @@
     "type":"custom",
     "itemProps":{
       "type": "internal",
-      "href":"/",
+      "href":"/quienes-somos",
       "tagTitle":"About us",
       "text": "Quiénes somos"
     }

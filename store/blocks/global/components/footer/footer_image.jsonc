@@ -6,7 +6,7 @@
             "title:": "Nosotros",
             "blockClass": "footer__main--contact__phone--info",
             "link":{
-                "url": "#",
+                "url": "/quienes-somos",
                 "newTab": false,
                 "attributeNoFollow": false
             }

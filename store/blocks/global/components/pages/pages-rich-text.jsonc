@@ -1,0 +1,56 @@
+{
+"rich-text#about-us__section--one":{
+    "props":{
+      "text":"Quiénes somos",
+      "blockClass":"about-us__section--one--text"
+        }
+    },
+
+    "rich-text#about-us__section--two-text1":{
+        "props":{
+          "text":"Somos una cadena de almacenes 100% Colombiana, comercializadora de electrodomésticos, llantas, motos, mercado y hogar.Trabajamos por cumplir la promesa de ofrecer HIPER AHORRO SIEMPRE ",
+          "blockClass":"about-us__section--two-text1",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        }
+      },
+      "rich-text#about-us__section--three-text-one":{
+        "props":{
+           "text": "Alkosto comienza su primer negocio en Colombia en el año 1987 como una nueva respuesta a las necesidades de los grandes consumidores.",
+           "blockClass": "about-us__section--three-text1"
+        }
+      },
+      "rich-text#about-us__section--three-text-two":{
+        "props":{
+           "text": "En 2010 abrimos nuestra Tienda Virtual www.alkosto.com, con más de 1.000 referencias y la posibilidad de comprar en línea.",
+           "blockClass": "about-us__section--three-text2"
+        }
+      },
+
+      "rich-text#about-us__section--three-text-three":{
+        "props":{
+           "text": "Puedes elegir entre más de 1.600 referencias de electrodomésticos, tecnología, accesorios y consumibles, bajo un mismo techo.\nAlgunas de estas referencias ahora las puedes comprar en línea en www.ktronix.com.",
+           "blockClass": "about-us__section--three-text3"
+        }
+      },
+
+      "rich-text#about-us__section--three-text-four":{
+        "props":{
+           "text": "Nuestras tiendas, con un diseño de vanguardia en un ambiente moderno y futurista, cuentan con el mejor surtido, variedad y metros de exhibición de tecnología de todas las marcas, con la mejor asesoría y precios del mercado.",
+           "blockClass": "about-us__section--three-text4"
+        }
+      },
+      "rich-text#about-us__section--three-text-five":{
+        "props":{
+           "text": "Hoy contamos con tiendas en Bogotá, Medellín, Bucaramanga, Cali, Villavicencio, Tunja, Manizales, con despacho a nivel Nacional.",
+           "blockClass": "about-us__section--three-text5"
+        }
+      },
+
+      "rich-text#about-us__section--three-text-six":{
+        "props":{
+           "text": "Alkosto es una empresa 100% colombiana, ha significado la generación de empleos directos e indirecto. Velamos por la capacitación completa al personal, tanto en conocimiento de producto como en parámetros de atención y servicio.",
+           "blockClass": "about-us__section--three-text6"
+        }
+      }
+}

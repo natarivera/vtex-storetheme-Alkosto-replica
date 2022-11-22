@@ -1,0 +1,16 @@
+.imageElement--about-us__section--img-orange,
+.imageElement--about-us__section--img-blue{
+  margin-left: 22%;
+  margin-top: 20%;
+  width: 60px;
+  height: 60px;
+}
+.imageElement--about-us__section--three-banner{
+  margin: 0 auto;
+  display: block;
+}
+
+.container--about-us__section--three-text1{
+  background-color: #f6f6f6;
+  border-bottom: #cccccc solid 1px;
+}
