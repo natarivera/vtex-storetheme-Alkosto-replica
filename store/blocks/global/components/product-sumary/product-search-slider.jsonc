@@ -1,0 +1,49 @@
+{    
+    "slider-layout#home__search-slider--children":{
+      "title": "search sliders",
+      "props":{
+        "itemsPerPage":{
+        "desktop":1,
+        "tablet":1,
+        "mobile":1
+        },
+        "infinite":true,
+        "blockClass":"search__slider",
+        "autoplay":{
+          "timeout":3000,
+          "stopOnHover":true
+        }
+      },
+      "children":[
+        "image#home__search_slider--one",
+        "image#home__ssearch_slider--two",
+        "image#home__ssearch_slider--three",
+        "image#home__ssearch_slider--four"
+      ]
+    },
+    "image#home__search_slider--one":{
+       "props":{
+          "src": "assets/img/Product/product_slider.jpg",
+          "blockClass": "search__slider--one"
+      }
+    },
+    "image#home__ssearch_slider--two":{
+      "props":{
+        "src": "assets/img/Product/product_slider.jpg",
+        "blockClass": "search__slider--one"
+      }
+    },
+    "image#home__ssearch_slider--three":{
+      "props":{
+        "src": "assets/img/Product/product_slider.jpg",
+        "blockClass": "search__slider--one"
+      }
+    },
+    "image#home__ssearch_slider--four":{
+      "props":{
+        "src": "assets/img/Product/product_slider.jpg",
+        "blockClass": "search__slider--one"
+      }
+    }
+
+  }

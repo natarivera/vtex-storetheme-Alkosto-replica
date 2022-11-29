@@ -1,0 +1,197 @@
+{
+   "flex-layout.row#about-us__section--one":{
+     "children":[
+       "flex-layout.col#about-us__section--one"
+     ],
+     "props":{
+      "colSizing": "auto",
+      "horizontalAlign": "center"      
+     }
+   },
+   "flex-layout.row#about-us__section--two":{
+     "children":[
+       "flex-layout.col#about-us__section--two-text--link"
+     ]
+   },
+   "flex-layout.row#about-us__section--three":{
+     "children":[
+       "flex-layout.col#about-us__section--three"
+     ]
+   },
+   "flex-layout.col#about-us__section--one":{
+     "children":[
+       "rich-text#about-us__section--one",
+       "image#about-us__section--three-image-banner"
+     ],
+     "props":{
+      "fullWidth": false
+     }
+   },
+   "flex-layout.col#about-us__section--two-text--link":{
+     "children":[
+       "flex-layout.row#about-us__section--two--image",
+       "link#about-us__section--two"
+     ],
+     "props":{
+       "blockClass":"about-us__section--two"
+     }
+   },
+   "flex-layout.row#about-us__section--two--image":{
+    "children":[
+      "rich-text#about-us__section--two-text1"
+    ],
+    "props":{
+      "blockClass":"container__about-us__section--two"
+    }
+  },
+  "link#about-us__section--two": {
+    "props": {
+      "href": "/",
+      "label": "Ir a las mejores ofertas",
+      "blockClass":"link__about-us"
+    }
+  },
+
+   "flex-layout.col#about-us__section--three":{
+     "children":[
+       "flex-layout.row#about-us__section--three-one",
+       "flex-layout.row#about-us__section--three-two",
+       "flex-layout.row#about-us__section--three-three",
+       "flex-layout.row#about-us__section--three-four",
+       "flex-layout.row#about-us__section--three-five",
+       "flex-layout.row#about-us__section--three-six"
+     ],
+     "props":{
+       "blockClass":"container-about-us__section--three",
+       "horizontalAlign": "center"
+       
+     }
+   },  
+   "flex-layout.row#about-us__section--three-one":{
+     "children":[
+       "flex-layout.col#about-us__section--three-one-img",
+       "rich-text#about-us__section--three-text-one"
+     ],
+     "props":{
+       "blockClass":"about-us__section--three-one",
+       "colSizing": "auto"
+     }
+   },
+
+    "flex-layout.col#about-us__section--three-one-img":{
+     "children":[
+       "image#about-us__section--three-image-one"
+     ],
+     "props":{
+       "blockClass":"container__about-us__section--blue",
+       "colSizing": "auto"
+     }
+   },
+   
+
+
+   "flex-layout.row#about-us__section--three-two":{
+     "children":[
+       "flex-layout.col#about-us__section--three-two-img",
+       "rich-text#about-us__section--three-text-two"
+     ],
+     "props":{
+       "blockClass":"about-us__section--three-two",
+       "colSizing": "auto"       
+     }
+   },
+   "flex-layout.col#about-us__section--three-two-img":{
+     "children":[
+       "image#about-us__section--three-image-two"
+     ],
+     "props":{
+       "blockClass":"container__about-us__section--orange",
+       "colSizing": "auto"
+     }
+   },
+ 
+ 
+   "flex-layout.row#about-us__section--three-three":{
+     "children":[
+       "flex-layout.col#about-us__section--three-three-img",
+       "rich-text#about-us__section--three-text-three"
+     ],
+     "props":{
+       "blockClass":"about-us__section--three-three",
+       "colSizing": "auto",
+       "fullWidth": true
+     }
+   },
+   "flex-layout.col#about-us__section--three-three-img":{
+     "children":[
+       "image#about-us__section--three-image-three"
+     ],
+     "props":{
+       "blockClass":"container__about-us__section--blue",
+       "colSizing": "auto"
+     }
+   },
+
+  
+   "flex-layout.row#about-us__section--three-four":{
+     "children":[
+       "flex-layout.col#about-us__section--three-four-img",
+       "rich-text#about-us__section--three-text-four"
+     ],
+     "props":{
+       "blockClass":"about-us__section--three-four",
+       "colSizing": "auto"
+     }
+   },
+   "flex-layout.col#about-us__section--three-four-img":{
+     "children":[
+       "image#about-us__section--three-image-four"
+     ],
+     "props":{
+       "blockClass":"container__about-us__section--orange",
+       "colSizing": "auto"
+     }
+   },
+
+ 
+   "flex-layout.row#about-us__section--three-five":{
+     "children":[
+       "flex-layout.col#about-us__section--three-five-img",
+       "rich-text#about-us__section--three-text-five"
+     ],
+     "props":{
+       "blockClass":"about-us__section--three-five",
+       "colSizing": "auto"
+     }
+   },
+   "flex-layout.col#about-us__section--three-five-img":{
+     "children":[
+       "image#about-us__section--three-image-five"
+     ],
+     "props":{
+       "blockClass":"container__about-us__section--blue",
+       "colSizing": "auto"
+     }
+   },
+ 
+
+   "flex-layout.row#about-us__section--three-six":{
+     "children":[
+       "flex-layout.col#about-us__section--three-six-img",
+       "rich-text#about-us__section--three-text-six"
+     ],
+     "props":{
+       "blockClass":"about-us__section--three-six",
+       "colSizing": "auto"
+     }
+   },
+   "flex-layout.col#about-us__section--three-six-img":{
+     "children":[
+       "image#about-us__section--three-image-six"
+     ],
+     "props":{
+       "blockClass":"container__about-us__section--orange",
+       "colSizing": "auto"
+     }
+   }
+ }

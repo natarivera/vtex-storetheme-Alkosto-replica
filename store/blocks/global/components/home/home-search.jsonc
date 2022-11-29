@@ -37,11 +37,11 @@
           "gallery",
           "not-found"
       ]
-  },
+  }/*,
   "gallery": {
       "blocks": [
           "product-summary.shelf"
       ]
-  }
+  }*/
 }
 

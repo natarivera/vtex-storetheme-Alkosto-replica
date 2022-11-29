@@ -1,0 +1,48 @@
+.paragraph--about-us__section--one--text{
+    font-size: 24px ;
+    color: #444444;
+    font-weight: bold ;
+    margin-bottom: 32px ;
+    margin-top: 32px ;
+}
+
+.paragraph--about-us__section--two-text1{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.label--link__about-us{
+    text-align: center;
+    
+}
+
+.container--about-us__section--three-text1,
+.container--about-us__section--three-text3,
+.container--about-us__section--three-text5{
+    background-color: #f6f6f6;
+    border-bottom: #cccccc solid 1px;
+    padding: 20px 20px !important;
+    font-size: 16px;
+    color: #444444;
+    line-height: 24px;
+    width: 100%;
+}
+
+.container--about-us__section--three-text2,
+.container--about-us__section--three-text4,
+.container--about-us__section--three-text6{    
+    padding: 20px 20px !important;
+    font-size: 16px;
+    color: #444444;
+    line-height: 24px;
+    width: 100%;
+}
+
+.paragraph--about-us__section--two-text1{
+    text-align: center;
+}
+
+.wrapper--about-us__section--two-text1{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}

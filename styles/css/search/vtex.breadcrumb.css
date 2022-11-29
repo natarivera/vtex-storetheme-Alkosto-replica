@@ -1,3 +1,7 @@
+.homeIcon{
+    margin-left: 60px;
+}
+
 .link--1,
 .homeIcon{
     color: #444
@@ -9,4 +13,3 @@
 .homeIcon:hover{
     color: #B14B25
 }
-

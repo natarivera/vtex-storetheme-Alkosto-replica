@@ -1,0 +1,50 @@
+{
+    "image#about-us__section--three-image-banner":{
+        "props":{
+          "src":"assets/img/custom_page/custom_page-Quienes-Somos-Alkosto.jpg",
+          "blockClass": "about-us__section--three-banner"
+        }
+      },
+    "image#about-us__section--three-image-one":{
+        "props":{
+          "src":"assets/img/custom_page/custom_page-.svg",
+          "width": 60,
+          "blockClass": "about-us__section--img-blue"
+        }
+      },
+
+      "image#about-us__section--three-image-two":{
+        "props":{
+           "src":"assets/img/custom_page/custom_page-click-open.svg",
+           "blockClass": "about-us__section--img-orange"
+        }
+      },
+
+      "image#about-us__section--three-image-three":{
+        "props":{
+           "src":"assets/img/custom_page/custom_page-nevera-electro.svg",
+           "blockClass": "about-us__section--img-blue"
+        }
+      },
+
+      "image#about-us__section--three-image-four":{
+        "props":{
+           "src":"assets/img/custom_page/custom_page-tiendas.svg",
+           "blockClass": "about-us__section--img-orange"
+        }
+      },
+
+      "image#about-us__section--three-image-five":{
+        "props":{
+           "src":"assets/img/custom_page/custom_page-plane-nacional.svg",
+           "blockClass": "about-us__section--img-blue"
+        }
+      },
+
+      "image#about-us__section--three-image-six":{
+        "props":{
+           "src":"assets/img/custom_page/custom_page-empleados.svg",
+           "blockClass": "about-us__section--img-orange"
+        }
+      }
+}

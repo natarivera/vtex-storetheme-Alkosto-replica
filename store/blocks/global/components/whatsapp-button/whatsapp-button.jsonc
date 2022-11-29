@@ -1,0 +1,10 @@
+{
+    "whatsapp-button": {
+      "props": {
+        "logo": "assets/img/home__logo-whatsapp.png",
+        "phone": "",
+        "message": "VTEX U RLZ",
+        "blockClass": "home_bottom_whatsapp" 
+      }
+    }
+  }
