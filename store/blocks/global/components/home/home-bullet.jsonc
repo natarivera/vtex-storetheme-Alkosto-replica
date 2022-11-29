@@ -1,0 +1,88 @@
+{
+    "flex-layout.row#global__bullet--diagramation": {
+      "title": "Row bullet diagramation",
+      "children": [
+        "flex-layout.col#global__bullet--diagramation"
+      ],
+      "props": {
+        "blockClass": "global__bullet--diagramation"
+      }
+    },
+    "flex-layout.col#global__bullet--diagramation": {
+      "children": [
+        "flex-layout.row#global__bullet--diagramation-slider"
+      ],
+      "props":{
+        "rowGap": 6
+      }
+    },
+    "flex-layout.row#global__bullet--diagramation-slider": {
+      "children": [
+        "list-context.bullet-group"
+      ]
+    },
+    "list-context.bullet-group": {
+      "title": "List context Bullet",
+      "children": [
+        "slider-layout#bullet-group"
+      ],
+      "props": {
+        "bullets": [
+          {
+            "image": "assets/img/home_bullet/home_bullet_Electrodomesticos-.png",
+            "link": {
+              "url": "/electrodomesticos"
+            }
+          },
+          {
+            "image": "assets/img/home_bullet/home_bullet_bicilceta.jpg",
+            "link": {
+              "url": "/queso"
+            }
+          },
+          {
+            "image": "assets/img/home_bullet/home_bullet_computador.png",
+            "link": {
+              "url": "/madera"
+            }
+          },
+          {
+            "image": "assets/img/home_bullet/home_bullet_hogar.jpg",
+            "link": {
+              "url": "/electrodomesticos"
+            }
+          },
+          {
+            "image": "assets/img/home_bullet/home_bullet_icono-juguetes.jpg",
+            "link": {
+              "url": "/electrodomesticos"
+            }
+          },
+          {
+            "image": "assets/img/home_bullet/home_bullet_nuevo-ropa.jpg",
+            "link": {
+              "url": "/queso"
+            }
+          },
+          {
+            "image": "assets/img/home_bullet/home_bullet_televisor.png",
+            "link": {
+              "url": "/madera"
+            }
+          }
+        ]
+      }
+    },
+    "slider-layout#bullet-group": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 5,
+          "tablet": 5,
+          "mobile": 5
+        },
+        "inifinite": true,
+        "showPaginationDots": "never",
+        "blockClass": "global__bullet--diagramation"
+      }
+    }
+  }
