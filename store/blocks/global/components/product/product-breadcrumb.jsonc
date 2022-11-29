@@ -9,10 +9,10 @@
     "flex-layout.col#product__page--breadcrumb": {
       "title": "Breadcrumb content product page",
       "children": ["breadcrumb"]
-    },
+    }/*,
     "breadcrumb":{
       "props": {
         "showOnMobile": true
       }
-    }
+    }*/
   }
