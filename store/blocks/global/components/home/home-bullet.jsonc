@@ -47,27 +47,27 @@
             }
           },
           {
-            "image": "assets/img/home_bullet/home_bullet_hogar.jpg",
-            "link": {
-              "url": "/electrodomesticos"
-            }
-          },
-          {
             "image": "assets/img/home_bullet/home_bullet_icono-juguetes.jpg",
             "link": {
               "url": "/electrodomesticos"
             }
           },
           {
-            "image": "assets/img/home_bullet/home_bullet_nuevo-ropa.jpg",
-            "link": {
-              "url": "/queso"
-            }
-          },
-          {
             "image": "assets/img/home_bullet/home_bullet_televisor.png",
             "link": {
               "url": "/madera"
+            }
+          },
+          {
+            "image": "assets/img/home_bullet/home_bullet_Electrodomesticos-.png",
+            "link": {
+              "url": "/electrodomesticos"
+            }
+          },
+          {
+            "image": "assets/img/home_bullet/home_bullet_bicilceta.jpg",
+            "link": {
+              "url": "/queso"
             }
           }
         ]

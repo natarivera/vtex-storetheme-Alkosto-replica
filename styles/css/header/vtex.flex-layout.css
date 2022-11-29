@@ -73,6 +73,7 @@
 
 .flexRow--bottom_navigation{
     position: fixed;
+    z-index: 100;
     bottom: 0;
     width: 100%;
     background-color: #f8f8f8;
