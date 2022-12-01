@@ -1,5 +1,9 @@
 {
     "store.custom#about-us": {
       "path": "/quienes-somos"
-    }
-}
+    },
+    
+    "store.custom#pdf-reader":{
+      "path": "/pdf-reader"
+  }
+  }
