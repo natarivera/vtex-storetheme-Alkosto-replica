@@ -6,5 +6,12 @@
        "flex-layout.row#about-us__section--two",
        "flex-layout.row#about-us__section--three"
      ]
-   }
+   },
+   
+   "store.custom#pdf-reader": {
+    "blocks": [
+      "flex-layout.row#page__pdf--reader"
+    ]
+  }
+
 }

@@ -70,7 +70,7 @@
       "type":"custom",
       "itemProps":{
         "type": "internal",
-        "href":"/",
+        "href":"/pdf-reader",
         "tagTitle":"our stores",
         "text": "Nuestras tiendas"
       }
