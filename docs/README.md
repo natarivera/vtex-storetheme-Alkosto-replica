@@ -1,10 +1,17 @@
-# Minimum Boilerplate Theme
+# Store Theme Olimpica
 
-The minimum Boilerplate Theme is basic store front model based on the VTEX IO Store Framework.
+Vtex-storetheme-Alkosto-replica fue realizado con la tecnología vtex IO, se tuvo en cuenta todas la dimensiones de las pantallas.
 
-It should be used only when you want to start a new store theme without any pre-set configurations, as is the case with [Store Theme](https://github.com/vtex-apps/store-theme). 
+###Desktop
 
-While Store Theme gives developers a ready-to-go default store front structure, the Minimum Boilerplate Theme will enable you to build you store freely from scratch.
+![image](https://user-images.githubusercontent.com/93740318/205403204-26ba75e6-71e6-4497-9c08-d03ab27fd6c9.png)
+
+![image](https://user-images.githubusercontent.com/93740318/205403278-e6675af1-65ab-40c0-997a-468fc1e92fe4.png)
+
+###Mobile
+
+![image](https://user-images.githubusercontent.com/93740318/205403405-0bec678b-e2ec-47cc-945e-d029e16ba6ae.png)
+
 
 ## Configuration
 
